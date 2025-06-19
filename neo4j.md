@@ -94,9 +94,59 @@ sudo apt install fuse
 > **NOTA**  
 > `.AppImage` es un formato portable de aplicaciones Linux que no requiere instalación, solo permisos de ejcucición.
 
+7. Dentro de la aplicación creamos una nueva instancia local, a la cual le asignamos un nombre así como un usuario y contraseña para poder acceder a el.
+
+8. Iniciamos la instancia. Al arrancar se iniciaran 2 bases de datos por defecto: `system` y `neo4j`.
+
+9. En un navegador ingresamos a la url: `http://localhost:7474` donde se iniciara `neo4j browser`, donde ejecutaremos las pruebas de código que nos permitira observar de forma visual el comportamiento de la base de datos.
+
 ## CRUD
 ### Create - Crear
 
+#### Crear un nodo simple
+Creamos un nodo con etiqueta Investigador y propiedades básicas.
+> Lo importante: Los nodos se representan con paréntesis ( ), las etiquetas con :, y las propiedades dentro de { } como clave-valor.
+```sql
+CREATE (:Investigador {nombre: "Ana", area: "IA", edad: 35})
+```
+
+#### Crear dos nodos sin relación
+Creamos un investigador y un laboratorio, pero aún no están conectados.
+> Lo importante: Puedes crear múltiples nodos en una sola instrucción separándolos con comas.
+```sql
+CREATE (:Investigador {nombre: "Luis"}),
+       (:Laboratorio {nombre: "Lab Computación"})
+```
+
+#### Crear un nodo y una relación en una sola instrucción
+Qué hacemos: Creamos un investigador y lo conectamos a un proyecto nuevo.
+
+Lo importante: Las relaciones se representan con -[:RELACION]->, y también pueden llevar propiedades.
+
+cypher
+Copiar
+Editar
+CREATE (:Investigador {nombre: "Clara"})-[:PARTICIPA_EN]->(:Proyecto {titulo: "Visión por Computadora"})
+🔸 Crear una relación entre nodos existentes
+Qué hacemos: Conectamos a un investigador con un laboratorio que ya existen.
+
+Lo importante: Usamos MATCH para buscarlos y luego CREATE para establecer la relación.
+
+cypher
+Copiar
+Editar
+MATCH (i:Investigador {nombre: "Luis"}), (l:Laboratorio {nombre: "Lab Computación"})
+CREATE (i)-[:PERTENECE_A]->(l)
+🔸 Crear una relación con propiedades
+Qué hacemos: Indicamos información adicional sobre la relación, como desde cuándo existe.
+
+Lo importante: Las propiedades se agregan en {} después del nombre de la relación.
+
+cypher
+Copiar
+Editar
+MATCH (i:Investigador {nombre: "Clara"}), (p:Proyecto {titulo: "Visión por Computadora"})
+CREATE (i)-[:PARTICIPA_EN {desde: 2022, rol: "colaboradora"}]->(p)
 
 ### Read - Leer
 

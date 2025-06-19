@@ -1,5 +1,5 @@
 * { page-break-inside: avoid; }
-h1, h2, h3, h4, h5, p, blockquote { font-family: "Archivo Light"; color: #313C45; }
+h1, h2, h3, h4, h5, p, blockquote, ul, ol { font-family: "Archivo Light"; color: #313C45; }
 h1 { color: #085EE3; }
 h2, h3, h4 { font-family: "Archivo"; }
 pre { font-family: "JetBrains Mono"; font-size: 10px; }
