@@ -102,6 +102,13 @@ sudo apt install fuse
 
 ## CRUD
 ### Create - Crear
+#### Crear una base de datos
+Desde neo4j desktop es posible crear una nueva base de datos sobre la instancia creada o bien desde la consola de cypher-shell
+```bash
+neo4j@neo4j> CREATE DATABSE name;
+neo4j@neo4j> :use name;
+```
+
 #### Crear un nodo simple
 Creamos un nodo con etiqueta Investigador y propiedades básicas.
 > Lo importante: Los nodos se representan con paréntesis ( ), las etiquetas con :, y las propiedades dentro de { } como clave-valor.
@@ -142,46 +149,28 @@ MATCH (i:Investigador {nombre: "Clara"}), (p:Proyecto {titulo: "Visión por Comp
 CREATE (i)-[:PARTICIPA_EN {desde: 2022, rol: "colaboradora"}]->(p)
 ```
 
-
-
- Crear nodo si no existe
-cypher
-Copiar
-Editar
+#### Crear nodo si no existe
+```sql
 MERGE (:Investigador {nombre: "Ana", area: "IA"})
-Lo importante:
+```
+> Lo importante: Si ya existe un nodo con esas propiedades exactas, no hace nada. Si no existe, lo crea.  
+> Evita duplicados sin necesidad de MATCH + IF.
 
-Si ya existe un nodo con esas propiedades exactas, no hace nada.
-
-Si no existe, lo crea.
-
-Evita duplicados sin necesidad de MATCH + IF.
-
-🔸 Crear relación solo si no existe
-c
-Copiar
-Editar
+#### Crear relación solo si no existe
+```sql
 MATCH (a:Investigador {nombre: "Ana"}), (p:Proyecto {titulo: "Proyecto A"})
 MERGE (a)-[:PARTICIPA_EN]->(p)
-Lo importante:
+```
+> Lo importante: Si ya existe la relación entre esos nodos con ese tipo, no la duplica. Ideal para relaciones que no deben repetirse.
 
-Si ya existe la relación entre esos nodos con ese tipo, no la duplica.
-
-Ideal para relaciones que no deben repetirse.
-
-🔸 Controlar nodos + relaciones con propiedades
-cypher
-Copiar
-Editar
+#### Controlar nodos + relaciones con propiedades
+```sql
 MERGE (i:Investigador {nombre: "Luis"})
 ON CREATE SET i.area = "Redes", i.edad = 40
 ON MATCH SET i.accesos = coalesce(i.accesos, 0) + 1
-ON CREATE: se ejecuta solo si el nodo se acaba de crear.
-
-ON MATCH: se ejecuta solo si ya existía.
-
-
-
+```
++ `ON CREATE`: se ejecuta solo si el nodo se acaba de crear.
++ `ON MATCH`: se ejecuta solo si ya existía.
 
 ### Read - Leer
 #### Leer toda la base de datos (nodos y relaciones)
@@ -352,13 +341,81 @@ REMOVE i.grado, i.publicaciones
 RETURN i
 ```
 
+#### Eliminar todos los datos
+```sql
+MATCH (n) DETACH DELETE n;
+```
+
 ### Otras clausulas
 La documentación provee de ejmplos completos para las clausulas de agrergación y complementarias para consultas más complejas.  
 [neo4j - cypher cheat sheet](https://neo4j.com/docs/cypher-cheat-sheet/5/all/)
 
 ## Carga de datos
+En neo4j, una forma eficiente de importar datos estructurados es utilizando archivos `.csv` a través de la herramienta de línea de comandos neo4j-admin.
+>💡 La forma recomendada es separar los archivos en:  
+> Uno o más archivos para nodos.  
+> Uno o más archivos para relaciones.
 
+A continuación, veremos un ejemplo con tres archivos:
++ movies.csv → nodos tipo Movie
++ actors.csv → nodos tipo Actor
++ roles.csv → relaciones :ACTED_IN entre actores y películas
 
+> ⚠️ La base de datos debe estar creada previamente.  
+> neo4j-admin database import no puede crear la base, solo llenarla.  
+> Si la base no existe, el comando fallará.
+> Si alguna relación esta mal, el comando fallará y no cargara los datos.
+```bash
+bin/neo4j-admin database import full neo4j \
+  --nodes=import/movies.csv \
+  --nodes=import/actors.csv \
+  --relationships=import/roles.csv
+```
+### LOAD CSV
+Cuando se trabaja con archivos `.csv` que no tienen formato específico o tiene un formato generico de tabla para neo4j-admin (es decir, no tienen columnas como :ID, :LABEL, :START_ID, etc.), usamos el comando `LOAD CSV` desde Cypher.
+> Esta opción se ejecuta dentro de una consulta Cypher.
+```sql
+LOAD CSV FROM 'https://data.neo4j.com/bands/artists.csv' (1)
+AS row (2)
+MERGE (:Artist {name: row[1], year: toInteger(row[2])}) (3)
+```
+(1) `FROM` toma un `STRING` que contiene la ruta donde se encuentra el archivo CSV.  
+(2) La cláusula analiza una fila cada vez, almacenando temporalmente la fila actual en la variable especificada con AS.  
+(3) La cláusula MERGE accede a la variable de fila para insertar los datos en la base de datos.
+
+> LOAD CSV admite URL locales y remotas. Las rutas locales se resuelven relativas a la carpeta de instalación de Neo4j.  
+
+Ejemplo con artist.cvs
+```sql
+LOAD CSV FROM 'file:///artists.csv' AS row
+MERGE (a:Artist {name: row[1], year: toInteger(row[2])})
+RETURN a.name, a.year
+```
+
+El siguinete ejemplo, contempla la carga de datos con la generación de relaciones dentro de la carga.
+```sql
+LOAD CSV WITH HEADERS FROM 'file:///envios.csv' AS row
+
+MERGE (c1:Ciudad {nombre: trim(row.origen)})
+MERGE (c2:Ciudad {nombre: trim(row.destino)})
+
+MERGE (c1)-[r:ENVIA_A]->(c2)
+SET r.distancia_km = toInteger(row.distancia_km),
+    r.transporte   = trim(row.transporte),
+    r.costo        = toFloat(row.costo)
+```
+> `WITH HEADERS` permite ignorar la primer linea del archivo csv si este tiene las cabeceras de los datos.
+
+Ejemplo con archivo de 3,000 filas
+```sql
+LOAD CSV WITH HEADERS FROM 'file:///envios_masivos.csv' AS row
+MERGE (c1:Ciudad {nombre: trim(row.origen)})
+MERGE (c2:Ciudad {nombre: trim(row.destino)})
+MERGE (c1)-[r:ENVIA_A]->(c2)
+SET r.distancia_km = toInteger(row.distancia_km),
+    r.transporte   = trim(row.transporte),
+    r.costo        = toFloat(row.costo)
+```
 
 ## Lenguajes de programación
 Aunque neo4j fue diseñada como una base de datos para Java, actualmente ya estan disponibles diversos drivers para poder conectarse al gestor a travez de los lenguajes de programación con mas uso.  
@@ -388,33 +445,60 @@ Código de ejemplo
 ```python
 from neo4j import GraphDatabase, RoutingControl
 
-
 URI = "neo4j://localhost:7687"
-AUTH = ("neo4j", "password")
+AUTH = ("neo4j", "password")  # Cambia la contraseña si es necesario
 
-
-def add_friend(driver, name, friend_name):
+def agregar_investigador(driver, nombre, area, edad):
     driver.execute_query(
-        "MERGE (a:Person {name: $name}) "
-        "MERGE (friend:Person {name: $friend_name}) "
-        "MERGE (a)-[:KNOWS]->(friend)",
-        name=name, friend_name=friend_name, database_="neo4j",
+        "MERGE (i:Investigador {nombre: $nombre}) "
+        "SET i.area = $area, i.edad = $edad",
+        nombre=nombre, area=area, edad=edad,
+        database_="neo4j",
     )
 
+def agregar_colaboracion(driver, nombre1, nombre2, proyecto, año):
+    driver.execute_query(
+        "MATCH (a:Investigador {nombre: $nombre1}) "
+        "MATCH (b:Investigador {nombre: $nombre2}) "
+        "MERGE (a)-[r:COLABORA_CON]->(b) "
+        "SET r.proyecto = $proyecto, r.año = $año",
+        nombre1=nombre1, nombre2=nombre2, proyecto=proyecto, año=año,
+        database_="neo4j",
+    )
 
-def print_friends(driver, name):
+def ver_colaboradores(driver, nombre):
     records, _, _ = driver.execute_query(
-        "MATCH (a:Person)-[:KNOWS]->(friend) WHERE a.name = $name "
-        "RETURN friend.name ORDER BY friend.name",
-        name=name, database_="neo4j", routing_=RoutingControl.READ,
+        "MATCH (i:Investigador)-[:COLABORA_CON]->(colaborador) "
+        "WHERE i.nombre = $nombre "
+        "RETURN colaborador.nombre, colaborador.area",
+        nombre=nombre, database_="neo4j", routing_=RoutingControl.READ,
     )
     for record in records:
-        print(record["friend.name"])
+        print(f"{record['colaborador.nombre']} ({record['colaborador.area']})")
 
-
+# --- Ejemplo de uso ---
 with GraphDatabase.driver(URI, auth=AUTH) as driver:
-    add_friend(driver, "Arthur", "Guinevere")
-    add_friend(driver, "Arthur", "Lancelot")
-    add_friend(driver, "Arthur", "Merlin")
-    print_friends(driver, "Arthur")
+    agregar_investigador(driver, "Ana", "Inteligencia Artificial", 35)
+    agregar_investigador(driver, "Luis", "Robótica", 42)
+    agregar_investigador(driver, "Clara", "Visión por Computadora", 38)
+
+    agregar_colaboracion(driver, "Ana", "Luis", "IA aplicada a salud", 2022)
+    agregar_colaboracion(driver, "Ana", "Clara", "Proyecto de visión", 2023)
+
+    print("Colaboradores de Ana:")
+    ver_colaboradores(driver, "Ana")
 ```
+
+## Uso de la teminal
+cypher cuenta con su propio interprete de comandos accecible desde terminal para poder ejecutar las consultas directamente, auque sin la intepretación grafica del grafo.
+
+### cypher-shell
+Una herramienta incluida con Neo4j que permite ejecutar comandos Cypher desde la terminal.  
+Ideal para ambientes de producción, automatización, o simplemente para demostrar que no necesitas Neo4j Browser.
+
+Para acceder a ella:
+```bash
+bin/cypher-shell -u neo4j -p <tu_contraseña>
+```
+
++ `:exit` para salir de la terminal

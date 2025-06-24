@@ -1,0 +1,5 @@
+origen,destino,distancia_km,transporte,costo
+Ciudad de México,Guadalajara,550,Camión,3200
+Guadalajara,Monterrey,900,Camión,4800
+Ciudad de México,Monterrey,1000,Aéreo,9500
+Puebla,Ciudad de México,130,Camión,1100

@@ -1,0 +1,3001 @@
+origen,destino,distancia_km,transporte,costo
+Lima,San José,2167,Marítimo,14548.27
+Arequipa,Santiago,1209,Camión,9214.52
+La Paz,Asunción,1914,Marítimo,13362.75
+Guadalajara,Santiago,2572,Marítimo,23011.26
+Panamá,Tijuana,2922,Aéreo,22335.04
+Arequipa,Medellín,1389,Camión,5217.96
+Tijuana,La Paz,534,Aéreo,4554.69
+Quito,Arequipa,2211,Marítimo,12082.05
+Buenos Aires,Lima,2877,Aéreo,20309.25
+Puebla,Guayaquil,2696,Aéreo,16397.52
+Guadalajara,Santiago,882,Camión,4350.77
+Tijuana,Arequipa,2129,Camión,14458.32
+Quito,Medellín,1988,Aéreo,12032.61
+Ciudad de México,Córdoba,406,Aéreo,2949.82
+Monterrey,Asunción,2275,Camión,15763.45
+Asunción,Monterrey,408,Camión,3247.87
+Santiago,Puebla,2525,Marítimo,16430.04
+Buenos Aires,Valparaíso,1559,Aéreo,5941.44
+Guadalajara,Cali,2293,Camión,22131.79
+Valparaíso,Monterrey,2856,Aéreo,27502.55
+Quito,Lima,747,Camión,6116.69
+Guayaquil,Tijuana,2221,Marítimo,12021.04
+Córdoba,Quito,371,Camión,3334.98
+Guayaquil,Monterrey,527,Marítimo,5065.48
+Cali,Valparaíso,1915,Marítimo,5425.03
+Asunción,San José,1486,Marítimo,8439.14
+Santiago,Ciudad de México,860,Aéreo,8287.97
+La Paz,Guayaquil,457,Aéreo,1572.66
+Buenos Aires,Guayaquil,470,Aéreo,1940.66
+Ciudad de México,Puebla,99,Aéreo,437.38
+Tijuana,Bogotá,1214,Marítimo,8141.4
+Cali,Panamá,1037,Camión,4686.46
+Medellín,Puebla,2618,Marítimo,22463.29
+Medellín,Córdoba,1436,Camión,5375.67
+Guadalajara,Asunción,680,Marítimo,4905.68
+Puebla,Córdoba,422,Marítimo,3391.84
+Buenos Aires,Ciudad de México,1340,Marítimo,7806.5
+San José,Guayaquil,2024,Camión,9611.2
+Córdoba,Puebla,1951,Marítimo,8592.23
+Córdoba,Guayaquil,1396,Aéreo,7048.83
+Puebla,Cali,676,Marítimo,2702.17
+Guayaquil,Medellín,1240,Camión,6148.5
+San José,Monterrey,1094,Camión,6250.59
+Santiago,La Paz,2609,Aéreo,11810.59
+Guayaquil,Arequipa,1237,Aéreo,11817.36
+Medellín,Monterrey,1093,Camión,8725.21
+Monterrey,Arequipa,2300,Camión,9093.53
+Santiago,Arequipa,251,Aéreo,1287.17
+Tijuana,Asunción,1152,Marítimo,3070.34
+Medellín,Cali,2914,Aéreo,8054.27
+Buenos Aires,Cali,1059,Camión,7329.11
+Monterrey,Arequipa,2271,Marítimo,17145.28
+San José,Guadalajara,1872,Camión,14393.76
+Buenos Aires,Panamá,1760,Aéreo,15892.78
+Guayaquil,San José,2998,Aéreo,9572.64
+La Paz,Tijuana,112,Marítimo,396.11
+Monterrey,Arequipa,2023,Camión,15771.31
+Panamá,Quito,2916,Marítimo,26123.29
+Puebla,Quito,534,Aéreo,4153.25
+Valparaíso,Santiago,628,Camión,3917.5
+Quito,Santiago,2375,Aéreo,7102.99
+Puebla,Buenos Aires,671,Aéreo,4933.02
+Puebla,Bogotá,1231,Aéreo,5009.01
+Quito,Tijuana,1387,Camión,6521.8
+Quito,Medellín,997,Camión,6204.38
+Ciudad de México,Panamá,2583,Marítimo,14895.76
+Cali,Santiago,693,Marítimo,6074.38
+Valparaíso,Guadalajara,1245,Aéreo,5107.86
+San José,Buenos Aires,1473,Camión,10526.59
+Córdoba,Buenos Aires,2523,Marítimo,22550.0
+Buenos Aires,Asunción,1546,Marítimo,10561.77
+Bogotá,Tijuana,1164,Camión,5516.89
+Ciudad de México,La Paz,1279,Aéreo,5485.47
+Asunción,Arequipa,1749,Aéreo,13492.85
+Bogotá,San José,774,Marítimo,3804.96
+Córdoba,Ciudad de México,1003,Aéreo,2762.69
+Tijuana,Ciudad de México,450,Aéreo,3448.75
+Valparaíso,Bogotá,2874,Aéreo,15206.78
+Lima,Cali,990,Camión,7601.02
+Ciudad de México,San José,1163,Camión,9193.23
+Lima,Tijuana,2872,Aéreo,26683.98
+Panamá,Córdoba,866,Aéreo,2686.03
+Medellín,La Paz,807,Marítimo,7925.12
+Cali,Tijuana,1073,Aéreo,5114.41
+Guadalajara,La Paz,800,Camión,7413.42
+Puebla,La Paz,2042,Aéreo,13733.0
+Puebla,Bogotá,904,Aéreo,5698.98
+Lima,Bogotá,1024,Aéreo,5363.14
+Panamá,Tijuana,1060,Camión,2855.84
+Panamá,Ciudad de México,2222,Camión,10789.26
+San José,Buenos Aires,534,Camión,3759.54
+Lima,Valparaíso,859,Aéreo,7541.01
+Córdoba,Tijuana,1468,Aéreo,14174.18
+Valparaíso,Monterrey,1469,Marítimo,7555.8
+Buenos Aires,Monterrey,2856,Camión,8408.47
+Arequipa,Santiago,1562,Marítimo,13396.75
+Cali,Ciudad de México,2988,Aéreo,13449.84
+Buenos Aires,Monterrey,2042,Marítimo,8196.63
+Medellín,Lima,103,Aéreo,625.17
+Guayaquil,Santiago,57,Aéreo,501.88
+Monterrey,Guadalajara,2266,Aéreo,10381.03
+Valparaíso,Tijuana,1198,Marítimo,6684.64
+Quito,Bogotá,195,Marítimo,1580.06
+Buenos Aires,Arequipa,1355,Marítimo,8900.81
+Valparaíso,Ciudad de México,2356,Aéreo,9193.01
+Ciudad de México,Quito,158,Marítimo,683.17
+San José,Guadalajara,2184,Camión,13069.15
+Buenos Aires,Ciudad de México,271,Aéreo,2540.68
+Ciudad de México,Tijuana,1327,Aéreo,7217.76
+Quito,Monterrey,214,Aéreo,970.18
+Guadalajara,La Paz,2511,Marítimo,12715.42
+Buenos Aires,Arequipa,444,Marítimo,1196.97
+Lima,La Paz,445,Marítimo,4083.7
+Arequipa,Valparaíso,1582,Camión,6396.56
+Córdoba,Santiago,2823,Marítimo,24196.87
+Tijuana,Valparaíso,2752,Aéreo,23007.84
+La Paz,Arequipa,2430,Aéreo,7389.04
+Asunción,San José,2281,Marítimo,12730.68
+Ciudad de México,Córdoba,1958,Camión,15374.78
+Monterrey,Tijuana,134,Marítimo,1252.67
+Arequipa,Guayaquil,721,Camión,7198.27
+Arequipa,Guayaquil,1671,Aéreo,9347.07
+Panamá,Arequipa,2209,Marítimo,10810.97
+Puebla,Valparaíso,1132,Aéreo,10472.64
+Tijuana,Asunción,812,Marítimo,3783.78
+Monterrey,Santiago,139,Camión,411.22
+La Paz,San José,2772,Marítimo,23140.25
+Valparaíso,Panamá,1428,Camión,11550.41
+Monterrey,Arequipa,1267,Marítimo,5643.79
+Puebla,San José,1591,Marítimo,11060.59
+Puebla,Cali,505,Camión,3048.6
+Guayaquil,Guadalajara,446,Camión,2243.78
+Asunción,Buenos Aires,2517,Camión,21637.97
+Arequipa,Asunción,2539,Camión,7479.09
+Monterrey,Guadalajara,1054,Marítimo,7092.38
+Bogotá,Cali,1266,Camión,10628.37
+Cali,Bogotá,1950,Marítimo,7221.31
+Panamá,Bogotá,2183,Marítimo,15939.53
+Panamá,Bogotá,2129,Marítimo,7891.5
+Puebla,Asunción,2545,Marítimo,13260.43
+Santiago,Medellín,1932,Marítimo,10608.56
+Guadalajara,Quito,1789,Marítimo,7125.0
+Monterrey,Cali,1518,Marítimo,12028.85
+San José,Valparaíso,2834,Marítimo,16031.37
+Asunción,La Paz,188,Aéreo,1687.29
+Panamá,Puebla,304,Marítimo,892.59
+Quito,Arequipa,2563,Aéreo,18754.08
+Santiago,Arequipa,222,Camión,1151.75
+Lima,Panamá,2900,Camión,9007.4
+Cali,Puebla,665,Camión,3473.69
+Arequipa,Panamá,2999,Camión,29174.05
+Santiago,Buenos Aires,2010,Aéreo,7968.61
+Buenos Aires,Monterrey,893,Marítimo,3605.44
+Guayaquil,Asunción,237,Aéreo,1967.22
+Valparaíso,Quito,1901,Marítimo,8423.1
+Tijuana,Puebla,902,Aéreo,8804.55
+San José,Bogotá,1062,Camión,9798.22
+Lima,San José,508,Aéreo,1957.06
+Guadalajara,Guayaquil,125,Marítimo,557.97
+Puebla,Santiago,1476,Marítimo,13936.19
+Puebla,La Paz,1943,Marítimo,6446.62
+Guadalajara,Ciudad de México,165,Aéreo,1302.34
+Cali,San José,674,Marítimo,4096.05
+Guadalajara,San José,2146,Camión,10120.89
+Medellín,Guayaquil,2817,Marítimo,8779.37
+Ciudad de México,Valparaíso,2404,Marítimo,12205.81
+Arequipa,Guayaquil,1460,Marítimo,4749.32
+Córdoba,Tijuana,953,Marítimo,6007.28
+Córdoba,Valparaíso,2654,Aéreo,10538.14
+Guayaquil,Tijuana,2450,Marítimo,6787.97
+Córdoba,Monterrey,1006,Marítimo,7951.17
+Puebla,Guadalajara,2045,Marítimo,20303.46
+Puebla,Lima,2249,Aéreo,20499.17
+Santiago,Monterrey,482,Camión,4306.28
+San José,Bogotá,839,Marítimo,6842.24
+Tijuana,Quito,2960,Aéreo,28912.82
+Puebla,Bogotá,2772,Camión,17144.19
+Bogotá,Asunción,1792,Camión,5047.7
+Monterrey,Córdoba,2906,Camión,28208.63
+Lima,San José,124,Marítimo,1183.54
+Puebla,Guayaquil,473,Camión,3227.55
+Tijuana,Guadalajara,337,Aéreo,1603.75
+Guadalajara,Guayaquil,2810,Marítimo,7838.18
+Valparaíso,Arequipa,1703,Camión,9810.42
+Lima,Panamá,207,Aéreo,1146.63
+Monterrey,Asunción,2977,Aéreo,9595.26
+Medellín,Arequipa,1487,Marítimo,4662.39
+Guadalajara,Valparaíso,2056,Marítimo,13087.26
+Córdoba,Monterrey,1012,Marítimo,9987.63
+Puebla,Guadalajara,2391,Aéreo,15712.9
+Quito,Ciudad de México,964,Marítimo,6483.52
+Guayaquil,Medellín,2105,Camión,12265.43
+Tijuana,Quito,2322,Marítimo,21765.65
+Medellín,Tijuana,2925,Camión,24562.65
+Panamá,Arequipa,1796,Camión,5830.7
+Ciudad de México,Puebla,730,Marítimo,4427.02
+Tijuana,Puebla,2300,Aéreo,11154.57
+Cali,Córdoba,252,Camión,1174.51
+Cali,Medellín,2122,Camión,8050.39
+Guadalajara,Quito,2539,Camión,18692.22
+Ciudad de México,Cali,2335,Aéreo,15357.36
+Buenos Aires,San José,207,Marítimo,1274.35
+Lima,La Paz,1548,Marítimo,13485.39
+Bogotá,Panamá,2453,Marítimo,6351.53
+Guayaquil,Monterrey,1837,Camión,14408.61
+Monterrey,Santiago,1398,Camión,9493.59
+Guadalajara,Cali,2413,Marítimo,19258.54
+Puebla,La Paz,2363,Aéreo,17918.6
+Santiago,Panamá,643,Aéreo,4303.72
+Guayaquil,Cali,1709,Aéreo,8695.62
+Quito,Ciudad de México,1286,Marítimo,12635.79
+Lima,Córdoba,2296,Camión,6734.7
+Buenos Aires,San José,87,Marítimo,436.97
+Medellín,Guadalajara,2633,Camión,8710.79
+Lima,Cali,891,Aéreo,3772.91
+Quito,Guayaquil,2774,Camión,7451.88
+San José,Cali,2503,Aéreo,17533.13
+Guayaquil,Medellín,521,Camión,1626.02
+Panamá,Ciudad de México,2122,Marítimo,7738.73
+Córdoba,Guadalajara,2884,Marítimo,20667.41
+Medellín,Monterrey,1717,Marítimo,4442.51
+Monterrey,Arequipa,1037,Aéreo,6902.92
+Puebla,Guadalajara,2857,Camión,14572.62
+Guadalajara,Asunción,284,Aéreo,712.08
+Cali,Guadalajara,2690,Camión,7029.88
+Lima,Ciudad de México,760,Aéreo,2356.89
+Asunción,Puebla,274,Marítimo,1214.58
+Asunción,Ciudad de México,1304,Camión,7486.18
+Ciudad de México,Santiago,1674,Camión,13296.95
+Valparaíso,Santiago,2124,Camión,12477.92
+Guadalajara,Monterrey,2901,Aéreo,27577.74
+Valparaíso,Ciudad de México,2435,Marítimo,9439.65
+Santiago,Córdoba,2618,Marítimo,21708.11
+Puebla,Ciudad de México,673,Marítimo,5242.38
+Guadalajara,Buenos Aires,326,Camión,2717.06
+Cali,Córdoba,974,Marítimo,8502.62
+Monterrey,San José,219,Marítimo,1705.73
+Panamá,Cali,2111,Marítimo,15080.88
+Santiago,Guadalajara,2809,Camión,24504.63
+Buenos Aires,Cali,2513,Marítimo,7195.39
+Lima,Bogotá,1636,Marítimo,15583.22
+Tijuana,Cali,2912,Camión,21475.77
+Guadalajara,Panamá,2588,Marítimo,11584.49
+Valparaíso,Lima,2390,Marítimo,7603.23
+Monterrey,San José,1706,Marítimo,5062.68
+Arequipa,Valparaíso,1119,Camión,6239.73
+Cali,Puebla,1765,Camión,5425.77
+Arequipa,Bogotá,2335,Marítimo,13216.34
+San José,Asunción,1910,Aéreo,14250.6
+Santiago,Cali,1221,Camión,7917.89
+Guadalajara,San José,2783,Camión,21979.47
+Asunción,Monterrey,2681,Aéreo,12904.99
+Buenos Aires,Santiago,429,Aéreo,1954.32
+San José,Monterrey,1960,Camión,15740.81
+La Paz,Arequipa,484,Camión,3923.43
+Ciudad de México,Monterrey,301,Camión,2198.09
+Guayaquil,Quito,233,Aéreo,2312.56
+Lima,Valparaíso,488,Camión,2735.89
+Cali,Quito,127,Aéreo,1051.57
+Guadalajara,Buenos Aires,2426,Aéreo,23403.08
+Medellín,Arequipa,540,Marítimo,2349.96
+Santiago,La Paz,2132,Camión,5353.44
+Asunción,Panamá,1024,Aéreo,4483.39
+Santiago,Ciudad de México,778,Camión,3497.32
+Puebla,Guayaquil,2477,Aéreo,7348.29
+Guadalajara,Medellín,1778,Aéreo,7521.81
+Ciudad de México,Monterrey,2648,Camión,13179.47
+Quito,Arequipa,1667,Camión,8735.89
+Puebla,Lima,2275,Camión,15700.04
+Guadalajara,Guayaquil,542,Aéreo,5316.16
+Bogotá,Santiago,596,Camión,2121.43
+Lima,Cali,142,Aéreo,1114.44
+Medellín,Quito,214,Camión,1456.84
+Cali,Puebla,1263,Marítimo,5009.2
+Córdoba,Panamá,151,Marítimo,804.73
+Valparaíso,Lima,1201,Marítimo,3599.75
+Arequipa,Quito,2061,Aéreo,11349.43
+Tijuana,Cali,2252,Marítimo,7974.57
+Asunción,Bogotá,556,Marítimo,3228.13
+Arequipa,Cali,1352,Aéreo,4005.27
+Monterrey,Tijuana,477,Marítimo,2248.63
+San José,Santiago,1274,Marítimo,3890.1
+La Paz,Cali,2799,Aéreo,23226.88
+Bogotá,Lima,2895,Marítimo,21442.19
+Monterrey,Valparaíso,617,Marítimo,3843.42
+Buenos Aires,Córdoba,2722,Aéreo,15935.24
+Buenos Aires,Asunción,2217,Marítimo,6814.38
+Medellín,Santiago,1929,Camión,5323.97
+Córdoba,Guadalajara,2270,Camión,10888.05
+La Paz,Lima,1970,Aéreo,12204.34
+La Paz,Quito,1682,Camión,12822.08
+Asunción,Guadalajara,507,Marítimo,2273.16
+Tijuana,Monterrey,2906,Aéreo,22239.54
+Panamá,Buenos Aires,1027,Camión,6314.98
+Monterrey,Lima,2331,Aéreo,8589.36
+Cali,Guadalajara,2378,Camión,20685.59
+Tijuana,Asunción,2414,Camión,22260.77
+Quito,Arequipa,1649,Aéreo,8719.22
+Quito,Buenos Aires,2329,Camión,9447.05
+Quito,Córdoba,1577,Aéreo,4648.51
+Puebla,Ciudad de México,1675,Marítimo,6479.77
+Puebla,Medellín,1248,Camión,4199.64
+Quito,Santiago,2671,Aéreo,24305.22
+Guadalajara,Guayaquil,1361,Marítimo,11258.29
+Guayaquil,Guadalajara,2708,Camión,18514.18
+Lima,Buenos Aires,160,Camión,999.48
+Valparaíso,Guayaquil,2424,Camión,8387.31
+La Paz,Buenos Aires,449,Camión,4070.27
+Monterrey,Medellín,2069,Aéreo,18266.28
+Córdoba,Monterrey,2408,Marítimo,10765.53
+Medellín,La Paz,2893,Marítimo,19187.28
+Asunción,Santiago,2637,Camión,6645.55
+Ciudad de México,La Paz,1941,Aéreo,10003.31
+Lima,Panamá,534,Aéreo,1980.92
+Arequipa,Ciudad de México,280,Aéreo,2256.44
+Santiago,Medellín,2097,Marítimo,18266.82
+San José,Córdoba,588,Marítimo,4788.6
+La Paz,Bogotá,1671,Aéreo,8022.2
+Cali,Monterrey,426,Camión,2582.72
+Ciudad de México,Puebla,887,Aéreo,5244.11
+Bogotá,Córdoba,901,Marítimo,5145.76
+Arequipa,Cali,2648,Camión,25032.26
+San José,Asunción,1644,Marítimo,8265.06
+San José,Santiago,1362,Aéreo,11780.16
+Lima,Arequipa,140,Marítimo,628.93
+Tijuana,Buenos Aires,1932,Camión,8085.4
+Panamá,Asunción,2918,Camión,8514.32
+Monterrey,Arequipa,376,Marítimo,2978.29
+Buenos Aires,Santiago,1808,Marítimo,8293.63
+Tijuana,Ciudad de México,907,Marítimo,7338.91
+Santiago,Quito,2205,Camión,13871.18
+Quito,San José,913,Camión,4281.53
+Ciudad de México,Valparaíso,992,Aéreo,3515.43
+Quito,Guayaquil,2851,Marítimo,16251.46
+Guayaquil,Quito,241,Aéreo,1957.58
+Medellín,Bogotá,79,Camión,200.19
+Monterrey,Santiago,1979,Aéreo,9906.97
+Valparaíso,Asunción,2447,Aéreo,16979.11
+Monterrey,Tijuana,2660,Camión,10850.31
+Santiago,Quito,2511,Marítimo,22494.73
+Buenos Aires,Ciudad de México,2848,Camión,11979.79
+Panamá,Valparaíso,2800,Camión,27933.12
+Cali,Buenos Aires,2793,Aéreo,22716.99
+La Paz,Córdoba,631,Marítimo,4203.08
+Tijuana,San José,661,Aéreo,2688.04
+Santiago,Guadalajara,1085,Camión,2871.48
+Bogotá,Buenos Aires,1466,Aéreo,11910.71
+Arequipa,Medellín,76,Aéreo,528.12
+San José,Guadalajara,1700,Marítimo,13529.05
+San José,Arequipa,1561,Aéreo,11561.61
+Tijuana,Guayaquil,243,Camión,1369.7
+Arequipa,Valparaíso,890,Aéreo,4701.99
+Guadalajara,Guayaquil,2488,Camión,21077.14
+Lima,Monterrey,2134,Aéreo,6803.48
+Córdoba,Tijuana,592,Camión,5199.25
+Lima,San José,2296,Marítimo,19336.39
+Guayaquil,Córdoba,2610,Camión,12887.59
+Santiago,Puebla,88,Aéreo,866.25
+Córdoba,Guayaquil,334,Marítimo,1152.63
+Quito,Lima,77,Camión,321.98
+Asunción,San José,2121,Marítimo,19178.8
+Valparaíso,Bogotá,2488,Aéreo,19698.23
+Valparaíso,Ciudad de México,1566,Aéreo,6563.15
+La Paz,Asunción,352,Camión,2344.78
+Monterrey,Tijuana,1724,Camión,8163.44
+Lima,San José,793,Aéreo,6840.16
+Lima,Tijuana,559,Marítimo,3800.46
+Guayaquil,Panamá,70,Camión,638.32
+Medellín,Puebla,2444,Aéreo,18545.56
+Cali,Guayaquil,1517,Marítimo,4793.4
+Panamá,Guadalajara,1489,Marítimo,6033.79
+Córdoba,San José,1748,Camión,12327.53
+Tijuana,Ciudad de México,1670,Marítimo,7470.0
+Puebla,Asunción,1283,Camión,10290.79
+Ciudad de México,Puebla,2250,Camión,13746.86
+Monterrey,La Paz,384,Aéreo,1512.17
+Guayaquil,Asunción,2328,Aéreo,14970.94
+San José,Arequipa,2751,Camión,24126.35
+Bogotá,La Paz,1960,Camión,13989.37
+Panamá,Buenos Aires,2512,Marítimo,19816.31
+Monterrey,San José,1142,Marítimo,4704.21
+Valparaíso,Santiago,1794,Marítimo,12712.3
+Córdoba,Arequipa,2916,Aéreo,7733.51
+Santiago,Valparaíso,2496,Marítimo,12511.08
+San José,Puebla,238,Camión,1207.56
+Guayaquil,Valparaíso,476,Camión,4526.51
+Medellín,San José,1177,Camión,5789.44
+Asunción,Tijuana,159,Aéreo,1548.43
+Valparaíso,Puebla,1366,Aéreo,9958.97
+Valparaíso,Asunción,2090,Camión,11753.42
+Córdoba,Panamá,2085,Camión,8538.77
+Lima,Córdoba,1786,Marítimo,10484.85
+Lima,Córdoba,298,Camión,1476.66
+San José,Buenos Aires,826,Camión,6884.14
+Bogotá,Ciudad de México,2833,Marítimo,19654.49
+Asunción,Ciudad de México,1744,Camión,11362.61
+Tijuana,Medellín,2098,Marítimo,19524.77
+Quito,Tijuana,150,Camión,557.6
+Asunción,Guayaquil,905,Aéreo,7908.7
+San José,Córdoba,980,Camión,3341.3
+San José,Arequipa,2462,Aéreo,19198.11
+Asunción,Puebla,677,Marítimo,5374.87
+Valparaíso,La Paz,2945,Marítimo,25065.12
+Bogotá,Santiago,338,Marítimo,2093.2
+Buenos Aires,Medellín,2704,Marítimo,19963.77
+Medellín,Lima,1118,Camión,7632.76
+Cali,Asunción,2122,Camión,7014.63
+Guadalajara,Tijuana,842,Camión,3336.6
+Panamá,Bogotá,2390,Camión,20463.09
+Asunción,Puebla,1910,Marítimo,8045.81
+Medellín,Córdoba,398,Camión,2030.86
+Medellín,Guadalajara,1121,Camión,4640.75
+Lima,Guayaquil,1008,Aéreo,6425.59
+Córdoba,Arequipa,1544,Camión,13993.95
+La Paz,Medellín,370,Camión,1540.56
+Cali,Bogotá,904,Marítimo,5244.54
+Guadalajara,San José,207,Marítimo,1979.32
+Guadalajara,Puebla,472,Marítimo,2624.14
+Tijuana,Córdoba,1765,Aéreo,16538.91
+Quito,Guayaquil,865,Camión,3813.2
+Santiago,Cali,1420,Aéreo,10417.57
+Quito,Arequipa,948,Camión,4201.27
+Medellín,Guayaquil,1578,Camión,11500.45
+La Paz,Quito,1322,Camión,5799.96
+Arequipa,Santiago,1556,Camión,14937.33
+Buenos Aires,Guadalajara,1990,Marítimo,15150.29
+San José,Medellín,472,Marítimo,1561.23
+Arequipa,Cali,425,Marítimo,3678.11
+Monterrey,Ciudad de México,274,Camión,2319.89
+San José,La Paz,921,Marítimo,6483.28
+Guadalajara,Tijuana,1761,Camión,13243.43
+Puebla,La Paz,403,Marítimo,3330.39
+Lima,La Paz,670,Marítimo,5926.18
+Valparaíso,Medellín,1657,Aéreo,8582.73
+Cali,Panamá,543,Camión,4886.1
+La Paz,San José,323,Camión,1718.24
+Ciudad de México,Panamá,1836,Aéreo,15442.07
+Guayaquil,Tijuana,391,Aéreo,1744.5
+Guayaquil,Cali,2300,Marítimo,14997.59
+Asunción,La Paz,2719,Marítimo,6973.7
+Santiago,Tijuana,373,Marítimo,1434.91
+Puebla,Medellín,2494,Camión,18019.59
+Bogotá,Monterrey,1154,Aéreo,10451.17
+Tijuana,Monterrey,2829,Marítimo,9645.12
+Bogotá,Santiago,965,Aéreo,3149.66
+Guayaquil,Asunción,257,Camión,1345.71
+Quito,Lima,542,Camión,5330.19
+Santiago,Tijuana,771,Camión,7474.46
+Lima,Guadalajara,2155,Camión,14198.35
+Puebla,Panamá,2205,Aéreo,14236.27
+San José,Asunción,1906,Aéreo,17087.97
+Tijuana,Bogotá,1415,Marítimo,5637.11
+Panamá,Monterrey,1569,Camión,7498.97
+Arequipa,Asunción,900,Marítimo,6327.56
+Panamá,Bogotá,2801,Marítimo,23393.57
+Arequipa,Guadalajara,998,Aéreo,3445.13
+Quito,Santiago,1488,Aéreo,14075.84
+Lima,Santiago,2804,Aéreo,9710.03
+Cali,Asunción,866,Aéreo,2376.73
+Arequipa,Tijuana,1745,Marítimo,15709.01
+Córdoba,Arequipa,388,Camión,1938.73
+Guadalajara,Cali,903,Marítimo,7763.43
+Guayaquil,Guadalajara,1426,Camión,7373.07
+Cali,Quito,1286,Camión,3555.33
+Ciudad de México,Guadalajara,2564,Camión,24711.4
+Lima,Tijuana,909,Camión,3471.44
+Valparaíso,Bogotá,2821,Marítimo,26109.47
+Lima,Guadalajara,1754,Marítimo,7843.79
+Quito,Medellín,842,Marítimo,4672.85
+San José,Guadalajara,1960,Marítimo,10282.91
+Monterrey,Lima,2147,Marítimo,13259.07
+Arequipa,Guadalajara,1735,Camión,8492.71
+La Paz,Valparaíso,1005,Marítimo,6012.92
+Panamá,Buenos Aires,1877,Camión,17624.34
+Tijuana,Cali,2939,Marítimo,25174.38
+Cali,Guayaquil,1865,Aéreo,6585.52
+Puebla,Córdoba,2747,Aéreo,18867.93
+Santiago,Guadalajara,2516,Camión,17811.91
+Guadalajara,Santiago,2587,Aéreo,8140.19
+Valparaíso,Asunción,599,Camión,5378.35
+Quito,Arequipa,2771,Aéreo,21721.61
+Puebla,Arequipa,1365,Aéreo,4558.79
+Quito,Santiago,1942,Marítimo,18640.12
+Córdoba,Medellín,236,Marítimo,1255.33
+Lima,San José,2483,Camión,7537.94
+Guadalajara,San José,1594,Marítimo,10096.22
+Puebla,Bogotá,425,Aéreo,2200.28
+Valparaíso,Panamá,1468,Aéreo,8428.42
+Arequipa,Bogotá,1992,Aéreo,9354.14
+Guayaquil,Tijuana,423,Marítimo,3831.89
+Panamá,Medellín,1704,Aéreo,11188.17
+Bogotá,Guayaquil,1914,Marítimo,10343.96
+Tijuana,Córdoba,1094,Aéreo,5328.54
+Medellín,Valparaíso,2069,Aéreo,7498.28
+Puebla,Lima,1400,Camión,10008.47
+La Paz,Arequipa,1537,Camión,14220.38
+La Paz,Guadalajara,2675,Marítimo,17378.11
+Monterrey,Guadalajara,1234,Aéreo,3432.3
+Monterrey,Asunción,1433,Marítimo,14278.51
+Panamá,Tijuana,1875,Aéreo,10668.66
+San José,Buenos Aires,1298,Marítimo,11877.55
+Buenos Aires,Quito,721,Aéreo,2080.92
+Santiago,Panamá,204,Marítimo,1244.75
+La Paz,Ciudad de México,2250,Aéreo,18639.65
+Quito,Monterrey,1690,Aéreo,8684.4
+La Paz,Córdoba,712,Camión,5463.34
+Valparaíso,Asunción,793,Camión,6265.59
+Guadalajara,Panamá,2745,Marítimo,14739.96
+Santiago,Tijuana,2231,Camión,13411.94
+Córdoba,Buenos Aires,149,Camión,1478.89
+Santiago,Quito,804,Marítimo,7612.96
+Valparaíso,Córdoba,828,Marítimo,7866.67
+Lima,Monterrey,2169,Camión,9217.73
+Guayaquil,Asunción,2582,Marítimo,16642.55
+Asunción,Medellín,541,Aéreo,4773.47
+Panamá,Tijuana,2826,Marítimo,27001.79
+Arequipa,Buenos Aires,2391,Aéreo,15462.81
+Monterrey,San José,850,Camión,8295.06
+Tijuana,Córdoba,1620,Marítimo,10175.88
+Guayaquil,Arequipa,2252,Aéreo,14308.41
+Guayaquil,Puebla,2462,Marítimo,23243.58
+La Paz,Puebla,107,Camión,979.18
+San José,Asunción,143,Aéreo,393.26
+Guayaquil,Ciudad de México,1466,Marítimo,10637.15
+Guadalajara,Valparaíso,1419,Marítimo,11920.08
+Tijuana,Valparaíso,1871,Aéreo,12309.26
+Córdoba,Tijuana,1349,Aéreo,10616.82
+Ciudad de México,Panamá,69,Camión,633.73
+Asunción,Puebla,2913,Aéreo,19464.03
+La Paz,Ciudad de México,2169,Camión,8248.75
+La Paz,Buenos Aires,608,Marítimo,2010.32
+Córdoba,Santiago,1409,Aéreo,11942.25
+San José,Bogotá,1519,Aéreo,10760.55
+Lima,Guadalajara,1738,Marítimo,9086.3
+Córdoba,Guayaquil,2172,Aéreo,14132.67
+Cali,Quito,542,Camión,2878.49
+Arequipa,La Paz,2611,Camión,11165.34
+Ciudad de México,Buenos Aires,903,Camión,8927.46
+Cali,Tijuana,1323,Camión,11948.3
+Córdoba,Puebla,2686,Aéreo,12932.24
+Lima,Asunción,1947,Aéreo,17741.59
+Puebla,Tijuana,2684,Marítimo,23416.01
+Asunción,Bogotá,1722,Marítimo,6070.65
+Córdoba,Buenos Aires,1646,Marítimo,12028.49
+Panamá,Cali,1626,Camión,6447.08
+Panamá,Puebla,1055,Camión,7325.51
+Cali,Valparaíso,2546,Marítimo,22570.02
+Córdoba,Buenos Aires,1485,Marítimo,5020.11
+Panamá,Buenos Aires,1215,Aéreo,4773.56
+Quito,Arequipa,2253,Aéreo,14836.47
+Córdoba,Quito,2540,Camión,10247.62
+Bogotá,Tijuana,660,Marítimo,4520.6
+Córdoba,Bogotá,1498,Marítimo,6481.57
+Buenos Aires,Tijuana,1509,Camión,9600.92
+Puebla,Guadalajara,1562,Marítimo,13227.23
+Puebla,Monterrey,1392,Marítimo,12810.11
+Santiago,Medellín,279,Camión,984.67
+Monterrey,Puebla,2045,Camión,9501.8
+Asunción,Ciudad de México,2247,Marítimo,21628.78
+Medellín,Monterrey,1315,Camión,3760.34
+Ciudad de México,Guadalajara,1871,Marítimo,16275.97
+Guayaquil,Quito,2994,Aéreo,14140.38
+Asunción,Lima,1369,Camión,4586.27
+Ciudad de México,Buenos Aires,531,Marítimo,2985.0
+Santiago,Valparaíso,776,Marítimo,5418.47
+Quito,Santiago,509,Marítimo,2224.62
+Guadalajara,Panamá,2688,Marítimo,15614.14
+Guayaquil,Bogotá,2605,Aéreo,15628.3
+Tijuana,Medellín,2826,Marítimo,10586.21
+Lima,Monterrey,2721,Aéreo,24270.18
+Panamá,Asunción,2754,Aéreo,19303.33
+Asunción,Valparaíso,214,Marítimo,749.02
+Valparaíso,Cali,1779,Camión,15009.56
+Tijuana,Guadalajara,664,Aéreo,6269.69
+Quito,Asunción,1827,Camión,7575.11
+Cali,Tijuana,2719,Camión,7202.65
+Buenos Aires,Guayaquil,2856,Marítimo,14367.93
+Ciudad de México,Quito,2693,Marítimo,22648.46
+Quito,Bogotá,847,Marítimo,2676.62
+Buenos Aires,Guayaquil,324,Marítimo,2864.83
+Bogotá,Quito,2342,Marítimo,12735.69
+Puebla,Tijuana,2252,Aéreo,7046.88
+Ciudad de México,Córdoba,2199,Marítimo,8381.94
+Lima,Guadalajara,1615,Camión,15442.66
+Córdoba,Arequipa,2012,Marítimo,16117.23
+Panamá,Ciudad de México,2984,Camión,9784.02
+Puebla,Cali,2779,Camión,8971.79
+Monterrey,Buenos Aires,183,Aéreo,792.98
+Monterrey,Lima,1362,Camión,12999.67
+Lima,Córdoba,1244,Aéreo,10804.52
+Puebla,Arequipa,245,Aéreo,2111.65
+Medellín,Asunción,756,Marítimo,1936.78
+Puebla,Guadalajara,925,Marítimo,5365.08
+Valparaíso,Guadalajara,2131,Camión,20808.48
+Medellín,Córdoba,2534,Aéreo,19211.37
+Córdoba,Ciudad de México,1041,Marítimo,6856.06
+Puebla,Panamá,1585,Aéreo,10966.07
+Cali,Tijuana,1574,Aéreo,14589.03
+Guayaquil,Lima,2651,Camión,23093.87
+Monterrey,Asunción,2551,Aéreo,25034.97
+Asunción,Bogotá,2779,Marítimo,27663.34
+Ciudad de México,Bogotá,2446,Camión,16213.24
+La Paz,Arequipa,942,Camión,8183.16
+Buenos Aires,Ciudad de México,726,Marítimo,3695.25
+Valparaíso,Lima,2801,Aéreo,14917.28
+Asunción,Tijuana,1274,Marítimo,7470.43
+Ciudad de México,La Paz,2985,Aéreo,15000.85
+Arequipa,Panamá,1289,Camión,9213.97
+Bogotá,Buenos Aires,209,Marítimo,1716.82
+Medellín,La Paz,463,Marítimo,3618.13
+Santiago,Buenos Aires,345,Camión,2173.17
+Bogotá,Buenos Aires,2680,Aéreo,26224.1
+Medellín,Cali,172,Aéreo,797.28
+Guayaquil,Cali,917,Aéreo,8446.56
+Puebla,Tijuana,723,Camión,4700.88
+La Paz,Ciudad de México,1135,Camión,3344.78
+Puebla,Lima,2683,Camión,19311.52
+Córdoba,Buenos Aires,472,Camión,3733.4
+La Paz,Quito,2822,Camión,17690.97
+Córdoba,Asunción,585,Camión,4457.95
+Guadalajara,Santiago,2372,Camión,8380.01
+Tijuana,Panamá,1741,Marítimo,8325.44
+Medellín,San José,492,Camión,2720.92
+Panamá,San José,2802,Aéreo,25739.95
+Arequipa,Monterrey,121,Marítimo,682.76
+Buenos Aires,Medellín,1661,Camión,13184.99
+Guadalajara,Ciudad de México,2992,Marítimo,18664.82
+Guayaquil,Bogotá,1342,Camión,9955.41
+Asunción,Panamá,440,Aéreo,3237.49
+Guayaquil,La Paz,1752,Camión,5234.06
+Córdoba,Tijuana,232,Camión,947.17
+Cali,Quito,1326,Camión,12986.09
+Monterrey,Lima,618,Aéreo,3413.96
+Asunción,La Paz,867,Camión,3450.95
+Panamá,Arequipa,1914,Camión,8139.68
+Guayaquil,Ciudad de México,391,Marítimo,2050.45
+Arequipa,Tijuana,1558,Aéreo,7137.99
+Tijuana,Santiago,194,Marítimo,1474.93
+Lima,Panamá,1385,Aéreo,9466.94
+Guadalajara,Lima,1891,Aéreo,11717.6
+Cali,Tijuana,971,Camión,5004.18
+Ciudad de México,Tijuana,1871,Marítimo,10679.72
+Monterrey,Valparaíso,2387,Aéreo,12898.63
+Bogotá,Lima,2719,Marítimo,15265.3
+Lima,Panamá,2250,Camión,8976.54
+Asunción,Guayaquil,983,Marítimo,9440.07
+Cali,Guadalajara,1052,Marítimo,7223.7
+Quito,Córdoba,1481,Aéreo,12617.98
+Guayaquil,Arequipa,1337,Marítimo,9117.06
+Tijuana,Monterrey,1346,Marítimo,3922.46
+Cali,Córdoba,2767,Marítimo,18846.36
+Panamá,Medellín,2682,Camión,26072.78
+Cali,Córdoba,2144,Camión,12513.95
+La Paz,Monterrey,897,Camión,5592.85
+Asunción,Ciudad de México,2271,Marítimo,10940.7
+Buenos Aires,Guadalajara,2008,Camión,17099.04
+Arequipa,Medellín,204,Marítimo,1043.82
+Lima,Santiago,1282,Camión,11802.99
+Guayaquil,Valparaíso,301,Aéreo,917.48
+Guadalajara,Valparaíso,2145,Aéreo,21334.87
+Buenos Aires,Ciudad de México,157,Aéreo,806.31
+Guayaquil,Panamá,2017,Camión,11905.02
+Puebla,Asunción,1127,Aéreo,8054.49
+Tijuana,Bogotá,2042,Aéreo,13010.0
+Medellín,Lima,1851,Camión,14213.55
+Puebla,Buenos Aires,2919,Marítimo,23339.98
+Ciudad de México,Puebla,1708,Camión,7924.93
+Monterrey,San José,1663,Camión,9283.16
+Lima,Panamá,2521,Camión,21187.74
+Lima,Tijuana,202,Camión,1396.97
+Guadalajara,Valparaíso,1193,Aéreo,9458.37
+Valparaíso,Guadalajara,1709,Camión,9986.87
+Santiago,Panamá,2534,Aéreo,18465.04
+Guayaquil,Buenos Aires,704,Marítimo,2577.03
+San José,Arequipa,88,Marítimo,431.31
+Córdoba,Quito,1213,Camión,11682.24
+San José,Buenos Aires,2125,Marítimo,5990.8
+Medellín,Guayaquil,168,Marítimo,1128.97
+Medellín,Tijuana,161,Marítimo,483.45
+Buenos Aires,Bogotá,878,Marítimo,6902.71
+Quito,Guayaquil,2141,Camión,12450.03
+Ciudad de México,Bogotá,468,Camión,2355.63
+Santiago,Arequipa,1564,Marítimo,4989.54
+Monterrey,Medellín,921,Aéreo,6652.76
+Tijuana,Córdoba,2781,Aéreo,22559.66
+Guadalajara,Puebla,2568,Aéreo,22071.85
+Buenos Aires,Asunción,2845,Camión,10983.03
+La Paz,Guadalajara,2820,Camión,18147.36
+Cali,Medellín,130,Marítimo,1095.06
+Bogotá,Quito,1653,Aéreo,11339.94
+Buenos Aires,Medellín,269,Aéreo,1411.29
+Tijuana,Bogotá,566,Marítimo,4473.81
+Medellín,Panamá,1585,Marítimo,11503.03
+Puebla,Lima,1212,Aéreo,7378.37
+Tijuana,Buenos Aires,2993,Marítimo,27006.44
+Bogotá,Santiago,1182,Camión,10961.9
+San José,Medellín,2169,Camión,15878.39
+Ciudad de México,Monterrey,54,Aéreo,145.54
+San José,Córdoba,2450,Aéreo,22726.74
+Bogotá,San José,877,Aéreo,4690.32
+Bogotá,Guadalajara,1936,Marítimo,16203.83
+Cali,Buenos Aires,701,Camión,3796.32
+Bogotá,La Paz,2429,Aéreo,23149.98
+Arequipa,Buenos Aires,1655,Marítimo,4456.75
+Bogotá,Cali,2023,Marítimo,16164.13
+Santiago,Tijuana,1381,Aéreo,5579.78
+Cali,Guadalajara,2835,Camión,20062.08
+Monterrey,Quito,144,Aéreo,1370.9
+Arequipa,Medellín,368,Marítimo,2766.61
+Asunción,Bogotá,609,Camión,4558.93
+Medellín,Ciudad de México,2461,Marítimo,14062.16
+San José,Guadalajara,466,Aéreo,3900.82
+Cali,Santiago,672,Camión,3113.92
+Puebla,Tijuana,2306,Marítimo,13603.66
+Tijuana,Medellín,2114,Camión,10450.46
+Medellín,Bogotá,2210,Marítimo,10781.86
+San José,Puebla,2327,Aéreo,18347.78
+Buenos Aires,Arequipa,462,Aéreo,3245.89
+Lima,Asunción,1450,Aéreo,11738.11
+Asunción,Puebla,1553,Aéreo,8842.12
+Guadalajara,Valparaíso,2371,Marítimo,21097.34
+Monterrey,Guayaquil,848,Camión,5222.53
+Guadalajara,Monterrey,2243,Camión,8636.85
+Tijuana,Bogotá,2386,Marítimo,18604.03
+Tijuana,Monterrey,709,Marítimo,4941.94
+Ciudad de México,Valparaíso,1524,Marítimo,8904.93
+Arequipa,Tijuana,2845,Marítimo,20525.29
+Guayaquil,Monterrey,2626,Aéreo,14119.65
+Lima,San José,294,Aéreo,2058.76
+Santiago,Guadalajara,292,Camión,1029.48
+Quito,Medellín,1527,Camión,6667.0
+Quito,Lima,322,Camión,1718.9
+Tijuana,Panamá,374,Camión,2151.79
+Ciudad de México,Guadalajara,1759,Marítimo,11267.72
+Puebla,Tijuana,873,Camión,3662.73
+Puebla,Bogotá,1724,Marítimo,11041.93
+Guayaquil,Puebla,2564,Marítimo,22803.82
+Cali,La Paz,672,Marítimo,4146.61
+San José,Lima,1007,Marítimo,3276.25
+Quito,Lima,1529,Camión,4859.4
+San José,Valparaíso,1037,Camión,3651.95
+Ciudad de México,Arequipa,2858,Camión,7251.82
+Ciudad de México,La Paz,2449,Camión,9089.88
+Bogotá,Tijuana,2931,Camión,25351.58
+Quito,Santiago,561,Marítimo,4917.43
+Guadalajara,Bogotá,1713,Camión,10185.97
+Valparaíso,Quito,502,Aéreo,4219.78
+Ciudad de México,Arequipa,2727,Aéreo,19223.42
+Cali,Guadalajara,1475,Marítimo,12369.64
+Guayaquil,Puebla,2845,Camión,8666.26
+Santiago,Medellín,1288,Aéreo,8432.65
+Tijuana,Asunción,174,Camión,579.07
+Arequipa,Medellín,1175,Camión,9937.68
+Arequipa,Santiago,227,Aéreo,795.03
+Asunción,Guadalajara,1206,Marítimo,10491.04
+Ciudad de México,Cali,1493,Marítimo,8006.83
+Monterrey,Guadalajara,80,Aéreo,516.05
+Medellín,Asunción,1363,Marítimo,5012.56
+Monterrey,San José,1639,Marítimo,9722.89
+Buenos Aires,Lima,2150,Marítimo,9922.02
+Asunción,Bogotá,751,Marítimo,6143.8
+Guadalajara,Ciudad de México,2231,Aéreo,17709.72
+Medellín,San José,1234,Marítimo,6747.67
+Buenos Aires,Puebla,1849,Camión,11305.41
+Puebla,Buenos Aires,2873,Marítimo,12035.64
+Medellín,Asunción,303,Camión,2156.46
+Monterrey,Bogotá,1693,Marítimo,12175.43
+Córdoba,Santiago,1937,Aéreo,12731.7
+Lima,Puebla,1903,Marítimo,17655.59
+Santiago,Valparaíso,418,Aéreo,2957.05
+Córdoba,Asunción,423,Aéreo,1859.98
+Medellín,Arequipa,570,Marítimo,2699.89
+La Paz,Arequipa,1961,Camión,15942.73
+Valparaíso,Córdoba,2079,Aéreo,12639.44
+Ciudad de México,Cali,713,Aéreo,4646.37
+Valparaíso,Quito,2933,Marítimo,8404.98
+Medellín,Cali,2879,Marítimo,17259.09
+Asunción,Ciudad de México,382,Marítimo,2963.44
+San José,Santiago,2786,Camión,22259.48
+Quito,Medellín,491,Aéreo,3484.03
+Lima,La Paz,68,Camión,404.25
+Medellín,Panamá,2770,Camión,7788.11
+Medellín,Lima,2977,Marítimo,10512.09
+Asunción,Guadalajara,2726,Aéreo,15289.34
+Cali,Guayaquil,2920,Marítimo,24352.13
+Medellín,Quito,1537,Marítimo,7110.42
+Panamá,Cali,234,Marítimo,2325.13
+Santiago,Quito,2713,Camión,8228.06
+Guayaquil,San José,1803,Camión,13111.47
+Cali,Valparaíso,1933,Marítimo,16123.01
+Valparaíso,Ciudad de México,1156,Camión,3812.37
+Quito,Valparaíso,710,Aéreo,3245.51
+Guadalajara,Cali,1659,Camión,9834.13
+Lima,La Paz,225,Aéreo,1750.03
+Guayaquil,Medellín,2062,Aéreo,11935.81
+Panamá,Córdoba,2913,Marítimo,19470.12
+Arequipa,Valparaíso,605,Marítimo,4589.25
+Arequipa,Lima,348,Marítimo,2697.65
+Cali,Ciudad de México,2008,Marítimo,9480.83
+Panamá,Córdoba,1241,Camión,10059.73
+Bogotá,San José,650,Camión,6451.43
+Arequipa,Valparaíso,2190,Camión,12486.89
+Guadalajara,San José,2785,Aéreo,10802.27
+Tijuana,Quito,388,Marítimo,2016.07
+Puebla,Tijuana,477,Marítimo,1447.76
+Arequipa,Medellín,2064,Marítimo,15366.92
+Arequipa,La Paz,1791,Camión,8806.79
+Valparaíso,San José,1538,Marítimo,11276.8
+Medellín,Bogotá,150,Aéreo,1394.48
+La Paz,Asunción,679,Marítimo,6185.8
+Lima,San José,1937,Aéreo,7532.28
+Quito,Córdoba,2835,Aéreo,21818.52
+Cali,San José,73,Aéreo,347.81
+San José,Lima,910,Marítimo,8626.89
+La Paz,Santiago,1279,Aéreo,7794.83
+Valparaíso,Panamá,2331,Camión,20511.93
+Quito,Panamá,1488,Camión,10896.63
+La Paz,Ciudad de México,1491,Marítimo,7512.84
+La Paz,Buenos Aires,945,Aéreo,4553.49
+Quito,Monterrey,1676,Aéreo,12360.39
+Guayaquil,Asunción,347,Aéreo,1367.37
+Puebla,Ciudad de México,1202,Marítimo,8182.47
+Puebla,Panamá,438,Aéreo,2776.15
+Tijuana,Bogotá,1290,Camión,12166.73
+Quito,Tijuana,2553,Camión,23724.1
+Puebla,Santiago,1701,Camión,15654.04
+Valparaíso,Monterrey,1983,Marítimo,12790.32
+Quito,Bogotá,649,Marítimo,2153.39
+Buenos Aires,Bogotá,2106,Marítimo,7062.78
+Guayaquil,Arequipa,1237,Marítimo,9802.36
+Lima,Santiago,367,Aéreo,2901.5
+La Paz,Valparaíso,385,Aéreo,1128.39
+Buenos Aires,Quito,976,Marítimo,7749.11
+Guadalajara,Lima,426,Aéreo,2795.06
+La Paz,Ciudad de México,2382,Marítimo,23067.65
+Lima,Buenos Aires,244,Marítimo,2279.66
+San José,Ciudad de México,1903,Camión,8753.15
+Cali,Monterrey,1658,Aéreo,15673.65
+Asunción,Córdoba,969,Aéreo,2750.39
+Cali,Santiago,1096,Aéreo,3066.2
+Bogotá,Tijuana,1871,Marítimo,5865.93
+Monterrey,Bogotá,1654,Marítimo,13068.94
+Cali,Quito,2091,Marítimo,6403.89
+Lima,Santiago,357,Marítimo,1630.3
+Medellín,Panamá,2108,Aéreo,12132.59
+La Paz,Quito,345,Marítimo,3019.26
+La Paz,Monterrey,1069,Camión,8967.04
+Santiago,Tijuana,2042,Marítimo,18490.53
+Santiago,Quito,2987,Aéreo,27581.41
+San José,Bogotá,1285,Marítimo,8854.91
+Valparaíso,Buenos Aires,1397,Marítimo,10833.57
+Panamá,Medellín,2909,Aéreo,12281.71
+Panamá,Monterrey,654,Camión,5012.07
+Asunción,Arequipa,291,Aéreo,1008.44
+Santiago,Guayaquil,128,Camión,517.53
+Medellín,Panamá,2158,Marítimo,8745.29
+Puebla,Medellín,1335,Camión,10479.36
+Valparaíso,San José,342,Marítimo,3025.55
+Ciudad de México,Buenos Aires,1501,Camión,6239.29
+Arequipa,Valparaíso,183,Marítimo,1092.62
+Asunción,Quito,2192,Marítimo,20237.9
+Guayaquil,Ciudad de México,833,Aéreo,8293.85
+Bogotá,Panamá,2962,Marítimo,9364.96
+Cali,Valparaíso,1825,Marítimo,5714.5
+Medellín,Lima,2595,Aéreo,11096.67
+Tijuana,Santiago,2578,Marítimo,6940.74
+Panamá,Cali,2228,Aéreo,11289.81
+Cali,Panamá,2756,Aéreo,9857.28
+Guadalajara,Bogotá,1570,Camión,14399.47
+Panamá,Arequipa,676,Camión,5277.61
+Panamá,Guadalajara,2937,Aéreo,22981.1
+Bogotá,Monterrey,1290,Marítimo,12247.73
+San José,Arequipa,937,Marítimo,5984.79
+Puebla,San José,959,Marítimo,2473.95
+Arequipa,Córdoba,388,Camión,2714.46
+Córdoba,Santiago,2883,Marítimo,17000.31
+Cali,Bogotá,2063,Marítimo,16351.6
+Medellín,Monterrey,2424,Marítimo,13635.58
+Guayaquil,San José,2240,Marítimo,11455.54
+Cali,Arequipa,1494,Marítimo,8045.49
+Puebla,Guayaquil,2967,Camión,18763.39
+Medellín,Buenos Aires,2725,Marítimo,10328.76
+Monterrey,Tijuana,854,Aéreo,8079.09
+Tijuana,Arequipa,649,Camión,2735.5
+Medellín,Asunción,842,Aéreo,6804.77
+La Paz,Monterrey,2785,Marítimo,9582.68
+Santiago,Guadalajara,281,Aéreo,2524.32
+Ciudad de México,Santiago,1947,Camión,5244.28
+Quito,Tijuana,1538,Marítimo,14856.94
+Puebla,San José,1963,Camión,8018.11
+Medellín,Guayaquil,1513,Marítimo,10096.33
+Valparaíso,San José,1179,Marítimo,6691.71
+Panamá,Quito,1991,Camión,11930.53
+Quito,La Paz,1870,Aéreo,17724.66
+Monterrey,La Paz,2771,Marítimo,16772.46
+Tijuana,Arequipa,967,Marítimo,3915.4
+Guayaquil,Arequipa,1171,Marítimo,6843.77
+Tijuana,Monterrey,785,Camión,6519.23
+Tijuana,Santiago,579,Camión,2156.99
+Medellín,Monterrey,1704,Marítimo,9998.77
+Tijuana,Arequipa,2047,Camión,17298.58
+Panamá,Santiago,1110,Marítimo,9638.98
+Medellín,Quito,2698,Aéreo,17760.72
+Buenos Aires,Quito,2203,Camión,9457.95
+Panamá,Tijuana,715,Camión,4595.2
+Valparaíso,Arequipa,424,Marítimo,1960.21
+Monterrey,Arequipa,714,Aéreo,3673.18
+Panamá,Tijuana,2973,Aéreo,29347.56
+Cali,Valparaíso,54,Aéreo,326.81
+Arequipa,Ciudad de México,104,Marítimo,944.39
+Santiago,Buenos Aires,548,Aéreo,4596.98
+Medellín,Cali,2833,Marítimo,20393.99
+Monterrey,Asunción,2801,Camión,17078.4
+Puebla,Guadalajara,1337,Camión,6537.55
+Guayaquil,Panamá,330,Camión,2877.83
+La Paz,Guadalajara,1290,Aéreo,4647.64
+Santiago,Bogotá,216,Marítimo,1131.18
+Tijuana,La Paz,253,Marítimo,846.61
+Medellín,Córdoba,366,Aéreo,2646.62
+Panamá,San José,1240,Camión,9491.58
+Asunción,Lima,1418,Camión,13487.13
+Guadalajara,Guayaquil,189,Marítimo,889.69
+Guayaquil,Medellín,1785,Aéreo,13367.71
+Buenos Aires,Medellín,1841,Aéreo,16316.08
+Lima,Asunción,908,Marítimo,6260.05
+Bogotá,Córdoba,2997,Aéreo,29182.37
+La Paz,Lima,2416,Aéreo,14714.54
+San José,La Paz,2668,Camión,7210.16
+Ciudad de México,Guadalajara,2722,Aéreo,10994.48
+Puebla,La Paz,409,Marítimo,3564.72
+Quito,Puebla,2979,Marítimo,25782.0
+Cali,Asunción,2114,Aéreo,5409.21
+Monterrey,Guayaquil,1051,Aéreo,8885.32
+Guayaquil,Ciudad de México,399,Camión,3519.26
+Monterrey,Buenos Aires,1171,Marítimo,9101.76
+Asunción,Buenos Aires,794,Marítimo,2601.43
+Valparaíso,Asunción,67,Aéreo,181.89
+Quito,Arequipa,1860,Camión,14950.86
+San José,La Paz,603,Marítimo,2519.7
+Puebla,Buenos Aires,1667,Marítimo,8916.14
+Valparaíso,Asunción,1393,Aéreo,12782.12
+La Paz,Monterrey,2532,Camión,20938.49
+Buenos Aires,Guayaquil,2031,Aéreo,14654.23
+Valparaíso,Santiago,90,Aéreo,666.21
+Guadalajara,Arequipa,1854,Marítimo,12289.54
+Puebla,Buenos Aires,599,Aéreo,4065.04
+Cali,Puebla,1916,Camión,6451.63
+Lima,Guayaquil,1556,Marítimo,13637.91
+Medellín,Guadalajara,472,Marítimo,1941.18
+La Paz,Guayaquil,2719,Camión,21665.58
+Guayaquil,Asunción,2390,Camión,17339.36
+Valparaíso,Lima,2425,Aéreo,8339.85
+San José,Bogotá,465,Aéreo,4242.07
+Guadalajara,Panamá,400,Marítimo,3072.5
+Tijuana,Santiago,333,Camión,2112.09
+Quito,Ciudad de México,2523,Camión,9586.62
+Medellín,La Paz,334,Aéreo,2397.86
+Medellín,Santiago,2032,Aéreo,7400.26
+Bogotá,Ciudad de México,619,Camión,5299.49
+Panamá,Cali,1604,Marítimo,5246.11
+Valparaíso,Asunción,2817,Camión,20427.22
+Arequipa,Buenos Aires,2549,Marítimo,16186.95
+Buenos Aires,Arequipa,390,Camión,1510.69
+Tijuana,La Paz,740,Camión,2427.55
+Arequipa,Quito,1850,Aéreo,4779.16
+Santiago,Monterrey,248,Marítimo,1527.34
+La Paz,Santiago,2161,Camión,15212.24
+Medellín,San José,2767,Camión,10488.78
+Medellín,Santiago,247,Camión,722.47
+Guadalajara,Puebla,2789,Camión,24630.76
+San José,Tijuana,2837,Camión,21220.48
+Bogotá,Valparaíso,475,Camión,3998.73
+Buenos Aires,Valparaíso,752,Aéreo,4427.71
+Bogotá,Puebla,1945,Camión,9501.32
+La Paz,Asunción,2084,Aéreo,14119.12
+Ciudad de México,Arequipa,1886,Aéreo,11062.36
+La Paz,Arequipa,1427,Aéreo,6052.56
+Santiago,Medellín,1997,Marítimo,10152.45
+Asunción,Guayaquil,625,Aéreo,2724.86
+Santiago,Córdoba,823,Aéreo,2070.02
+Arequipa,Valparaíso,684,Marítimo,3369.73
+Medellín,Córdoba,2421,Aéreo,22636.73
+Tijuana,Monterrey,1831,Aéreo,7070.73
+Santiago,Monterrey,1911,Marítimo,13469.21
+La Paz,Medellín,2460,Camión,12471.5
+Asunción,Arequipa,1923,Aéreo,16226.24
+Puebla,Medellín,667,Camión,4205.12
+Buenos Aires,Tijuana,2006,Aéreo,19078.58
+Panamá,Valparaíso,2573,Camión,10799.12
+Cali,Puebla,379,Aéreo,3178.96
+Valparaíso,Santiago,62,Marítimo,527.34
+Cali,Puebla,1449,Aéreo,12170.29
+Puebla,Monterrey,749,Camión,2691.94
+Bogotá,Asunción,2940,Marítimo,29173.62
+Lima,Quito,766,Marítimo,5684.7
+Puebla,Cali,959,Aéreo,3322.28
+Santiago,Asunción,632,Marítimo,1976.15
+Tijuana,Monterrey,529,Marítimo,3025.64
+La Paz,Monterrey,1246,Aéreo,9444.13
+Arequipa,Guayaquil,349,Camión,1853.69
+Tijuana,Medellín,2874,Camión,9145.16
+Monterrey,La Paz,2159,Camión,15181.39
+Santiago,Buenos Aires,1286,Marítimo,9466.62
+Valparaíso,Santiago,2108,Marítimo,8608.75
+Medellín,Guayaquil,757,Camión,6428.3
+Arequipa,Tijuana,2880,Camión,14704.66
+Guayaquil,Valparaíso,2209,Marítimo,10812.9
+Monterrey,Lima,2514,Marítimo,22607.72
+Tijuana,Asunción,2829,Camión,7423.07
+Guayaquil,Panamá,578,Camión,3167.83
+Quito,Ciudad de México,1094,Marítimo,3102.8
+Tijuana,La Paz,728,Camión,4263.78
+Panamá,San José,938,Camión,4723.11
+Santiago,Asunción,1603,Camión,14009.3
+Cali,Monterrey,681,Aéreo,5994.42
+Ciudad de México,Buenos Aires,2554,Camión,6672.18
+La Paz,Cali,2701,Camión,21705.41
+Puebla,Bogotá,247,Camión,1558.61
+Ciudad de México,La Paz,2617,Aéreo,13834.43
+Arequipa,Valparaíso,279,Marítimo,946.17
+Guadalajara,Panamá,1474,Aéreo,11276.6
+Bogotá,Cali,639,Camión,6116.64
+Panamá,Buenos Aires,1612,Marítimo,8349.71
+San José,Monterrey,1699,Marítimo,11606.25
+Medellín,Valparaíso,1291,Aéreo,10821.36
+Lima,Medellín,737,Aéreo,2006.87
+Cali,Panamá,553,Camión,4261.58
+Puebla,Lima,1886,Marítimo,12761.54
+Lima,Arequipa,1057,Aéreo,8958.03
+Monterrey,Medellín,1388,Marítimo,11282.02
+Valparaíso,Tijuana,1931,Marítimo,8431.16
+Tijuana,Asunción,2665,Aéreo,23889.42
+Córdoba,Bogotá,508,Camión,2453.05
+Guadalajara,Monterrey,1251,Camión,9835.53
+Bogotá,Guadalajara,1936,Marítimo,18286.95
+Lima,Santiago,2406,Aéreo,6403.26
+Bogotá,Guadalajara,688,Aéreo,4172.02
+Arequipa,Quito,2596,Aéreo,10363.73
+Santiago,Arequipa,2688,Marítimo,11778.53
+Puebla,Lima,769,Camión,4434.32
+San José,Ciudad de México,2628,Marítimo,6786.62
+Asunción,Bogotá,2985,Aéreo,9435.45
+Quito,Ciudad de México,2056,Camión,17697.3
+Córdoba,Monterrey,764,Aéreo,6148.15
+Ciudad de México,Bogotá,2742,Marítimo,7788.56
+Valparaíso,Lima,737,Marítimo,5691.05
+Monterrey,Asunción,2680,Marítimo,21090.42
+Santiago,Panamá,351,Aéreo,1000.59
+Puebla,Santiago,571,Aéreo,3736.69
+Ciudad de México,Buenos Aires,1391,Marítimo,8039.97
+Cali,San José,2593,Aéreo,10028.42
+Lima,Monterrey,2069,Marítimo,8497.47
+Quito,Córdoba,2018,Aéreo,9524.62
+Santiago,Asunción,2008,Aéreo,12043.89
+Lima,Guayaquil,924,Marítimo,7879.51
+Bogotá,Cali,1396,Marítimo,3898.19
+Buenos Aires,La Paz,339,Camión,2362.69
+Monterrey,Córdoba,2831,Camión,27877.89
+Ciudad de México,Santiago,772,Marítimo,6137.36
+Lima,Asunción,1554,Marítimo,9620.95
+Córdoba,Buenos Aires,1705,Marítimo,5156.55
+Medellín,Arequipa,2236,Aéreo,18803.01
+Medellín,La Paz,908,Camión,6633.46
+Cali,Guadalajara,1967,Camión,14431.47
+Santiago,Monterrey,1769,Camión,16523.33
+San José,Cali,1275,Camión,4765.12
+Quito,Bogotá,2912,Marítimo,27162.19
+Puebla,Panamá,111,Aéreo,789.01
+Puebla,Medellín,2169,Marítimo,19585.33
+La Paz,Tijuana,2837,Aéreo,16954.26
+Panamá,Quito,1496,Camión,10234.02
+Valparaíso,Monterrey,1524,Aéreo,13126.29
+Panamá,Guayaquil,773,Aéreo,6785.76
+La Paz,Tijuana,179,Aéreo,1658.0
+San José,Quito,495,Marítimo,1550.18
+Lima,Bogotá,2473,Marítimo,15336.27
+Tijuana,Buenos Aires,1936,Camión,10499.69
+Bogotá,Panamá,1329,Marítimo,9096.04
+Tijuana,Puebla,2816,Camión,17539.83
+Panamá,Quito,873,Camión,2183.89
+Quito,Guadalajara,865,Camión,5224.52
+Bogotá,San José,2469,Marítimo,11014.42
+Quito,Asunción,1726,Camión,12789.78
+Quito,Ciudad de México,825,Camión,5323.74
+La Paz,Valparaíso,2435,Aéreo,19744.51
+Asunción,Guayaquil,1902,Camión,16685.83
+Ciudad de México,Santiago,772,Aéreo,4186.43
+Quito,Cali,1637,Marítimo,4454.89
+Puebla,Panamá,1113,Marítimo,9672.47
+La Paz,Córdoba,1313,Camión,10240.22
+Arequipa,Guayaquil,215,Marítimo,2119.28
+La Paz,Monterrey,1466,Camión,6613.91
+Valparaíso,Bogotá,2103,Camión,10776.03
+Asunción,La Paz,583,Camión,4410.06
+Panamá,La Paz,2639,Camión,24944.86
+Córdoba,La Paz,102,Camión,310.19
+Lima,Tijuana,2002,Aéreo,8759.79
+Lima,La Paz,2446,Marítimo,6967.02
+Santiago,Lima,2399,Marítimo,15990.69
+Medellín,Bogotá,2268,Aéreo,14886.28
+Panamá,Monterrey,1104,Marítimo,5385.4
+Valparaíso,Guayaquil,2818,Aéreo,25363.29
+Lima,Monterrey,1086,Camión,6722.23
+Guadalajara,Puebla,954,Camión,4046.31
+La Paz,Cali,1018,Camión,4412.64
+Santiago,Córdoba,695,Aéreo,6915.56
+Monterrey,Arequipa,1667,Camión,5854.9
+La Paz,Panamá,1827,Camión,13713.94
+Tijuana,Guadalajara,2559,Aéreo,21410.59
+Puebla,Asunción,1132,Aéreo,4111.53
+Santiago,Ciudad de México,549,Marítimo,3181.13
+Buenos Aires,Medellín,522,Aéreo,3503.38
+Panamá,Guadalajara,910,Aéreo,3361.9
+Guadalajara,Panamá,1759,Marítimo,4842.62
+Panamá,La Paz,2141,Aéreo,13762.34
+Bogotá,Buenos Aires,597,Marítimo,2456.48
+Quito,Asunción,2202,Aéreo,11173.36
+Panamá,Bogotá,2751,Marítimo,10106.33
+San José,Cali,2579,Marítimo,8061.46
+Medellín,San José,868,Aéreo,2303.61
+La Paz,Ciudad de México,2361,Marítimo,10466.89
+Arequipa,Monterrey,1671,Aéreo,5109.9
+Guayaquil,Santiago,2385,Camión,12723.86
+Valparaíso,Guayaquil,2148,Marítimo,17124.25
+Tijuana,Quito,391,Aéreo,3320.88
+Lima,Santiago,342,Aéreo,981.45
+Panamá,Quito,2275,Marítimo,7863.3
+Arequipa,Cali,1466,Camión,12415.16
+Bogotá,Monterrey,2428,Aéreo,22252.16
+Guayaquil,Bogotá,1374,Aéreo,4540.28
+Guadalajara,Puebla,1579,Camión,15443.2
+Tijuana,Medellín,1773,Camión,9465.7
+Ciudad de México,Bogotá,937,Aéreo,2604.31
+Panamá,La Paz,2836,Marítimo,18569.99
+Buenos Aires,Valparaíso,744,Aéreo,4270.97
+Bogotá,Monterrey,1323,Camión,10542.87
+Medellín,Guayaquil,744,Marítimo,4033.43
+Quito,Valparaíso,737,Aéreo,4148.09
+Lima,Guadalajara,1280,Marítimo,12447.95
+Guayaquil,Panamá,2123,Aéreo,17481.83
+Guayaquil,Arequipa,2312,Camión,11277.2
+La Paz,Ciudad de México,1411,Marítimo,12731.45
+Panamá,Guadalajara,2066,Marítimo,8036.18
+Córdoba,La Paz,1881,Marítimo,12986.8
+Santiago,Córdoba,900,Marítimo,7758.07
+Medellín,Ciudad de México,825,Camión,4275.42
+San José,Monterrey,1896,Aéreo,13141.64
+Monterrey,Guayaquil,1833,Camión,6843.54
+Asunción,Monterrey,1774,Aéreo,5104.31
+Guayaquil,Monterrey,132,Marítimo,576.93
+Ciudad de México,San José,913,Aéreo,5689.8
+Guadalajara,Quito,278,Aéreo,1087.58
+La Paz,Arequipa,985,Aéreo,9538.16
+Bogotá,Monterrey,1301,Camión,11660.79
+Cali,Córdoba,257,Marítimo,1042.56
+San José,Tijuana,1456,Aéreo,8040.84
+San José,Guayaquil,1102,Aéreo,6909.63
+Monterrey,Córdoba,2926,Aéreo,14521.82
+La Paz,Panamá,1772,Camión,7342.7
+Monterrey,Asunción,492,Aéreo,4707.94
+La Paz,Ciudad de México,1006,Aéreo,7479.23
+Buenos Aires,La Paz,2224,Marítimo,16882.97
+Quito,Monterrey,2098,Aéreo,15341.06
+Ciudad de México,Panamá,2547,Camión,12651.12
+Bogotá,Monterrey,1672,Marítimo,5710.41
+Cali,Córdoba,2871,Camión,28301.56
+Guayaquil,Valparaíso,2693,Aéreo,15460.91
+Guadalajara,Bogotá,397,Marítimo,2753.05
+Cali,Arequipa,2167,Marítimo,5436.81
+Quito,Santiago,1857,Marítimo,9432.96
+Cali,Arequipa,1631,Marítimo,15298.23
+Guadalajara,Monterrey,119,Marítimo,638.54
+Puebla,Guadalajara,1015,Marítimo,8344.13
+Arequipa,Puebla,1952,Marítimo,6268.98
+Asunción,Córdoba,2919,Marítimo,16639.57
+Valparaíso,Puebla,609,Camión,5519.74
+Lima,Valparaíso,2589,Marítimo,22172.02
+Guayaquil,Lima,2265,Marítimo,11085.4
+Cali,Asunción,1178,Camión,4697.88
+Asunción,La Paz,2181,Marítimo,11490.05
+Monterrey,Quito,2768,Marítimo,8785.34
+Quito,Valparaíso,1917,Marítimo,10297.68
+Tijuana,Valparaíso,2765,Aéreo,16210.82
+Valparaíso,Arequipa,844,Camión,3676.69
+San José,Valparaíso,2976,Aéreo,11824.52
+La Paz,Arequipa,658,Aéreo,3040.66
+Panamá,Arequipa,2467,Marítimo,17544.22
+Buenos Aires,Cali,1843,Aéreo,17788.86
+Córdoba,Puebla,2481,Aéreo,24389.23
+Panamá,Buenos Aires,1662,Camión,15941.54
+Buenos Aires,Guayaquil,294,Aéreo,1574.06
+Asunción,Tijuana,253,Camión,1092.59
+Córdoba,Arequipa,2558,Camión,14008.56
+Quito,Arequipa,2991,Camión,21076.99
+Bogotá,Monterrey,860,Marítimo,3448.06
+Guadalajara,Valparaíso,451,Marítimo,1373.37
+La Paz,Valparaíso,1460,Aéreo,8362.21
+Puebla,Guayaquil,2712,Aéreo,23611.94
+Valparaíso,Guayaquil,1605,Marítimo,5936.4
+Guadalajara,Bogotá,188,Camión,1448.08
+Guadalajara,Lima,2908,Marítimo,26451.86
+Guayaquil,Cali,70,Aéreo,366.67
+Quito,Ciudad de México,2969,Camión,24584.17
+Guayaquil,Arequipa,95,Aéreo,685.72
+La Paz,Asunción,72,Marítimo,477.31
+Lima,Arequipa,2044,Aéreo,7011.5
+Quito,Medellín,316,Marítimo,804.4
+Lima,Guayaquil,1444,Aéreo,10239.07
+Ciudad de México,Buenos Aires,623,Marítimo,3635.65
+Quito,Cali,1995,Aéreo,10928.98
+Panamá,Tijuana,2406,Camión,9360.62
+Buenos Aires,Monterrey,2541,Camión,20468.52
+Lima,Quito,893,Camión,2242.84
+Bogotá,Monterrey,430,Aéreo,3526.89
+Monterrey,Tijuana,699,Camión,3789.77
+Arequipa,Cali,2681,Aéreo,18132.68
+Buenos Aires,La Paz,2199,Camión,11073.2
+Asunción,Santiago,2605,Marítimo,21929.17
+Córdoba,Lima,184,Marítimo,1619.13
+La Paz,Córdoba,1272,Marítimo,12216.78
+Córdoba,La Paz,906,Aéreo,3015.31
+Lima,Cali,2278,Camión,11533.81
+Guayaquil,Lima,1655,Camión,5842.14
+La Paz,Medellín,299,Camión,2965.11
+Lima,La Paz,505,Marítimo,3140.99
+Medellín,Ciudad de México,1120,Marítimo,3938.56
+Quito,Panamá,1108,Aéreo,9942.63
+Arequipa,Lima,1925,Aéreo,13895.05
+Lima,Panamá,406,Camión,2030.77
+Guadalajara,Panamá,2686,Aéreo,15420.68
+Córdoba,Tijuana,702,Camión,3787.73
+Córdoba,Tijuana,132,Marítimo,878.11
+Arequipa,Tijuana,1846,Aéreo,13193.01
+Quito,La Paz,823,Camión,5799.21
+Valparaíso,Buenos Aires,1152,Camión,4847.2
+Panamá,Guadalajara,428,Aéreo,2415.0
+Ciudad de México,San José,987,Aéreo,8938.5
+Bogotá,Asunción,1076,Aéreo,9901.69
+Lima,Ciudad de México,1498,Marítimo,11646.86
+Medellín,Cali,2955,Camión,21694.87
+Monterrey,Guadalajara,2403,Camión,12612.0
+Bogotá,Cali,1941,Camión,13145.37
+Guadalajara,Santiago,1593,Camión,6388.73
+Guadalajara,Guayaquil,2289,Aéreo,10780.19
+Tijuana,Córdoba,2051,Camión,12613.04
+Guadalajara,Cali,2134,Marítimo,8838.88
+Córdoba,Quito,2784,Aéreo,19729.13
+Arequipa,Santiago,558,Aéreo,4114.52
+Córdoba,Quito,1379,Camión,9701.27
+Córdoba,Cali,1555,Aéreo,3944.67
+Córdoba,Puebla,1819,Camión,5879.51
+Ciudad de México,Guayaquil,2573,Aéreo,21985.56
+Santiago,Cali,1975,Camión,8169.17
+Ciudad de México,Córdoba,1630,Camión,10282.18
+Ciudad de México,La Paz,1034,Camión,4038.97
+Panamá,Tijuana,2718,Aéreo,11181.92
+La Paz,Guadalajara,815,Camión,7282.41
+Puebla,Tijuana,321,Marítimo,1004.21
+Quito,Medellín,1775,Marítimo,16409.95
+Panamá,Valparaíso,1979,Marítimo,15752.89
+Ciudad de México,Medellín,731,Aéreo,3067.37
+Bogotá,Valparaíso,1585,Camión,12043.53
+Lima,Bogotá,2149,Marítimo,8483.73
+Guayaquil,Guadalajara,398,Marítimo,3108.61
+Santiago,Medellín,1832,Camión,8471.86
+Arequipa,San José,822,Marítimo,4674.85
+Panamá,Guayaquil,1129,Camión,10018.95
+Quito,La Paz,1785,Aéreo,10692.1
+Guadalajara,Asunción,2183,Aéreo,21055.14
+Guadalajara,Bogotá,1652,Marítimo,5335.47
+Lima,Tijuana,328,Camión,1365.68
+Tijuana,Córdoba,1080,Aéreo,10179.42
+Bogotá,Monterrey,204,Aéreo,1400.74
+Bogotá,Santiago,2634,Camión,19033.43
+Arequipa,Tijuana,1180,Aéreo,5053.06
+Lima,Puebla,1136,Aéreo,4023.13
+Monterrey,Valparaíso,419,Camión,1170.63
+Ciudad de México,Bogotá,1113,Aéreo,5000.03
+Cali,Bogotá,973,Aéreo,3803.66
+Monterrey,Guayaquil,2018,Marítimo,12483.0
+Guadalajara,Arequipa,2709,Aéreo,10594.67
+Panamá,Lima,2960,Aéreo,10864.98
+Guadalajara,Buenos Aires,2521,Aéreo,12271.52
+Ciudad de México,Arequipa,1116,Camión,9255.79
+Arequipa,Asunción,2397,Marítimo,14408.69
+Bogotá,Asunción,1242,Aéreo,10985.73
+Guayaquil,Bogotá,761,Camión,2549.22
+Quito,Lima,2648,Camión,16534.03
+Valparaíso,Guayaquil,2807,Marítimo,10795.18
+Arequipa,Buenos Aires,2689,Camión,12273.54
+Monterrey,Asunción,2727,Aéreo,7816.57
+Monterrey,Arequipa,1345,Camión,11400.07
+Santiago,Bogotá,1167,Aéreo,11559.18
+Santiago,Guadalajara,877,Marítimo,3511.27
+Guayaquil,Asunción,498,Marítimo,4546.51
+Arequipa,Monterrey,1873,Camión,7449.29
+Bogotá,Panamá,2850,Aéreo,23250.64
+Bogotá,Monterrey,2786,Camión,9811.97
+Medellín,Monterrey,210,Aéreo,1653.44
+La Paz,Monterrey,2504,Aéreo,22458.97
+Valparaíso,Cali,1947,Aéreo,12778.29
+Quito,Medellín,1861,Camión,7222.08
+Cali,Panamá,1312,Marítimo,7494.88
+Cali,Panamá,367,Camión,1375.31
+Santiago,Puebla,173,Camión,950.7
+Medellín,Guadalajara,2521,Marítimo,12864.63
+Guadalajara,Monterrey,903,Camión,6475.9
+Asunción,Medellín,137,Marítimo,1298.59
+Valparaíso,Guadalajara,2305,Camión,13712.09
+Ciudad de México,Monterrey,1133,Marítimo,3542.53
+San José,Tijuana,1848,Camión,6562.07
+Buenos Aires,Arequipa,2096,Camión,20957.59
+Lima,Puebla,2737,Marítimo,25339.55
+Panamá,La Paz,201,Marítimo,1466.05
+Lima,Córdoba,2434,Camión,20837.33
+Santiago,Quito,1848,Marítimo,15395.6
+Puebla,Córdoba,2869,Marítimo,14201.77
+Puebla,Valparaíso,834,Aéreo,3446.52
+Valparaíso,Medellín,2051,Camión,16572.78
+Monterrey,Córdoba,1376,Aéreo,9798.64
+Asunción,San José,1715,Camión,16269.16
+La Paz,Guayaquil,1350,Aéreo,4832.56
+Córdoba,Guadalajara,694,Aéreo,3476.84
+Guayaquil,Quito,382,Marítimo,3237.14
+Quito,Bogotá,1621,Aéreo,5834.4
+Buenos Aires,Puebla,933,Camión,5488.69
+Córdoba,Arequipa,499,Camión,4982.08
+Monterrey,Guayaquil,2439,Camión,21691.57
+Valparaíso,Tijuana,120,Camión,1102.25
+Córdoba,Medellín,1634,Aéreo,8425.32
+Buenos Aires,Lima,1229,Camión,9932.5
+San José,Tijuana,1540,Aéreo,9477.21
+Santiago,Guayaquil,2920,Aéreo,19069.8
+Puebla,Buenos Aires,309,Marítimo,2406.83
+Ciudad de México,Arequipa,2815,Camión,24808.35
+Medellín,Tijuana,217,Aéreo,2143.0
+Guadalajara,Bogotá,1809,Marítimo,15163.51
+Córdoba,Arequipa,2560,Aéreo,24590.4
+Guayaquil,Ciudad de México,1708,Marítimo,6093.58
+Arequipa,Monterrey,661,Camión,5740.12
+Medellín,Ciudad de México,1554,Aéreo,9446.5
+La Paz,Arequipa,1098,Aéreo,4297.72
+Puebla,Buenos Aires,2245,Camión,10674.02
+Guadalajara,Córdoba,1585,Camión,15070.95
+Arequipa,Córdoba,1418,Aéreo,5450.57
+Guadalajara,Córdoba,1997,Marítimo,13986.63
+La Paz,Quito,248,Aéreo,657.85
+Ciudad de México,Tijuana,1508,Camión,8902.03
+Ciudad de México,La Paz,2958,Camión,12182.6
+Arequipa,Buenos Aires,2781,Marítimo,23019.28
+Tijuana,Bogotá,1377,Marítimo,12829.56
+Cali,Bogotá,360,Camión,3268.85
+Valparaíso,Guayaquil,1353,Marítimo,12951.5
+Valparaíso,Medellín,2921,Camión,22609.12
+Panamá,Tijuana,593,Camión,5707.31
+Panamá,Medellín,2058,Aéreo,12643.12
+Guadalajara,Medellín,1745,Camión,12166.92
+Medellín,Panamá,1527,Camión,4737.67
+Buenos Aires,La Paz,2364,Aéreo,18721.18
+Quito,Panamá,1945,Camión,6676.99
+Quito,Bogotá,2799,Marítimo,15107.83
+Ciudad de México,Guayaquil,1919,Aéreo,6137.46
+Valparaíso,Buenos Aires,1848,Aéreo,14053.29
+Valparaíso,Guayaquil,1691,Marítimo,13116.35
+Puebla,Arequipa,2629,Aéreo,10608.79
+Panamá,Córdoba,2070,Marítimo,14435.22
+La Paz,Lima,1944,Marítimo,9617.49
+Puebla,Santiago,2959,Aéreo,13042.35
+Valparaíso,San José,626,Marítimo,1818.57
+Buenos Aires,Monterrey,1705,Camión,7090.39
+Buenos Aires,Asunción,2252,Marítimo,22255.4
+Asunción,Monterrey,2020,Camión,18748.44
+Cali,Monterrey,2771,Camión,17531.71
+Buenos Aires,La Paz,663,Camión,5959.85
+Lima,Valparaíso,1702,Camión,15649.81
+Lima,Buenos Aires,590,Aéreo,2487.37
+Quito,Buenos Aires,1730,Aéreo,10852.31
+Tijuana,Córdoba,1246,Aéreo,11134.53
+Bogotá,La Paz,2149,Camión,10420.53
+San José,Medellín,2047,Aéreo,6939.98
+Guadalajara,Tijuana,2295,Aéreo,17777.51
+Ciudad de México,Cali,822,Aéreo,5178.02
+Buenos Aires,Ciudad de México,1875,Aéreo,18524.71
+Quito,Puebla,356,Camión,1882.55
+Monterrey,La Paz,1450,Aéreo,9509.89
+Córdoba,Lima,1261,Aéreo,10668.96
+San José,Medellín,2402,Aéreo,16858.79
+Bogotá,Ciudad de México,2157,Marítimo,15228.21
+Asunción,Medellín,724,Camión,7108.46
+La Paz,Panamá,2572,Aéreo,12986.75
+Medellín,Valparaíso,1834,Aéreo,13034.56
+Puebla,Córdoba,849,Marítimo,3591.93
+Medellín,Panamá,678,Marítimo,5195.39
+Ciudad de México,Córdoba,2895,Aéreo,19257.15
+Lima,Asunción,2739,Aéreo,13468.45
+Panamá,Arequipa,416,Aéreo,3584.55
+Guadalajara,Monterrey,1802,Aéreo,7898.87
+Ciudad de México,Santiago,1951,Aéreo,16092.05
+Guayaquil,Tijuana,2354,Aéreo,14822.8
+Buenos Aires,Cali,53,Marítimo,322.81
+Arequipa,Ciudad de México,773,Aéreo,3139.08
+Lima,Ciudad de México,465,Camión,1407.61
+Bogotá,Medellín,970,Camión,3105.75
+La Paz,Medellín,751,Marítimo,3574.31
+Valparaíso,Guadalajara,2258,Marítimo,16842.17
+Santiago,Medellín,194,Marítimo,1635.97
+Puebla,Medellín,151,Camión,451.82
+Ciudad de México,Quito,2636,Aéreo,19221.34
+San José,Quito,2764,Aéreo,16101.18
+Bogotá,Cali,2488,Camión,7844.03
+Medellín,Santiago,1657,Marítimo,4178.35
+Lima,Puebla,176,Aéreo,869.89
+Cali,Valparaíso,1017,Aéreo,4072.18
+Puebla,Arequipa,2734,Aéreo,8549.83
+Guayaquil,La Paz,2552,Marítimo,25462.98
+La Paz,Santiago,719,Marítimo,3495.34
+Quito,Cali,316,Aéreo,2523.96
+San José,Asunción,2880,Camión,11716.14
+Buenos Aires,Guadalajara,1240,Marítimo,5568.65
+Panamá,Puebla,1638,Camión,5100.37
+Valparaíso,Lima,911,Aéreo,6209.06
+Quito,Guayaquil,1335,Marítimo,10920.17
+Asunción,Panamá,560,Aéreo,2122.26
+Panamá,Córdoba,2041,Camión,12115.88
+La Paz,Asunción,1478,Marítimo,12912.01
+Monterrey,Ciudad de México,2398,Aéreo,14374.18
+Santiago,Cali,2525,Marítimo,12375.99
+Guayaquil,La Paz,1810,Marítimo,13290.32
+Lima,La Paz,2822,Aéreo,25455.38
+Buenos Aires,Medellín,1035,Camión,4379.63
+Panamá,Bogotá,215,Camión,706.36
+Cali,Puebla,2991,Camión,12167.06
+Tijuana,Córdoba,878,Aéreo,3681.48
+Córdoba,Valparaíso,1572,Camión,15379.74
+Guayaquil,Ciudad de México,912,Aéreo,3359.3
+Tijuana,San José,2987,Camión,8625.08
+Puebla,Santiago,715,Marítimo,3222.01
+Guadalajara,Tijuana,952,Camión,7224.59
+Arequipa,Santiago,624,Aéreo,2076.23
+San José,Puebla,1584,Aéreo,9028.38
+Santiago,Monterrey,2184,Camión,14699.13
+Puebla,Quito,2501,Marítimo,7002.24
+La Paz,Quito,452,Camión,2517.79
+Córdoba,Bogotá,417,Camión,2187.16
+Lima,Guadalajara,602,Marítimo,2453.65
+Panamá,Guayaquil,1690,Marítimo,9401.73
+Arequipa,Ciudad de México,1514,Camión,12649.0
+Guadalajara,Córdoba,2377,Camión,15882.48
+Valparaíso,Monterrey,1968,Marítimo,11176.24
+Bogotá,San José,2262,Aéreo,7234.01
+Córdoba,Guadalajara,1766,Camión,15539.44
+Monterrey,Santiago,1808,Aéreo,12144.01
+Santiago,Guayaquil,751,Marítimo,3461.04
+Monterrey,Medellín,248,Aéreo,2087.38
+Ciudad de México,Panamá,1159,Marítimo,6679.62
+Guayaquil,Lima,2544,Camión,23984.35
+Medellín,Córdoba,2843,Marítimo,19464.32
+Puebla,Arequipa,2515,Marítimo,12167.82
+Quito,Córdoba,1518,Camión,11196.07
+Monterrey,San José,2120,Aéreo,17989.59
+Lima,Puebla,1033,Aéreo,4030.4
+Medellín,Quito,497,Aéreo,1420.09
+Guayaquil,Córdoba,131,Marítimo,1113.6
+Lima,Asunción,2285,Camión,22398.78
+Guadalajara,Lima,72,Marítimo,351.57
+Medellín,Santiago,2666,Marítimo,25677.12
+Córdoba,Asunción,475,Camión,1951.25
+Medellín,San José,2023,Aéreo,16924.03
+Córdoba,Guayaquil,2301,Marítimo,22869.6
+Guayaquil,Puebla,1954,Camión,17963.57
+Medellín,Panamá,283,Camión,2014.84
+Guadalajara,Medellín,2205,Marítimo,9470.74
+Tijuana,Buenos Aires,2025,Camión,14271.55
+Tijuana,Lima,1972,Marítimo,12656.34
+Bogotá,Monterrey,1724,Marítimo,11537.39
+Monterrey,Bogotá,402,Aéreo,1826.49
+Ciudad de México,Tijuana,2224,Aéreo,17272.77
+Buenos Aires,Ciudad de México,949,Marítimo,5180.0
+Puebla,Bogotá,1989,Camión,19215.32
+Medellín,Cali,2518,Marítimo,9986.63
+Monterrey,La Paz,636,Camión,3940.68
+Valparaíso,Quito,404,Camión,1404.06
+Guadalajara,Ciudad de México,1661,Marítimo,14102.89
+Buenos Aires,Guadalajara,56,Camión,528.09
+Monterrey,Cali,1933,Marítimo,5198.8
+Córdoba,Guadalajara,1212,Marítimo,3181.86
+Quito,Tijuana,2759,Aéreo,17038.35
+Tijuana,Ciudad de México,1020,Camión,3939.54
+Asunción,Bogotá,1637,Marítimo,15494.8
+La Paz,Valparaíso,227,Marítimo,1786.56
+Guayaquil,Puebla,379,Marítimo,1638.4
+Asunción,Valparaíso,518,Aéreo,3088.21
+Córdoba,Quito,685,Marítimo,2069.85
+Panamá,Valparaíso,2285,Camión,7217.77
+Guadalajara,Puebla,2918,Aéreo,23777.65
+Valparaíso,Ciudad de México,2442,Aéreo,11305.01
+Tijuana,Córdoba,953,Marítimo,2634.94
+La Paz,Guadalajara,1094,Aéreo,3931.22
+San José,Cali,557,Camión,3010.5
+Quito,Bogotá,792,Aéreo,7296.99
+Lima,Guayaquil,903,Aéreo,7256.51
+Quito,Panamá,117,Aéreo,1019.3
+Lima,Monterrey,1896,Camión,12755.35
+Quito,Medellín,2346,Camión,11967.67
+Quito,Buenos Aires,1694,Camión,9624.15
+Valparaíso,Asunción,2426,Marítimo,17683.08
+Ciudad de México,Valparaíso,2273,Camión,16276.24
+Arequipa,Lima,850,Marítimo,5163.53
+Córdoba,Guayaquil,1316,Marítimo,5326.02
+Buenos Aires,Medellín,1903,Aéreo,15635.21
+San José,Lima,1649,Marítimo,13754.41
+Córdoba,Tijuana,2188,Aéreo,9757.4
+Arequipa,Buenos Aires,392,Aéreo,2097.48
+Buenos Aires,Ciudad de México,718,Aéreo,2908.67
+Medellín,Guayaquil,2743,Marítimo,23408.85
+Ciudad de México,Guayaquil,2743,Aéreo,14237.6
+Ciudad de México,Medellín,410,Aéreo,3978.53
+Guadalajara,Bogotá,2191,Camión,16977.69
+Ciudad de México,San José,337,Camión,2238.61
+Tijuana,Guayaquil,1112,Aéreo,11090.36
+Guadalajara,Ciudad de México,1020,Marítimo,3331.17
+Ciudad de México,Bogotá,704,Camión,1902.45
+La Paz,San José,687,Marítimo,4421.99
+Guayaquil,Santiago,966,Marítimo,6219.63
+Santiago,Buenos Aires,2268,Camión,12092.43
+Bogotá,Cali,92,Camión,305.06
+Quito,Tijuana,738,Aéreo,3185.32
+Santiago,Puebla,2020,Camión,9068.86
+Córdoba,Medellín,1199,Marítimo,5257.9
+Tijuana,Arequipa,1519,Aéreo,5666.62
+Guayaquil,Asunción,2991,Camión,12186.19
+Asunción,Guayaquil,1246,Marítimo,5329.67
+Santiago,Monterrey,2249,Marítimo,6165.61
+Lima,Monterrey,1488,Marítimo,14146.97
+Puebla,Panamá,2357,Marítimo,23114.44
+Santiago,San José,1162,Marítimo,11004.44
+Ciudad de México,Valparaíso,1765,Aéreo,11213.39
+Guadalajara,Córdoba,2937,Camión,8185.36
+San José,Puebla,2620,Aéreo,24282.54
+Buenos Aires,Santiago,309,Marítimo,1809.28
+Lima,Buenos Aires,953,Camión,8894.61
+Cali,La Paz,1340,Marítimo,4003.22
+Buenos Aires,Ciudad de México,173,Camión,507.06
+Puebla,Lima,1105,Marítimo,3599.2
+La Paz,Monterrey,504,Camión,5031.52
+Panamá,La Paz,1870,Marítimo,8205.15
+Puebla,Monterrey,193,Marítimo,1337.23
+La Paz,Córdoba,2590,Camión,12293.3
+Puebla,Asunción,2194,Marítimo,10758.74
+Bogotá,Guayaquil,2320,Camión,7102.47
+Quito,Guayaquil,533,Camión,1963.16
+Quito,La Paz,1652,Camión,13842.97
+Bogotá,Buenos Aires,1780,Camión,13843.25
+Monterrey,Ciudad de México,2553,Aéreo,13010.07
+Puebla,Ciudad de México,1125,Camión,7045.68
+Panamá,Asunción,970,Camión,4012.32
+Arequipa,Guadalajara,1248,Camión,7782.24
+Lima,Asunción,1701,Marítimo,6926.3
+Arequipa,Guayaquil,368,Camión,2289.39
+Arequipa,Lima,185,Marítimo,1384.06
+Arequipa,Panamá,2468,Aéreo,23709.89
+Guayaquil,Quito,2929,Camión,28035.07
+Córdoba,Arequipa,2224,Camión,16073.52
+San José,Panamá,2407,Camión,19865.2
+Asunción,La Paz,1239,Aéreo,7606.46
+Arequipa,La Paz,918,Marítimo,2904.99
+La Paz,Arequipa,1368,Aéreo,5821.33
+Puebla,Buenos Aires,1080,Camión,6911.68
+Medellín,Lima,1342,Marítimo,11230.82
+Medellín,Quito,2707,Camión,18734.38
+Arequipa,Quito,735,Aéreo,3718.37
+Guayaquil,Arequipa,2590,Camión,17037.32
+Cali,Ciudad de México,1068,Marítimo,10654.25
+Asunción,Lima,2596,Camión,19130.56
+Ciudad de México,Valparaíso,2543,Marítimo,10505.72
+Valparaíso,Lima,2199,Aéreo,21075.98
+Puebla,Arequipa,1162,Aéreo,11437.97
+Puebla,La Paz,233,Marítimo,1917.89
+Tijuana,San José,998,Marítimo,8199.61
+Ciudad de México,Córdoba,410,Aéreo,3167.91
+Lima,Santiago,2913,Aéreo,24752.71
+Córdoba,Guayaquil,322,Camión,860.74
+Buenos Aires,Valparaíso,217,Camión,1204.53
+Arequipa,Bogotá,1255,Aéreo,9358.49
+Asunción,Monterrey,1386,Camión,8306.57
+Lima,Tijuana,2292,Aéreo,11694.0
+Puebla,Lima,1332,Aéreo,5846.91
+Quito,Guadalajara,738,Camión,1968.75
+Córdoba,Asunción,591,Camión,5412.19
+Monterrey,Guadalajara,670,Aéreo,6312.48
+Tijuana,Monterrey,2306,Aéreo,19177.35
+Córdoba,Quito,2425,Camión,17215.82
+Medellín,Bogotá,2292,Camión,16239.56
+Santiago,Córdoba,1575,Camión,5224.96
+Monterrey,Puebla,1767,Camión,4791.25
+Tijuana,San José,1802,Marítimo,9941.82
+Guadalajara,Panamá,934,Aéreo,2507.25
+Quito,Panamá,289,Marítimo,1377.96
+Ciudad de México,Santiago,1947,Aéreo,9969.19
+Monterrey,Valparaíso,1816,Camión,9859.46
+Guayaquil,Bogotá,1852,Aéreo,5078.76
+Santiago,Guayaquil,1594,Marítimo,6446.44
+Cali,Guadalajara,1845,Marítimo,14508.71
+Guayaquil,Asunción,1003,Aéreo,6043.55
+Medellín,Córdoba,1827,Aéreo,12054.68
+Quito,Córdoba,2133,Aéreo,7159.92
+Asunción,Arequipa,1028,Marítimo,6325.17
+Ciudad de México,Medellín,2898,Marítimo,22012.33
+Arequipa,Cali,2967,Camión,19219.51
+Arequipa,Panamá,1726,Aéreo,17147.71
+Guayaquil,Puebla,200,Aéreo,1922.66
+Ciudad de México,Cali,445,Marítimo,4064.45
+Monterrey,Guayaquil,295,Marítimo,985.47
+Bogotá,Santiago,483,Aéreo,2388.31
+Monterrey,Córdoba,203,Marítimo,1523.94
+Quito,La Paz,1405,Camión,9734.96
+La Paz,Buenos Aires,1985,Marítimo,15573.95
+Cali,Tijuana,2855,Marítimo,12048.92
+Buenos Aires,Panamá,2005,Marítimo,15963.78
+Valparaíso,Córdoba,688,Marítimo,4758.72
+Arequipa,Santiago,2147,Marítimo,12601.93
+Arequipa,Puebla,911,Aéreo,5687.95
+Medellín,Córdoba,60,Camión,159.56
+Puebla,San José,794,Marítimo,6727.74
+Arequipa,Ciudad de México,592,Aéreo,5274.53
+Asunción,Buenos Aires,1578,Marítimo,14961.4
+La Paz,Panamá,2413,Aéreo,21296.86
+Monterrey,Guayaquil,614,Camión,4517.28
+Valparaíso,Córdoba,146,Aéreo,729.21
+Córdoba,Medellín,1493,Marítimo,4788.21
+San José,Guayaquil,2382,Camión,18025.3
+San José,Tijuana,2303,Aéreo,6323.47
+Tijuana,Panamá,2813,Camión,15667.54
+Medellín,Valparaíso,2217,Marítimo,9872.98
+Buenos Aires,Lima,2306,Camión,16569.07
+Puebla,Panamá,953,Aéreo,4010.23
+Puebla,Guadalajara,2295,Camión,8092.36
+Monterrey,Valparaíso,1713,Aéreo,14053.61
+Guayaquil,Quito,965,Aéreo,9277.69
+Guayaquil,Córdoba,1201,Aéreo,9497.25
+Arequipa,Córdoba,1327,Camión,11209.51
+La Paz,Puebla,2226,Camión,9944.15
+Arequipa,Lima,2692,Aéreo,11374.91
+Arequipa,Córdoba,2924,Marítimo,17900.59
+Córdoba,Quito,819,Aéreo,7446.37
+Quito,Puebla,2210,Aéreo,8380.32
+Panamá,Tijuana,294,Aéreo,1458.8
+Panamá,La Paz,211,Aéreo,1279.46
+Lima,Ciudad de México,1320,Camión,4651.35
+Buenos Aires,Monterrey,1673,Camión,6046.13
+Valparaíso,Ciudad de México,1367,Marítimo,6493.02
+Guayaquil,Valparaíso,1052,Camión,6480.91
+Bogotá,Córdoba,2533,Marítimo,19984.72
+Arequipa,Buenos Aires,1482,Aéreo,6455.64
+Medellín,Asunción,2023,Aéreo,14097.21
+La Paz,Monterrey,1596,Aéreo,4689.93
+Puebla,Valparaíso,603,Aéreo,2516.3
+San José,Cali,2332,Camión,8162.8
+Arequipa,Cali,1905,Marítimo,9224.97
+Cali,Quito,2067,Aéreo,19659.06
+Santiago,Puebla,965,Marítimo,8550.19
+Arequipa,Tijuana,2107,Camión,13787.07
+Lima,Valparaíso,1482,Camión,11937.71
+Bogotá,Arequipa,2504,Marítimo,20701.77
+Panamá,Tijuana,1072,Aéreo,8723.66
+Panamá,Asunción,792,Camión,5831.36
+Valparaíso,Lima,1990,Marítimo,5461.49
+Bogotá,La Paz,479,Aéreo,4193.81
+Santiago,Cali,712,Marítimo,4827.71
+Guadalajara,Santiago,226,Aéreo,1201.7
+Puebla,Monterrey,402,Aéreo,3304.42
+La Paz,Arequipa,1699,Camión,16145.45
+Guayaquil,Buenos Aires,456,Aéreo,2180.45
+Buenos Aires,Guayaquil,383,Aéreo,3144.73
+Asunción,Guadalajara,1053,Camión,5576.1
+Córdoba,Buenos Aires,1530,Marítimo,9960.63
+Guadalajara,Puebla,1288,Camión,11083.01
+Bogotá,Buenos Aires,944,Aéreo,7248.79
+La Paz,San José,2117,Aéreo,8363.91
+Córdoba,Medellín,2702,Camión,10030.1
+Panamá,Guayaquil,660,Camión,5258.5
+Tijuana,Valparaíso,176,Aéreo,1417.98
+San José,Medellín,2137,Camión,17137.44
+Bogotá,Tijuana,2054,Aéreo,8051.0
+Guayaquil,Cali,992,Aéreo,5476.87
+Guayaquil,Valparaíso,1706,Aéreo,6349.08
+Medellín,Buenos Aires,526,Camión,3297.82
+Valparaíso,Tijuana,177,Marítimo,1598.67
+Bogotá,Córdoba,973,Camión,8343.67
+Córdoba,Valparaíso,482,Marítimo,1309.26
+Medellín,Arequipa,2829,Marítimo,18880.23
+Lima,Santiago,613,Marítimo,1917.73
+Medellín,San José,925,Aéreo,2535.67
+Quito,Córdoba,2862,Aéreo,27016.13
+Tijuana,Guayaquil,1261,Marítimo,4686.56
+Cali,Santiago,1119,Camión,10846.29
+San José,Monterrey,1760,Marítimo,11951.47
+Arequipa,Medellín,1069,Aéreo,8196.76
+Panamá,Lima,159,Aéreo,838.03
+Valparaíso,Medellín,693,Camión,5411.05
+Santiago,Guadalajara,1702,Camión,9649.16
+Quito,San José,61,Marítimo,313.54
+Guadalajara,Quito,2194,Marítimo,16474.72
+Buenos Aires,Lima,2911,Aéreo,13600.32
+Puebla,Cali,1095,Camión,9173.31
+Tijuana,Monterrey,1850,Camión,13013.18
+Ciudad de México,Bogotá,2214,Aéreo,10350.81
+Cali,Arequipa,1621,Camión,8891.49
+Lima,Ciudad de México,682,Marítimo,2765.33
+Buenos Aires,Tijuana,686,Aéreo,2893.61
+Cali,La Paz,510,Aéreo,3423.71
+Quito,Lima,2096,Camión,11098.12
+Tijuana,Santiago,2691,Marítimo,25570.54
+Arequipa,San José,999,Marítimo,3407.03
+San José,Tijuana,1847,Aéreo,17877.77
+Asunción,Medellín,776,Marítimo,2598.64
+Valparaíso,Santiago,1478,Aéreo,9212.44
+Medellín,Cali,2412,Marítimo,17897.67
+Panamá,La Paz,436,Aéreo,1207.94
+Buenos Aires,Cali,2466,Marítimo,6370.7
+San José,Bogotá,2725,Camión,25726.62
+Bogotá,Panamá,2859,Marítimo,7381.33
+Tijuana,Santiago,2433,Aéreo,12996.9
+Panamá,Bogotá,1865,Marítimo,7836.52
+Córdoba,Lima,2143,Marítimo,14187.31
+Medellín,Cali,2364,Camión,22442.9
+Córdoba,Cali,2775,Aéreo,15176.04
+Guadalajara,Buenos Aires,1640,Camión,9701.33
+Guayaquil,La Paz,716,Camión,3864.04
+Buenos Aires,Córdoba,885,Aéreo,5369.85
+Medellín,Santiago,2876,Marítimo,28571.13
+Valparaíso,Buenos Aires,1022,Marítimo,7237.81
+Puebla,Valparaíso,1628,Aéreo,8330.78
+Medellín,Buenos Aires,1425,Marítimo,8048.23
+San José,Santiago,2194,Aéreo,19538.57
+Monterrey,Asunción,2893,Aéreo,9543.98
+Santiago,Monterrey,264,Marítimo,1938.5
+Córdoba,Quito,1826,Aéreo,4767.52
+Monterrey,Panamá,1905,Aéreo,17886.51
+Córdoba,Lima,291,Marítimo,977.2
+Córdoba,Santiago,2520,Aéreo,20119.07
+San José,Monterrey,1701,Camión,5154.72
+La Paz,Ciudad de México,79,Camión,279.01
+Bogotá,Valparaíso,1679,Camión,14443.41
+Lima,Santiago,626,Aéreo,5052.21
+Tijuana,Cali,108,Marítimo,933.51
+Buenos Aires,Quito,1847,Aéreo,13000.87
+Cali,Puebla,1876,Marítimo,15672.11
+Guayaquil,Buenos Aires,1839,Aéreo,14823.07
+Cali,Medellín,817,Camión,7934.56
+Santiago,Bogotá,2741,Camión,7577.9
+Santiago,Buenos Aires,184,Aéreo,1722.93
+San José,Córdoba,1388,Aéreo,3964.65
+Monterrey,Santiago,2557,Camión,17267.24
+Tijuana,Guayaquil,2605,Marítimo,8508.52
+Asunción,Bogotá,451,Aéreo,1838.28
+Puebla,Arequipa,1167,Aéreo,8937.86
+Santiago,Guadalajara,1052,Camión,7466.88
+Valparaíso,Buenos Aires,1675,Camión,4926.64
+Córdoba,Quito,2515,Aéreo,24265.9
+Quito,La Paz,2572,Aéreo,14852.93
+Monterrey,Cali,988,Aéreo,3693.71
+Valparaíso,Cali,1587,Marítimo,11440.58
+Ciudad de México,Valparaíso,1295,Camión,8955.39
+Medellín,Lima,2996,Camión,13005.07
+Asunción,Ciudad de México,1027,Aéreo,8591.58
+Asunción,Guayaquil,1193,Marítimo,9691.61
+Córdoba,Guayaquil,2661,Marítimo,13857.93
+Santiago,Asunción,2635,Marítimo,7694.57
+Puebla,Medellín,358,Aéreo,1490.68
+Guadalajara,San José,2351,Camión,14679.58
+La Paz,Tijuana,205,Camión,1750.89
+La Paz,Santiago,1876,Camión,8529.01
+Bogotá,San José,2874,Camión,10567.23
+San José,Guayaquil,2342,Marítimo,8152.95
+Cali,Medellín,837,Marítimo,5777.02
+Guadalajara,Arequipa,372,Camión,2113.12
+Santiago,Guadalajara,2872,Camión,10091.74
+Lima,Buenos Aires,673,Aéreo,3752.73
+Lima,Bogotá,1707,Aéreo,4626.68
+La Paz,Monterrey,2291,Camión,7636.68
+Arequipa,Cali,2395,Marítimo,10932.89
+Guadalajara,Medellín,768,Aéreo,5480.59
+Valparaíso,Quito,847,Camión,8241.58
+Buenos Aires,Cali,1297,Camión,6818.53
+Guadalajara,Bogotá,2503,Aéreo,12068.34
+Arequipa,La Paz,1399,Marítimo,9823.78
+Asunción,Córdoba,2094,Marítimo,12807.11
+Cali,Medellín,1658,Marítimo,13444.66
+Medellín,Guadalajara,649,Camión,2285.19
+Bogotá,Valparaíso,946,Marítimo,2526.22
+Arequipa,Bogotá,488,Marítimo,4076.3
+Arequipa,Cali,2879,Marítimo,19659.13
+Asunción,Quito,55,Marítimo,503.58
+Santiago,Buenos Aires,2816,Camión,28047.2
+Cali,Córdoba,397,Aéreo,3417.96
+Quito,Córdoba,2725,Camión,7234.37
+Cali,Puebla,872,Camión,3106.27
+San José,Cali,2214,Marítimo,12083.33
+Guayaquil,Guadalajara,799,Camión,4829.32
+Santiago,Medellín,641,Aéreo,5725.02
+Quito,La Paz,2520,Aéreo,12900.88
+La Paz,Quito,2609,Aéreo,7337.56
+Tijuana,Guadalajara,537,Marítimo,3455.5
+Ciudad de México,Bogotá,1507,Aéreo,5804.04
+Guadalajara,Medellín,1927,Aéreo,15683.29
+Quito,Asunción,811,Camión,3254.72
+Tijuana,Cali,1077,Marítimo,6662.49
+Bogotá,Panamá,552,Aéreo,5117.44
+Panamá,Guadalajara,636,Marítimo,2025.47
+Medellín,La Paz,384,Camión,1965.43
+Valparaíso,Panamá,2199,Marítimo,9295.15
+Guadalajara,Cali,51,Aéreo,239.01
+Bogotá,Lima,2509,Aéreo,7648.47
+Córdoba,Panamá,559,Camión,3607.24
+Buenos Aires,Tijuana,313,Marítimo,1331.17
+Guadalajara,Panamá,910,Camión,2872.86
+Asunción,Tijuana,1690,Aéreo,9013.76
+Asunción,Lima,2933,Marítimo,28603.05
+Arequipa,Lima,126,Marítimo,1070.89
+Tijuana,Puebla,1873,Camión,17723.7
+Asunción,Cali,2013,Camión,12818.62
+Panamá,San José,179,Marítimo,512.63
+Valparaíso,Guadalajara,2746,Camión,13214.05
+Córdoba,Monterrey,3000,Camión,11532.15
+Medellín,Guadalajara,2900,Aéreo,16627.55
+Medellín,Puebla,2771,Marítimo,12015.1
+Bogotá,Buenos Aires,1158,Camión,4049.0
+Guayaquil,Santiago,1510,Marítimo,14596.34
+Puebla,Tijuana,2495,Camión,18230.28
+San José,Buenos Aires,1928,Marítimo,7914.34
+Monterrey,Guayaquil,2310,Marítimo,7325.33
+Medellín,Valparaíso,2674,Camión,18530.15
+Ciudad de México,Córdoba,1676,Marítimo,9486.52
+Arequipa,Córdoba,82,Marítimo,243.19
+Bogotá,Buenos Aires,427,Aéreo,3085.81
+Lima,Panamá,2951,Marítimo,22776.04
+Bogotá,Buenos Aires,2880,Marítimo,21768.36
+Buenos Aires,Santiago,2798,Camión,11157.09
+Cali,Lima,1505,Camión,4004.85
+Bogotá,Buenos Aires,2688,Marítimo,11138.81
+Cali,Valparaíso,602,Camión,4506.13
+Lima,Buenos Aires,2647,Marítimo,11488.61
+San José,Guadalajara,506,Marítimo,3772.87
+Arequipa,Puebla,2289,Aéreo,10307.08
+Puebla,Guayaquil,2252,Aéreo,7121.88
+San José,Guayaquil,2853,Camión,21702.82
+Puebla,Buenos Aires,1290,Marítimo,12509.61
+Córdoba,Santiago,908,Marítimo,4721.6
+Panamá,Bogotá,1927,Camión,6208.47
+Santiago,Guadalajara,2217,Marítimo,19797.49
+Asunción,San José,1305,Aéreo,10087.32
+Puebla,Medellín,2896,Camión,19434.9
+Ciudad de México,Córdoba,894,Camión,2536.09
+Arequipa,Puebla,684,Camión,2639.12
+San José,Córdoba,1192,Marítimo,4081.12
+Santiago,Valparaíso,891,Camión,5041.58
+San José,Guayaquil,1641,Camión,11957.84
+Quito,Panamá,2458,Marítimo,7141.57
+Tijuana,Guadalajara,2048,Marítimo,15153.88
+Medellín,Guayaquil,1820,Marítimo,7404.75
+La Paz,Cali,187,Marítimo,581.43
+Arequipa,La Paz,1887,Marítimo,6705.35
+Asunción,Valparaíso,1498,Marítimo,7821.3
+Lima,Medellín,2393,Marítimo,12333.06
+San José,Ciudad de México,2389,Camión,6344.46
+Quito,Lima,1284,Marítimo,5108.96
+Medellín,Quito,1660,Aéreo,13624.18
+Guayaquil,Bogotá,1530,Aéreo,4760.9
+Monterrey,Lima,527,Camión,4059.64
+Lima,Cali,1746,Marítimo,14534.39
+Tijuana,Guadalajara,2555,Aéreo,11622.32
+Córdoba,La Paz,412,Aéreo,3571.01
+La Paz,Bogotá,1953,Marítimo,8179.36
+San José,Córdoba,1514,Camión,7910.18
+Monterrey,Asunción,1597,Aéreo,11998.44
+Arequipa,Asunción,890,Aéreo,5776.92
+Córdoba,La Paz,1213,Marítimo,11632.57
+Panamá,Monterrey,138,Marítimo,931.05
+Lima,Medellín,137,Aéreo,401.24
+Medellín,Santiago,892,Aéreo,6406.58
+Monterrey,Córdoba,2621,Aéreo,13533.27
+Arequipa,Tijuana,2433,Marítimo,15756.99
+Cali,Santiago,2259,Aéreo,6392.19
+Panamá,La Paz,1440,Camión,4190.84
+Córdoba,Guadalajara,1760,Aéreo,17347.08
+Córdoba,Lima,2747,Aéreo,22895.72
+Panamá,Guadalajara,2910,Aéreo,11158.38
+Lima,Buenos Aires,2682,Camión,9925.52
+Lima,San José,1308,Aéreo,9547.82
+Medellín,Bogotá,954,Camión,5375.66
+Ciudad de México,Panamá,1080,Camión,4139.49
+Arequipa,Guayaquil,1417,Marítimo,12283.9
+Tijuana,Córdoba,2455,Camión,8587.0
+La Paz,Guayaquil,1498,Marítimo,7379.62
+Cali,Guadalajara,2154,Marítimo,5924.0
+Valparaíso,Puebla,120,Camión,405.69
+La Paz,Asunción,2159,Aéreo,15561.84
+Ciudad de México,Panamá,1449,Marítimo,12426.63
+San José,Asunción,884,Aéreo,3514.87
+Arequipa,Bogotá,1496,Camión,10834.08
+Bogotá,Tijuana,2727,Aéreo,18231.46
+Valparaíso,Guadalajara,1603,Aéreo,10662.64
+Asunción,Guayaquil,2051,Aéreo,17587.76
+Santiago,Puebla,1772,Aéreo,6869.01
+Tijuana,Guadalajara,1163,Camión,7862.02
+Puebla,Bogotá,2412,Marítimo,17909.57
+Arequipa,Panamá,1991,Aéreo,17028.74
+Córdoba,Monterrey,815,Marítimo,2550.3
+Monterrey,Guayaquil,2957,Marítimo,24094.24
+Buenos Aires,Cali,1457,Aéreo,7019.73
+Quito,Santiago,354,Aéreo,3485.17
+Quito,Asunción,205,Aéreo,1819.97
+Medellín,Guayaquil,1034,Aéreo,10236.8
+Arequipa,Quito,498,Marítimo,4497.86
+Cali,Medellín,2129,Camión,15094.77
+Panamá,Puebla,900,Marítimo,5824.86
+Quito,Buenos Aires,862,Camión,2185.49
+Lima,San José,803,Aéreo,3024.18
+Buenos Aires,Asunción,319,Camión,2286.45
+Arequipa,Buenos Aires,1433,Marítimo,8303.92
+Santiago,Valparaíso,226,Marítimo,1172.17
+San José,Puebla,1666,Camión,11246.23
+Medellín,Lima,1482,Aéreo,13298.76
+Bogotá,Santiago,2651,Aéreo,11925.64
+Córdoba,Buenos Aires,1589,Aéreo,8769.77
+Tijuana,Medellín,376,Aéreo,1255.1
+Tijuana,Arequipa,311,Aéreo,1509.38
+Ciudad de México,Lima,2188,Aéreo,17297.23
+Guadalajara,Córdoba,136,Aéreo,1312.27
+Santiago,Bogotá,2770,Camión,21970.47
+Quito,Arequipa,1388,Aéreo,12873.7
+Arequipa,Asunción,1048,Camión,8393.44
+La Paz,Ciudad de México,1492,Marítimo,9485.42
+Valparaíso,San José,2470,Marítimo,13985.83
+Panamá,Tijuana,913,Marítimo,3510.07
+Medellín,Valparaíso,1470,Aéreo,14376.57
+Monterrey,Buenos Aires,919,Marítimo,8602.74
+Bogotá,Cali,1831,Aéreo,6386.69
+Tijuana,Medellín,2618,Camión,24875.6
+Asunción,Cali,1762,Aéreo,14443.45
+Guadalajara,Puebla,1845,Aéreo,12907.16
+Santiago,Puebla,751,Marítimo,6522.4
+Panamá,La Paz,1709,Camión,13050.43
+Guadalajara,Monterrey,1398,Camión,13858.3
+Arequipa,Cali,428,Aéreo,3519.36
+Lima,Medellín,416,Camión,4127.44
+Puebla,Córdoba,1928,Camión,17532.78
+Santiago,Medellín,2163,Camión,17008.91
+Guadalajara,Bogotá,222,Camión,1079.65
+Puebla,La Paz,2395,Camión,7636.44
+Guayaquil,Asunción,2914,Aéreo,22213.16
+Córdoba,Tijuana,458,Camión,3053.52
+San José,Medellín,2423,Aéreo,14809.52
+Valparaíso,Medellín,1063,Marítimo,6025.32
+Quito,Puebla,1025,Aéreo,4104.92
+Santiago,Asunción,1647,Camión,9478.08
+Buenos Aires,Quito,2241,Aéreo,16867.57
+Cali,Lima,109,Aéreo,422.76
+Tijuana,Asunción,2044,Aéreo,18123.34
+Buenos Aires,Tijuana,2983,Aéreo,9948.94
+Guayaquil,Lima,340,Camión,1437.4
+Cali,Buenos Aires,1546,Aéreo,12682.2
+Ciudad de México,Asunción,124,Aéreo,352.35
+Panamá,Valparaíso,2828,Marítimo,8573.85
+Córdoba,Puebla,2283,Marítimo,6283.79
+Guayaquil,Lima,1979,Aéreo,11417.63
+Ciudad de México,La Paz,2800,Aéreo,22845.74
+Guadalajara,Santiago,423,Aéreo,1840.24
+Tijuana,Arequipa,867,Camión,4492.72
+Córdoba,Santiago,1825,Camión,16674.7
+Quito,La Paz,2120,Marítimo,20613.59
+Córdoba,Tijuana,726,Aéreo,2531.62
+Buenos Aires,Puebla,1903,Camión,18002.14
+Bogotá,Guayaquil,1097,Camión,3906.62
+Tijuana,Monterrey,388,Camión,3201.39
+Santiago,Arequipa,2129,Marítimo,13602.48
+Puebla,San José,1708,Marítimo,9006.73
+Quito,Santiago,986,Aéreo,4124.25
+La Paz,Quito,2583,Camión,24975.77
+Medellín,San José,104,Aéreo,954.38
+Tijuana,Guayaquil,354,Aéreo,3314.06
+Córdoba,Santiago,1110,Camión,6512.3
+Cali,Arequipa,1112,Marítimo,5807.93
+Córdoba,Santiago,1520,Marítimo,14371.18
+Monterrey,Asunción,807,Camión,6113.98
+Cali,Valparaíso,1502,Marítimo,4912.8
+Guayaquil,Valparaíso,2868,Marítimo,15709.94
+Bogotá,Lima,2009,Marítimo,14134.39
+Buenos Aires,San José,2980,Aéreo,8456.5
+Ciudad de México,Panamá,1649,Aéreo,15035.74
+Cali,Guayaquil,1180,Marítimo,4914.14
+Asunción,Bogotá,1681,Camión,10864.85
+Guadalajara,Lima,2594,Camión,13428.82
+Buenos Aires,Monterrey,841,Camión,5443.64
+Cali,Puebla,575,Camión,4522.21
+Córdoba,Asunción,267,Camión,2607.25
+Valparaíso,La Paz,1431,Camión,11817.2
+Guayaquil,Bogotá,2496,Camión,23743.67
+Puebla,Monterrey,1815,Aéreo,14702.68
+Puebla,Buenos Aires,2923,Aéreo,19239.08
+Arequipa,Lima,164,Aéreo,709.57
+Quito,Medellín,644,Camión,2609.94
+Buenos Aires,Tijuana,2599,Marítimo,8727.16
+Arequipa,Panamá,1983,Camión,7962.65
+Puebla,Valparaíso,2089,Camión,7029.38
+Guayaquil,Monterrey,1885,Camión,5310.32
+Tijuana,Buenos Aires,2023,Camión,7892.97
+Arequipa,Medellín,876,Camión,8461.79
+Tijuana,Quito,698,Marítimo,2959.81
+Monterrey,Asunción,1480,Marítimo,4812.73
+Buenos Aires,Cali,2255,Aéreo,6786.11
+Córdoba,Medellín,381,Aéreo,1324.11
+Lima,La Paz,155,Marítimo,1354.06
+Cali,San José,2464,Camión,19544.2
+Asunción,Buenos Aires,2780,Camión,24653.29
+San José,Valparaíso,2654,Camión,8816.74
+Puebla,Ciudad de México,1067,Camión,3725.88
+Buenos Aires,Ciudad de México,2616,Aéreo,10788.92
+Guayaquil,Asunción,493,Camión,1417.73
+Bogotá,Panamá,447,Camión,2867.21
+Tijuana,Arequipa,2380,Marítimo,14288.79
+Buenos Aires,Monterrey,1556,Camión,13189.31
+Monterrey,Asunción,608,Marítimo,5167.41
+Lima,Monterrey,1162,Camión,4267.4
+Buenos Aires,Quito,1667,Aéreo,12098.2
+La Paz,Puebla,522,Camión,2047.27
+Puebla,San José,581,Marítimo,1629.97
+Ciudad de México,Quito,1201,Marítimo,5348.91
+Panamá,Cali,1197,Aéreo,3750.11
+Asunción,Buenos Aires,1168,Aéreo,7070.8
+Monterrey,Bogotá,1947,Aéreo,8967.87
+Guadalajara,Panamá,1969,Aéreo,7386.72
+Puebla,Asunción,59,Aéreo,435.56
+Bogotá,Valparaíso,1139,Camión,9040.05
+San José,Buenos Aires,288,Marítimo,1872.93
+Santiago,Puebla,242,Aéreo,2019.15
+Lima,Quito,585,Camión,4751.13
+Arequipa,Medellín,2057,Marítimo,13809.5
+Arequipa,Santiago,1117,Marítimo,8080.3
+Tijuana,Guayaquil,2008,Marítimo,12622.44
+La Paz,Guadalajara,393,Aéreo,1556.57
+Arequipa,Guayaquil,2205,Camión,7437.36
+Valparaíso,Arequipa,1642,Marítimo,8932.19
+Panamá,Buenos Aires,1033,Aéreo,3631.65
+La Paz,Ciudad de México,2553,Camión,6737.48
+Buenos Aires,Córdoba,2691,Marítimo,8584.43
+Puebla,Valparaíso,2261,Marítimo,21895.12
+Guayaquil,Guadalajara,924,Aéreo,6930.1
+Guadalajara,Santiago,1076,Camión,6745.14
+Lima,Panamá,543,Aéreo,1912.61
+Tijuana,San José,2368,Camión,11453.0
+Puebla,Santiago,1110,Camión,9680.39
+Panamá,Asunción,1455,Marítimo,4322.26
+La Paz,Puebla,1627,Aéreo,16262.52
+Panamá,Guayaquil,1532,Aéreo,5909.71
+Bogotá,Puebla,965,Aéreo,8383.47
+La Paz,Buenos Aires,1740,Camión,14495.32
+Medellín,Guadalajara,2345,Camión,13063.17
+Puebla,Guayaquil,1363,Camión,10963.99
+La Paz,Bogotá,1951,Camión,16610.79
+Valparaíso,Guadalajara,1209,Aéreo,8284.9
+Quito,Cali,293,Aéreo,2328.16
+Ciudad de México,Guadalajara,1259,Aéreo,8286.15
+Arequipa,Guadalajara,1335,Marítimo,6111.68
+Guayaquil,Córdoba,2022,Aéreo,8619.76
+Monterrey,Guayaquil,2866,Aéreo,15094.78
+Guadalajara,San José,1528,Marítimo,7635.05
+Arequipa,Lima,227,Marítimo,871.32
+La Paz,Valparaíso,2293,Aéreo,15139.82
+Cali,Santiago,2110,Aéreo,17242.24
+Medellín,Quito,887,Aéreo,3513.56
+San José,Asunción,355,Marítimo,1235.95
+Guayaquil,Medellín,1553,Aéreo,4375.62
+Bogotá,La Paz,1963,Aéreo,8435.45
+Córdoba,Quito,2017,Marítimo,10703.9
+San José,Guadalajara,1555,Camión,14243.53
+Medellín,Cali,2103,Camión,10847.98
+Puebla,Bogotá,2237,Camión,11258.07
+Asunción,Guadalajara,2680,Camión,16846.14
+Tijuana,Medellín,2513,Aéreo,6546.95
+Quito,Guadalajara,2111,Aéreo,18917.04
+Guayaquil,La Paz,1615,Aéreo,11793.11
+Córdoba,Ciudad de México,2717,Aéreo,20325.61
+La Paz,Medellín,2897,Camión,12768.74
+Puebla,Ciudad de México,530,Aéreo,3378.62
+Tijuana,Quito,793,Marítimo,7769.8
+Buenos Aires,La Paz,1718,Camión,15889.7
+Santiago,La Paz,1721,Camión,16360.82
+Medellín,Ciudad de México,361,Camión,1865.87
+Guayaquil,Monterrey,934,Marítimo,2534.46
+La Paz,Panamá,876,Aéreo,4463.89
+Arequipa,San José,470,Marítimo,1940.95
+Córdoba,Tijuana,1430,Marítimo,5861.69
+Asunción,Bogotá,2794,Marítimo,8334.38
+Medellín,Córdoba,762,Camión,5503.16
+Quito,Santiago,2342,Aéreo,7280.41
+Córdoba,Valparaíso,2048,Camión,10681.03
+Guadalajara,Asunción,1097,Aéreo,10330.4
+Asunción,San José,73,Camión,555.17
+Medellín,Lima,2010,Aéreo,18505.06
+Quito,La Paz,1695,Aéreo,14175.68
+Quito,Medellín,2592,Aéreo,20379.27
+Guadalajara,Valparaíso,2081,Camión,11442.61
+Buenos Aires,Quito,2787,Aéreo,22086.22
+Córdoba,Santiago,1391,Camión,9261.28
+Quito,Puebla,772,Aéreo,7628.45
+Medellín,La Paz,2983,Aéreo,12641.22
+Monterrey,Buenos Aires,2532,Camión,24488.69
+Córdoba,Panamá,830,Aéreo,6128.37
+Quito,San José,1593,Aéreo,7084.85
+La Paz,Quito,2752,Camión,14900.23
+La Paz,Medellín,1534,Aéreo,9133.57
+Cali,Panamá,1337,Aéreo,11858.96
+Monterrey,Guayaquil,2479,Marítimo,7578.87
+Quito,Valparaíso,1975,Camión,16653.59
+Puebla,La Paz,955,Camión,2729.04
+Bogotá,La Paz,109,Aéreo,527.69
+Bogotá,Guayaquil,2544,Camión,7560.39
+San José,Puebla,926,Aéreo,7677.86
+San José,Medellín,2246,Aéreo,16064.03
+Monterrey,Buenos Aires,1165,Aéreo,6276.88
+Quito,Bogotá,2935,Camión,18582.42
+Buenos Aires,San José,1375,Camión,3956.0
+Quito,Panamá,105,Camión,304.57
+Panamá,Buenos Aires,2060,Camión,6958.26
+Lima,Cali,1533,Camión,10366.16
+Asunción,Monterrey,1905,Camión,5685.82
+Guayaquil,Guadalajara,672,Camión,5352.27
+Ciudad de México,Medellín,1922,Marítimo,8949.81
+Medellín,La Paz,2626,Camión,13688.19
+Córdoba,Quito,2695,Aéreo,13341.73
+Ciudad de México,Córdoba,793,Aéreo,3285.95
+Monterrey,Medellín,2772,Marítimo,22956.66
+Medellín,Córdoba,2124,Aéreo,14037.64
+Buenos Aires,Puebla,1644,Marítimo,12857.57
+Puebla,Valparaíso,2663,Aéreo,21465.57
+Ciudad de México,Buenos Aires,1419,Camión,9480.19
+Guadalajara,Monterrey,2634,Marítimo,21508.4
+Tijuana,Cali,2132,Camión,20010.48
+Asunción,Lima,1330,Marítimo,7714.52
+La Paz,Arequipa,1018,Camión,7321.83
+Quito,Lima,1821,Marítimo,11459.5
+La Paz,Guadalajara,2697,Camión,10922.72
+Lima,San José,518,Marítimo,1657.9
+Asunción,Panamá,1483,Marítimo,6658.08
+Arequipa,La Paz,151,Camión,1485.66
+Asunción,Arequipa,1678,Marítimo,10759.22
+Cali,Asunción,1261,Aéreo,8636.26
+Guadalajara,Medellín,920,Marítimo,8247.51
+Ciudad de México,Asunción,1388,Marítimo,9025.4
+Asunción,Córdoba,1876,Camión,16081.02
+Medellín,Quito,2237,Marítimo,8400.33
+Monterrey,Quito,980,Marítimo,7254.94
+Córdoba,Lima,2861,Aéreo,7703.73
+San José,Tijuana,2026,Camión,7202.88
+Puebla,Medellín,1449,Aéreo,7434.52
+Asunción,Cali,1604,Marítimo,5025.58
+Guayaquil,Bogotá,2651,Aéreo,21253.54
+Medellín,Santiago,553,Marítimo,3219.28
+Puebla,Cali,268,Marítimo,1419.49
+Ciudad de México,La Paz,1003,Marítimo,3201.63
+Guadalajara,Ciudad de México,433,Aéreo,2301.63
+Tijuana,La Paz,723,Marítimo,4149.96
+Ciudad de México,Buenos Aires,588,Camión,4874.81
+Tijuana,Ciudad de México,726,Camión,2379.95
+Santiago,Arequipa,248,Marítimo,1906.77
+Valparaíso,Quito,707,Aéreo,5515.11
+Guadalajara,Medellín,1267,Marítimo,7972.03
+Guayaquil,Arequipa,1706,Aéreo,8498.57
+Asunción,San José,2056,Aéreo,9549.33
+Cali,Ciudad de México,1469,Camión,5615.14
+Ciudad de México,Lima,1181,Camión,3845.8
+Ciudad de México,Panamá,2808,Camión,13440.42
+Arequipa,Lima,650,Marítimo,2279.45
+Arequipa,Guadalajara,2524,Camión,20984.23
+Lima,Valparaíso,2904,Marítimo,28404.46
+Buenos Aires,Córdoba,2574,Aéreo,24648.97
+Arequipa,Asunción,395,Aéreo,1569.14
+Medellín,Guadalajara,1665,Camión,8622.83
+Asunción,Córdoba,1890,Aéreo,7650.54
+Monterrey,Cali,1507,Marítimo,7642.77
+Ciudad de México,Tijuana,1971,Marítimo,13097.05
+Tijuana,Quito,2111,Aéreo,12592.88
+La Paz,Medellín,2757,Camión,15896.85
+Monterrey,Panamá,1513,Aéreo,10265.94
+La Paz,Asunción,435,Camión,1709.65
+Arequipa,Cali,580,Aéreo,2373.78
+Tijuana,Ciudad de México,1727,Marítimo,5855.77
+Lima,Quito,76,Camión,337.62
+Bogotá,Puebla,163,Camión,829.09
+Buenos Aires,Monterrey,2094,Aéreo,8027.69
+Lima,Quito,606,Aéreo,4720.8
+Puebla,Guadalajara,1564,Camión,6083.96
+Valparaíso,Monterrey,2078,Marítimo,8015.8
+Cali,Panamá,434,Camión,3234.36
+Lima,Córdoba,1979,Camión,12170.98
+Lima,Panamá,411,Marítimo,3444.78
+La Paz,Panamá,194,Marítimo,1836.32
+Asunción,Buenos Aires,2819,Marítimo,22930.39
+Santiago,Puebla,2710,Marítimo,18182.9
+Guadalajara,Valparaíso,2841,Aéreo,20390.5
+Guadalajara,Arequipa,1497,Marítimo,8595.04
+Santiago,Lima,1426,Marítimo,3606.79
+Bogotá,Asunción,548,Marítimo,4079.81
+Bogotá,Santiago,2273,Marítimo,14888.46
+Arequipa,San José,188,Aéreo,1239.13
+Córdoba,Quito,551,Marítimo,4519.0
+La Paz,Monterrey,438,Camión,2045.55
+Monterrey,Bogotá,2109,Marítimo,6926.55
+Guayaquil,Bogotá,1837,Marítimo,8573.29
+Quito,La Paz,2507,Aéreo,11287.75
+Lima,Bogotá,1914,Camión,9014.87
+Guayaquil,Puebla,2715,Camión,19466.36
+Santiago,Medellín,1497,Camión,4211.36
+Medellín,Valparaíso,2911,Marítimo,15505.74
+San José,Puebla,1644,Camión,5976.83
+Guayaquil,Arequipa,1478,Aéreo,11996.76
+Guadalajara,Medellín,2626,Camión,21248.93
+Arequipa,Cali,2299,Aéreo,7007.89
+Asunción,La Paz,369,Marítimo,2434.81
+Lima,Puebla,1119,Camión,4475.91
+La Paz,Valparaíso,2083,Aéreo,5354.44
+Buenos Aires,Arequipa,1902,Aéreo,11549.11
+Panamá,Medellín,1717,Camión,8892.28
+La Paz,Monterrey,1375,Camión,13660.53
+Ciudad de México,Asunción,203,Aéreo,1983.41
+Buenos Aires,Valparaíso,2042,Marítimo,7309.17
+Santiago,Puebla,2996,Aéreo,17150.53
+Quito,Medellín,914,Aéreo,7398.44
+Ciudad de México,Guayaquil,1134,Marítimo,7126.81
+Arequipa,Cali,1668,Marítimo,11595.86
+Monterrey,Bogotá,1528,Marítimo,10601.82
+Asunción,Arequipa,687,Camión,6738.41
+Puebla,Medellín,2809,Marítimo,27784.58
+Asunción,Cali,785,Aéreo,3775.92
+La Paz,Ciudad de México,1724,Marítimo,11572.74
+Córdoba,Monterrey,1608,Camión,5200.66
+Quito,San José,671,Aéreo,5113.16
+Bogotá,Monterrey,2382,Camión,10124.62
+Bogotá,Ciudad de México,1142,Camión,8027.54
+Tijuana,Santiago,915,Camión,3889.62
+La Paz,Monterrey,2308,Marítimo,13417.02
+Arequipa,Panamá,1945,Aéreo,17092.05
+Medellín,Valparaíso,1783,Marítimo,9159.02
+Córdoba,San José,1102,Aéreo,4845.88
+Puebla,Bogotá,656,Marítimo,3315.44
+Guayaquil,Cali,583,Marítimo,3271.58
+Asunción,Santiago,2382,Aéreo,20574.84
+Bogotá,Quito,1966,Aéreo,11896.24
+Córdoba,Cali,2258,Camión,14639.76
+La Paz,Cali,306,Marítimo,1940.29
+Cali,Guayaquil,1440,Aéreo,9813.41
+Arequipa,Medellín,1804,Aéreo,7057.54
+Medellín,San José,1525,Marítimo,10674.71
+Panamá,Arequipa,1796,Marítimo,9211.36
+Quito,Buenos Aires,1299,Marítimo,12659.72
+Ciudad de México,Valparaíso,766,Aéreo,6716.29
+Lima,Panamá,2414,Marítimo,19968.04
+Cali,Puebla,1609,Camión,8793.06
+San José,Quito,939,Marítimo,6738.55
+Santiago,Arequipa,339,Marítimo,1258.37
+Guayaquil,Tijuana,762,Marítimo,5363.75
+Valparaíso,Quito,2793,Camión,9229.11
+Monterrey,Panamá,2376,Camión,21632.81
+Monterrey,Córdoba,1711,Marítimo,6390.54
+Buenos Aires,Lima,2864,Aéreo,24919.31
+Panamá,Ciudad de México,1601,Marítimo,6618.22
+Bogotá,Monterrey,2992,Aéreo,16645.57
+Puebla,Buenos Aires,2356,Aéreo,13946.14
+Panamá,Lima,779,Aéreo,6070.61
+Quito,Valparaíso,2000,Marítimo,15665.4
+Lima,Arequipa,2447,Camión,17028.64
+Bogotá,Córdoba,489,Camión,2158.16
+Medellín,Guayaquil,1525,Camión,14927.35
+Córdoba,La Paz,2251,Camión,21767.33
+Tijuana,Puebla,2261,Marítimo,17241.35
+Guayaquil,Buenos Aires,1492,Aéreo,9140.43
+Arequipa,Asunción,272,Marítimo,1314.57
+Arequipa,Quito,1221,Camión,4360.32
+Monterrey,Córdoba,218,Aéreo,1665.53
+Medellín,Puebla,2036,Marítimo,19644.38
+Guadalajara,Arequipa,2179,Aéreo,18069.5
+Cali,Santiago,978,Marítimo,7307.34
+Cali,Medellín,1836,Marítimo,8458.26
+Valparaíso,Panamá,727,Aéreo,2971.04
+Puebla,Ciudad de México,2222,Marítimo,22017.87
+Buenos Aires,Guayaquil,2737,Marítimo,23254.31
+Ciudad de México,Valparaíso,2734,Marítimo,22018.61
+Bogotá,Arequipa,2134,Camión,11701.0
+La Paz,Medellín,2839,Marítimo,9155.45
+Monterrey,Guayaquil,590,Camión,1793.96
+Buenos Aires,Quito,1930,Aéreo,5319.9
+Buenos Aires,Tijuana,1190,Marítimo,3782.72
+Guadalajara,Ciudad de México,345,Aéreo,1932.18
+Puebla,Guadalajara,991,Marítimo,7454.27
+Arequipa,Medellín,2115,Aéreo,10136.76
+Valparaíso,San José,2805,Aéreo,14680.5
+Lima,Puebla,190,Marítimo,1533.06
+Quito,Bogotá,2465,Camión,15473.23
+Buenos Aires,Arequipa,348,Marítimo,3096.39
+Monterrey,Quito,1373,Aéreo,9829.39
+Panamá,Bogotá,94,Camión,308.08
+San José,Asunción,2018,Aéreo,14160.74
+Ciudad de México,Tijuana,661,Marítimo,1962.97
+Puebla,San José,1585,Marítimo,7171.8
+Tijuana,Medellín,2078,Aéreo,5527.95
+Monterrey,Santiago,2692,Marítimo,23298.77
+Tijuana,Guayaquil,2113,Aéreo,19812.11
+Panamá,Ciudad de México,2004,Camión,9300.0
+Valparaíso,Tijuana,593,Aéreo,5730.43
+San José,Buenos Aires,419,Marítimo,1955.29
+Asunción,Córdoba,1217,Camión,10727.88
+Valparaíso,Lima,1768,Camión,17337.64
+Santiago,Medellín,836,Camión,5757.28
+San José,Santiago,1533,Aéreo,5580.26
+Puebla,Córdoba,1841,Marítimo,7310.23
+Córdoba,Asunción,2504,Camión,20265.21
+Panamá,Monterrey,2729,Aéreo,11352.48
+Arequipa,Panamá,218,Marítimo,733.37
+Quito,Tijuana,2171,Camión,15522.15
+San José,Guadalajara,2363,Marítimo,10460.68
+Puebla,Cali,2067,Aéreo,12042.37
+Ciudad de México,Monterrey,1501,Marítimo,13898.53
+Asunción,Medellín,797,Camión,6399.01
+Córdoba,Puebla,1948,Camión,11024.94
+Bogotá,Quito,768,Aéreo,3445.95
+Panamá,Guayaquil,2146,Aéreo,19519.99
+Lima,Medellín,2408,Aéreo,9907.97
+Guayaquil,Asunción,2986,Marítimo,8431.07
+Quito,Panamá,1463,Camión,4566.66
+San José,Quito,434,Aéreo,2793.45
+Puebla,Buenos Aires,1831,Camión,17224.89
+Lima,Córdoba,1936,Aéreo,11353.86
+Tijuana,Quito,1692,Aéreo,5029.8
+Arequipa,Panamá,1049,Marítimo,3913.99
+Medellín,Buenos Aires,638,Aéreo,5094.19
+Valparaíso,Santiago,540,Aéreo,4234.18
+Guadalajara,Santiago,2204,Aéreo,10918.68
+Panamá,La Paz,1814,Marítimo,10214.35
+Ciudad de México,Puebla,1443,Aéreo,14164.57
+Arequipa,Quito,2699,Aéreo,11532.71
+Medellín,San José,1384,Aéreo,6271.0
+La Paz,Monterrey,2120,Camión,20893.66
+Córdoba,Panamá,2923,Marítimo,28936.64
+Ciudad de México,Arequipa,1934,Marítimo,18706.31
+Asunción,Cali,2129,Marítimo,20105.52
+Valparaíso,Guayaquil,1188,Aéreo,7368.84
+Quito,Guadalajara,1133,Aéreo,8756.04
+Puebla,Santiago,1735,Marítimo,9373.93
+Guadalajara,Medellín,473,Marítimo,3922.68
+Valparaíso,Santiago,928,Camión,2778.09
+Cali,Asunción,863,Aéreo,2256.41
+Quito,San José,2288,Marítimo,14792.92
+Cali,Lima,1013,Marítimo,5372.96
+Buenos Aires,La Paz,1959,Aéreo,6415.01
+Bogotá,Puebla,1602,Marítimo,6438.56
+Cali,Guadalajara,1781,Marítimo,4549.35
+Medellín,Ciudad de México,2014,Marítimo,8016.91
+Cali,Bogotá,1962,Aéreo,6918.25
+Tijuana,Buenos Aires,2620,Marítimo,11454.66
+Tijuana,Lima,2924,Camión,10121.81
+Medellín,Tijuana,887,Marítimo,7363.52
+Valparaíso,Tijuana,302,Aéreo,2937.75
+Arequipa,Santiago,2354,Camión,7888.47
+Valparaíso,Asunción,796,Marítimo,4905.51
+Quito,La Paz,2091,Aéreo,7387.84
+Bogotá,Monterrey,2484,Marítimo,19592.13
+La Paz,Bogotá,1515,Aéreo,13080.73
+Valparaíso,Guadalajara,541,Aéreo,2394.53
+Panamá,Arequipa,1216,Aéreo,7964.65
+Santiago,Bogotá,2514,Aéreo,10734.48
+Guayaquil,San José,312,Camión,919.92
+Cali,Lima,1154,Marítimo,4554.6
+Quito,Guadalajara,153,Camión,491.64
+Lima,Guayaquil,452,Aéreo,3360.13
+Buenos Aires,Quito,2860,Marítimo,16646.95
+Monterrey,San José,2129,Marítimo,17439.33
+Cali,Ciudad de México,403,Marítimo,1426.91
+Bogotá,La Paz,1604,Marítimo,12662.03
+Asunción,Guadalajara,2022,Aéreo,14042.78
+Santiago,Buenos Aires,588,Aéreo,5816.22
+Quito,Santiago,2300,Camión,18179.98
+Arequipa,Monterrey,1917,Camión,10988.17
+Valparaíso,Cali,857,Marítimo,7656.82
+Medellín,La Paz,507,Camión,1883.44
+Guayaquil,San José,797,Camión,6827.05
+Puebla,San José,2430,Marítimo,7716.89
+Ciudad de México,Guadalajara,2162,Aéreo,10416.72
+Monterrey,Ciudad de México,2442,Aéreo,14486.98
+Valparaíso,Monterrey,653,Marítimo,4561.96
+Puebla,Cali,532,Marítimo,5269.25
+Córdoba,Panamá,1081,Aéreo,5033.57
+Arequipa,Córdoba,74,Aéreo,309.01
+Tijuana,Bogotá,238,Marítimo,1265.82
+Panamá,Santiago,1766,Aéreo,13604.38
+Buenos Aires,Cali,140,Aéreo,1336.15
+Cali,Valparaíso,1849,Aéreo,10598.53
+Cali,Bogotá,630,Camión,3648.61
+Arequipa,Bogotá,859,Marítimo,2371.63
+Tijuana,Santiago,58,Camión,496.68
+San José,Arequipa,1223,Marítimo,3288.29
+Ciudad de México,Cali,308,Marítimo,1004.35
+Puebla,Guadalajara,2276,Camión,6048.38
+Panamá,Quito,1331,Aéreo,4723.83
+Cali,Córdoba,1733,Aéreo,8489.33
+Medellín,Buenos Aires,1561,Aéreo,11034.19
+San José,Quito,2578,Aéreo,20246.34
+Guadalajara,Panamá,2250,Marítimo,6274.92
+Valparaíso,Córdoba,523,Camión,2724.21
+Puebla,Panamá,527,Marítimo,2774.63
+Guadalajara,Tijuana,2246,Aéreo,18802.48
+Quito,La Paz,2568,Marítimo,17890.94
+Lima,Valparaíso,67,Camión,589.64
+Lima,Valparaíso,2707,Camión,23573.16
+Guayaquil,Quito,1305,Marítimo,11433.25
+Bogotá,Lima,1508,Marítimo,3823.92
+Arequipa,Medellín,1753,Aéreo,4813.16
+Tijuana,Medellín,138,Camión,444.87
+Arequipa,Tijuana,695,Aéreo,4186.65
+Lima,La Paz,826,Marítimo,2892.21
+Quito,Tijuana,2618,Camión,20399.11
+Medellín,Asunción,1032,Marítimo,9728.66
+Cali,Medellín,150,Aéreo,947.39
+Monterrey,Guadalajara,358,Marítimo,3110.18
+Lima,Tijuana,1328,Camión,7520.39
+Quito,San José,2502,Marítimo,13304.25
+Puebla,Guayaquil,2553,Marítimo,25022.41
+Quito,Valparaíso,889,Camión,7421.17
+Monterrey,Buenos Aires,1451,Marítimo,4639.22
+Asunción,Puebla,1764,Aéreo,13302.35
+San José,Córdoba,2939,Marítimo,10367.09
+Santiago,San José,1416,Marítimo,9268.63
+Valparaíso,Buenos Aires,268,Marítimo,1832.0
+Guayaquil,San José,2734,Camión,7774.54
+Guadalajara,Cali,1412,Aéreo,13441.53
+Santiago,Puebla,367,Aéreo,2741.2
+Asunción,Cali,1727,Aéreo,5659.46
+Ciudad de México,La Paz,719,Camión,5767.7
+Guayaquil,Ciudad de México,2108,Marítimo,5948.42
+Quito,Guayaquil,2414,Camión,20188.06
+Cali,La Paz,145,Marítimo,830.22
+Medellín,Cali,118,Marítimo,355.93
+Arequipa,Córdoba,2852,Marítimo,8912.88
+Medellín,Guayaquil,1450,Marítimo,13922.26
+Guadalajara,Bogotá,2850,Camión,12252.66
+Guayaquil,Quito,1358,Camión,6336.02
+Asunción,Quito,735,Marítimo,3588.12
+Asunción,Córdoba,2356,Marítimo,19050.39
+Guadalajara,San José,1484,Aéreo,6541.69
+Medellín,La Paz,764,Marítimo,5172.77
+Quito,Cali,107,Marítimo,479.48
+Quito,Ciudad de México,1870,Marítimo,7349.8
+Lima,Monterrey,328,Aéreo,976.48
+Monterrey,Guadalajara,1457,Marítimo,8325.01
+Puebla,Guadalajara,1706,Aéreo,14351.48
+Guadalajara,Córdoba,2835,Camión,17348.18
+Córdoba,Asunción,1651,Aéreo,5511.74
+Cali,Asunción,290,Camión,2467.65
+Bogotá,Puebla,2340,Camión,7754.89
+Valparaíso,Medellín,117,Marítimo,302.97
+Panamá,Medellín,519,Aéreo,3628.39
+Tijuana,Asunción,2689,Aéreo,16317.44
+Panamá,Monterrey,1959,Camión,18140.23
+Córdoba,Buenos Aires,2752,Aéreo,27230.38
+Bogotá,Guadalajara,2198,Aéreo,19981.16
+La Paz,Arequipa,615,Aéreo,3785.99
+Valparaíso,Lima,1850,Aéreo,10625.35
+Arequipa,Cali,2555,Aéreo,23110.23
+Puebla,Panamá,2586,Aéreo,12125.05
+Panamá,Ciudad de México,697,Camión,3130.07
+Guayaquil,Puebla,1462,Aéreo,4713.0
+Guadalajara,Medellín,2728,Camión,22954.96
+Bogotá,Quito,1934,Aéreo,17641.66
+Córdoba,Monterrey,1332,Camión,11534.44
+Monterrey,La Paz,379,Marítimo,1258.7
+Guayaquil,San José,427,Marítimo,3232.49
+Arequipa,Monterrey,540,Aéreo,3950.77
+Ciudad de México,Medellín,2655,Marítimo,23245.44
+Monterrey,Cali,2367,Aéreo,21550.24
+Medellín,Guadalajara,2442,Aéreo,22595.62
+Ciudad de México,Asunción,2753,Camión,18534.31
+Lima,Panamá,458,Aéreo,2665.97
+Arequipa,Tijuana,2747,Marítimo,19389.89
+Guadalajara,Córdoba,427,Aéreo,2228.56
+Tijuana,Arequipa,2604,Aéreo,19954.96
+Cali,Medellín,2625,Camión,15301.27
+La Paz,Guayaquil,1381,Camión,8350.38
+Córdoba,San José,591,Camión,4067.79
+Bogotá,Arequipa,2308,Camión,17324.76
+Santiago,Monterrey,393,Aéreo,2630.48
+Panamá,Medellín,789,Marítimo,5779.36
+Buenos Aires,Medellín,2925,Marítimo,17610.25
+Ciudad de México,La Paz,238,Aéreo,1279.61
+Tijuana,La Paz,527,Aéreo,4107.07
+Córdoba,La Paz,879,Marítimo,8029.85
+Guadalajara,Lima,987,Marítimo,7062.93
+Córdoba,Lima,1614,Marítimo,8830.49
+Cali,Valparaíso,853,Aéreo,5293.13
+La Paz,Puebla,556,Marítimo,3839.41
+Panamá,Ciudad de México,867,Aéreo,6986.17
+Medellín,Buenos Aires,144,Aéreo,1099.19
+Ciudad de México,Guayaquil,440,Aéreo,4385.35
+Panamá,Tijuana,505,Camión,1583.81
+Buenos Aires,Valparaíso,822,Marítimo,6823.67
+Lima,Ciudad de México,2588,Camión,11271.1
+Tijuana,Buenos Aires,1618,Camión,4705.7
+Cali,Buenos Aires,2512,Aéreo,8523.75
+Bogotá,Arequipa,1471,Marítimo,10664.58
+Guayaquil,Cali,1905,Camión,13317.26
+Asunción,La Paz,171,Aéreo,1030.67
+Tijuana,Medellín,1002,Marítimo,5076.56
+Cali,Valparaíso,1242,Aéreo,7093.89
+Bogotá,Córdoba,960,Camión,4767.15
+Guadalajara,Puebla,2034,Aéreo,5479.44
+Cali,Lima,355,Aéreo,2959.95
+Puebla,Quito,2483,Camión,12039.48
+Santiago,Córdoba,947,Aéreo,6974.02
+Monterrey,La Paz,716,Aéreo,4173.41
+Arequipa,Quito,1023,Marítimo,4929.39
+San José,Guadalajara,2510,Aéreo,15179.29
+Lima,Tijuana,2787,Camión,13195.74
+Panamá,Ciudad de México,1440,Camión,7964.18
+Santiago,Guayaquil,1408,Marítimo,3527.69
+Valparaíso,Quito,1546,Marítimo,10773.32
+Buenos Aires,Ciudad de México,1162,Aéreo,10879.32
+Tijuana,Bogotá,236,Camión,992.4
+Santiago,San José,945,Camión,6326.92
+San José,Ciudad de México,1436,Aéreo,10960.52
+Córdoba,Arequipa,2652,Marítimo,21909.44
+Medellín,Santiago,2132,Marítimo,16940.96
+Arequipa,Ciudad de México,606,Aéreo,2458.37
+Guayaquil,Quito,1516,Camión,6920.43
+Santiago,Tijuana,239,Marítimo,2059.25
+Guayaquil,San José,1928,Marítimo,14676.5
+Tijuana,Quito,2313,Aéreo,10706.16
+Arequipa,Cali,1027,Camión,7010.99
+Monterrey,Ciudad de México,1804,Marítimo,11893.44
+San José,Tijuana,2703,Marítimo,8775.92
+Monterrey,Asunción,860,Aéreo,6185.6
+Panamá,Santiago,1364,Marítimo,13230.7
+Bogotá,Monterrey,1936,Camión,16695.21
+Guadalajara,Panamá,1154,Aéreo,8965.46
+La Paz,Córdoba,914,Marítimo,5084.0
+La Paz,Buenos Aires,1711,Camión,16877.58
+Guayaquil,Valparaíso,81,Aéreo,466.02
+Bogotá,Ciudad de México,2566,Camión,9005.28
+Asunción,Medellín,1902,Marítimo,7739.15
+Guadalajara,Tijuana,2724,Aéreo,17772.61
+Buenos Aires,Panamá,759,Aéreo,3799.87
+Quito,Guayaquil,2064,Camión,8224.73
+Ciudad de México,La Paz,629,Marítimo,6057.6
+La Paz,Asunción,381,Aéreo,2687.61
+Asunción,Monterrey,271,Aéreo,2351.25
+Medellín,Buenos Aires,66,Camión,402.39
+Arequipa,Asunción,1699,Marítimo,10616.17
+Asunción,Córdoba,2974,Camión,15122.72
+Quito,Monterrey,2367,Camión,11674.41
+San José,Medellín,2773,Camión,10251.1
+Arequipa,Tijuana,2218,Camión,15966.69
+Lima,Asunción,783,Camión,3548.39
+Bogotá,Monterrey,1888,Camión,11458.28
+Puebla,Quito,2156,Marítimo,21539.1
+Guayaquil,Puebla,1727,Marítimo,14210.91
+Valparaíso,Arequipa,1802,Aéreo,13212.57
+Cali,Medellín,1035,Aéreo,7671.9
+Valparaíso,Monterrey,2754,Camión,9883.12
+Buenos Aires,Cali,510,Marítimo,1276.29
+Guadalajara,La Paz,1894,Aéreo,11989.47
+Córdoba,La Paz,420,Camión,2318.87
+Valparaíso,Ciudad de México,1152,Marítimo,11090.37
+San José,Ciudad de México,2279,Aéreo,13148.24
+Valparaíso,Quito,1973,Camión,13413.01
+Lima,Córdoba,2387,Marítimo,10912.77
+Quito,San José,479,Camión,2452.07
+Asunción,Monterrey,2690,Camión,13882.17
+Buenos Aires,Santiago,1329,Marítimo,5116.79
+Guadalajara,Ciudad de México,2699,Marítimo,15073.2
+La Paz,Lima,371,Marítimo,3511.64
+Lima,Ciudad de México,2600,Marítimo,22694.11
+Arequipa,Asunción,782,Camión,2873.83
+Santiago,La Paz,538,Camión,1752.92
+Ciudad de México,Arequipa,1233,Camión,9839.01
+Puebla,Córdoba,1710,Camión,5604.11
+Puebla,Córdoba,1778,Aéreo,10613.39
+La Paz,Córdoba,2358,Aéreo,22118.36
+Arequipa,Cali,1846,Camión,5606.49
+Santiago,Monterrey,2993,Camión,8209.24
+Panamá,Monterrey,950,Aéreo,7379.81
+Quito,Asunción,1548,Marítimo,10928.1
+Asunción,Ciudad de México,165,Aéreo,1107.14
+San José,Bogotá,2820,Camión,8712.86
+Bogotá,Cali,494,Aéreo,1512.06
+Puebla,Tijuana,257,Camión,2213.46
+Valparaíso,Córdoba,2481,Aéreo,7412.79
+Arequipa,Panamá,1528,Marítimo,6659.54
+Monterrey,Bogotá,2153,Camión,21224.92
+Córdoba,La Paz,2003,Marítimo,8488.23
+La Paz,San José,2886,Camión,15824.67
+Medellín,Asunción,1133,Camión,7792.13
+Asunción,La Paz,563,Aéreo,4762.3
+Buenos Aires,Lima,548,Camión,2432.94
+Santiago,Asunción,1775,Marítimo,10204.64
+La Paz,Ciudad de México,1415,Aéreo,5797.67
+Bogotá,Buenos Aires,682,Camión,2546.7
+Valparaíso,Guayaquil,2007,Aéreo,15998.19
+Guayaquil,Cali,1895,Camión,4815.56
+La Paz,Tijuana,2365,Aéreo,23314.81
+San José,Monterrey,2938,Marítimo,15280.17
+Monterrey,Asunción,2466,Camión,20816.05
+Arequipa,Asunción,2987,Camión,23652.31
+Buenos Aires,Lima,2239,Marítimo,11395.35
+Valparaíso,Asunción,1538,Aéreo,8911.25
+Ciudad de México,Asunción,936,Marítimo,7710.23
+Medellín,Valparaíso,2378,Camión,6885.29
+La Paz,Valparaíso,2110,Marítimo,19105.59
+Medellín,Tijuana,752,Aéreo,4111.01
+Asunción,Tijuana,2764,Aéreo,7682.03
+Panamá,Ciudad de México,2340,Camión,13777.76
+Quito,San José,2378,Aéreo,18978.26
+Panamá,Bogotá,2735,Aéreo,15101.05
+Guayaquil,Bogotá,1220,Aéreo,9812.98
+Tijuana,Asunción,376,Aéreo,1196.68
+Tijuana,San José,2736,Aéreo,12729.45
+Valparaíso,Guayaquil,1355,Camión,7893.41
+Tijuana,Santiago,2998,Marítimo,10233.89
+Bogotá,Tijuana,251,Aéreo,1127.09
+Lima,Arequipa,1235,Marítimo,10706.0
+Ciudad de México,Panamá,2914,Marítimo,25730.92
+Valparaíso,Bogotá,717,Aéreo,4177.54
+Córdoba,Santiago,2032,Aéreo,5889.75
+La Paz,Asunción,413,Marítimo,3508.6
+San José,Santiago,329,Marítimo,2591.81
+Córdoba,Monterrey,1158,Marítimo,9032.28
+Guayaquil,Lima,2090,Marítimo,10914.26
+San José,Asunción,641,Camión,2126.7
+Bogotá,Buenos Aires,156,Aéreo,537.98
+Guayaquil,Puebla,197,Camión,1539.09
+Arequipa,Ciudad de México,2339,Marítimo,14697.35
+San José,Guayaquil,2312,Aéreo,22408.39
+San José,Monterrey,1657,Marítimo,10548.61
+Buenos Aires,Bogotá,1225,Marítimo,9250.07
+Valparaíso,Lima,658,Marítimo,5149.28
+Asunción,Medellín,1130,Camión,5099.7
+Asunción,Cali,2385,Camión,16568.59
+Monterrey,Buenos Aires,386,Camión,1131.3
+Tijuana,Medellín,1160,Camión,5376.73
+Cali,Córdoba,852,Camión,2633.64
+Puebla,Cali,1599,Aéreo,7426.34
+Cali,Arequipa,2820,Marítimo,25245.88
+Santiago,Buenos Aires,2114,Aéreo,11814.69
+San José,Arequipa,515,Aéreo,3736.8
+Valparaíso,Quito,2464,Aéreo,9194.58
+Panamá,Medellín,2196,Camión,21262.64
+Santiago,Panamá,1191,Marítimo,7346.94
+Valparaíso,Arequipa,2223,Marítimo,20908.92
+Santiago,Puebla,2260,Marítimo,11151.2
+Buenos Aires,Monterrey,384,Camión,3297.96
+Guayaquil,Tijuana,886,Aéreo,6143.96
+Lima,Valparaíso,2549,Marítimo,18258.41
+Santiago,Córdoba,2067,Camión,18986.96
+San José,Ciudad de México,1650,Aéreo,14367.98
+Cali,Asunción,2783,Camión,22898.84
+Guayaquil,Guadalajara,534,Camión,1788.3
+Panamá,Ciudad de México,2071,Marítimo,13826.9
+Santiago,Panamá,2322,Aéreo,13188.38
+Guayaquil,Valparaíso,2788,Camión,12162.58
+Valparaíso,Panamá,679,Marítimo,3654.3
+Ciudad de México,Panamá,2501,Aéreo,6459.44
+Bogotá,Asunción,2855,Marítimo,21615.66
+Córdoba,Tijuana,556,Camión,3823.35
+Córdoba,Asunción,1011,Marítimo,8433.91
+Santiago,La Paz,1550,Camión,7138.19
+Cali,Arequipa,2293,Aéreo,8986.93
+Medellín,Guayaquil,791,Aéreo,4464.91
+Guadalajara,Cali,1423,Aéreo,8736.95
+Santiago,Panamá,191,Aéreo,1845.96
+Cali,Guayaquil,149,Marítimo,418.31
+Ciudad de México,Asunción,626,Aéreo,5299.66
+La Paz,Lima,1696,Marítimo,6068.4
+Córdoba,Ciudad de México,2881,Marítimo,20155.46
+Medellín,Santiago,655,Aéreo,4155.39
+La Paz,Córdoba,2480,Camión,10131.26
+Valparaíso,Medellín,1434,Camión,4641.01
+Quito,Guadalajara,1184,Camión,7307.7
+Arequipa,San José,1020,Marítimo,9015.77
+Quito,Guadalajara,2051,Marítimo,15511.26
+Arequipa,Guayaquil,2622,Marítimo,17938.4
+Puebla,Guadalajara,1995,Aéreo,11060.63
+Bogotá,Córdoba,2810,Camión,14949.72
+Monterrey,Santiago,2414,Camión,17318.54
+Arequipa,Lima,956,Marítimo,9116.96
+Arequipa,La Paz,1287,Aéreo,3954.09
+La Paz,San José,2600,Camión,19744.99
+Monterrey,Bogotá,1951,Marítimo,12854.14
+Guayaquil,Tijuana,2527,Marítimo,22087.28
+Bogotá,Monterrey,2940,Aéreo,29214.56
+La Paz,Puebla,1890,Marítimo,11545.82
+Valparaíso,San José,1340,Camión,10366.74
+Lima,Cali,2057,Aéreo,5836.22
+Bogotá,Cali,2787,Aéreo,13091.85
+Guadalajara,Panamá,498,Camión,4942.54
+Asunción,Medellín,2852,Marítimo,28213.0
+Guadalajara,San José,2756,Aéreo,20028.76
+Cali,Quito,1483,Camión,13821.83
+San José,Guayaquil,1146,Marítimo,3287.43
+La Paz,Córdoba,817,Aéreo,2610.06
+Ciudad de México,Valparaíso,1433,Aéreo,10237.79
+Quito,San José,2904,Camión,19435.13
+Santiago,La Paz,2849,Marítimo,12741.57
+Panamá,Bogotá,1255,Aéreo,4596.86
+Valparaíso,Lima,2637,Aéreo,8900.27
+Bogotá,La Paz,461,Aéreo,1941.03
+Guadalajara,Medellín,1327,Marítimo,8424.76
+San José,La Paz,1270,Camión,6132.05
+Santiago,San José,342,Aéreo,2790.35
+Lima,Guayaquil,2286,Marítimo,17635.25
+Tijuana,Córdoba,2735,Camión,21087.71
+Medellín,Ciudad de México,350,Camión,1482.09
+Santiago,Asunción,127,Camión,936.1
+La Paz,Santiago,2538,Marítimo,11807.34
+Panamá,Guayaquil,757,Aéreo,5948.46
+Quito,Buenos Aires,1702,Marítimo,12312.65
+Medellín,Puebla,2775,Camión,24615.92
+Cali,Puebla,1273,Camión,6659.15
+Quito,Bogotá,1644,Marítimo,15140.7
+Ciudad de México,Guadalajara,1506,Camión,5179.89
+Monterrey,Asunción,2053,Camión,11514.33
+Cali,Bogotá,144,Aéreo,1143.62
+Cali,San José,2783,Camión,8912.93
+Medellín,Santiago,2243,Aéreo,11808.56
+Medellín,Santiago,1228,Aéreo,7372.99
+Ciudad de México,La Paz,306,Marítimo,1931.12
+Buenos Aires,Valparaíso,2570,Aéreo,9759.15
+Puebla,San José,1471,Aéreo,10809.96
+Guadalajara,Guayaquil,2219,Camión,15560.3
+Lima,Panamá,2021,Aéreo,18258.43
+Panamá,San José,2977,Marítimo,16222.81
+Santiago,Panamá,617,Camión,2739.35
+San José,Valparaíso,635,Aéreo,3922.1
+Cali,Arequipa,2584,Aéreo,18952.83
+Puebla,Santiago,2793,Camión,11594.6
+Córdoba,San José,2590,Aéreo,8328.82
+Guayaquil,Arequipa,2066,Marítimo,13698.85
+Medellín,Lima,2157,Camión,5402.62
+Medellín,Monterrey,394,Marítimo,1088.1
+Buenos Aires,Guadalajara,715,Marítimo,3530.79
+La Paz,Panamá,2674,Marítimo,24161.47
+Buenos Aires,Guadalajara,1871,Marítimo,8291.97
+Asunción,Bogotá,1415,Camión,8586.36
+Buenos Aires,Cali,1785,Marítimo,16474.86
+Buenos Aires,Cali,2025,Aéreo,10985.68
+Lima,Quito,2545,Marítimo,17166.7
+Guayaquil,Santiago,2358,Camión,11732.23
+Bogotá,Medellín,268,Marítimo,2265.24
+Buenos Aires,Córdoba,914,Aéreo,7301.12
+Bogotá,Monterrey,785,Marítimo,4982.97
+Valparaíso,Bogotá,1842,Aéreo,7335.27
+Cali,Guayaquil,974,Camión,6766.76
+Valparaíso,San José,1585,Aéreo,13135.14
+La Paz,Buenos Aires,127,Camión,658.82
+Córdoba,Ciudad de México,1205,Marítimo,6963.16
+Tijuana,Buenos Aires,293,Marítimo,1628.99
+Buenos Aires,Guayaquil,2143,Marítimo,15111.35
+Quito,Ciudad de México,714,Aéreo,2558.26
+Ciudad de México,Córdoba,2161,Aéreo,14580.29
+Tijuana,Monterrey,786,Camión,6873.89
+La Paz,Buenos Aires,930,Camión,5197.82
+Quito,Monterrey,2305,Marítimo,10141.35
+Valparaíso,Guadalajara,451,Camión,2693.47
+Cali,Puebla,2730,Camión,18601.9
+Córdoba,Ciudad de México,922,Marítimo,5475.52
+Asunción,Guadalajara,2310,Aéreo,16772.13
+Cali,Asunción,2104,Camión,9773.6
+Arequipa,Bogotá,2171,Aéreo,11085.25
+Puebla,Buenos Aires,168,Camión,1024.51
+Lima,Quito,1819,Marítimo,10016.49
+Arequipa,Medellín,1097,Aéreo,3370.75
+Medellín,Arequipa,649,Marítimo,2625.84
+Puebla,Asunción,301,Marítimo,1107.25
+Asunción,Cali,2471,Aéreo,18474.03
+Guayaquil,Guadalajara,1859,Marítimo,9091.73
+Asunción,Cali,2380,Camión,11192.09
+Arequipa,San José,197,Marítimo,1832.84
+Bogotá,La Paz,255,Marítimo,2195.08
+Quito,Arequipa,142,Marítimo,722.77
+Guadalajara,Guayaquil,940,Marítimo,4414.18
+San José,Lima,50,Camión,346.94
+Panamá,Asunción,2293,Aéreo,22905.04
+Monterrey,Panamá,2857,Marítimo,9835.92
+Puebla,Tijuana,843,Aéreo,8388.79
+Bogotá,Cali,1199,Aéreo,9308.29
+Buenos Aires,Cali,2277,Marítimo,20444.79
+Guayaquil,Arequipa,2138,Marítimo,12155.24
+Asunción,Santiago,1913,Camión,13720.01
+Tijuana,Monterrey,1825,Aéreo,6478.29
+Arequipa,Córdoba,1186,Camión,8055.36
+Santiago,Córdoba,1638,Aéreo,11824.65
+Panamá,Monterrey,972,Camión,9506.78
+San José,Buenos Aires,251,Camión,2256.81
+Guadalajara,Lima,273,Camión,2447.77
+Arequipa,Puebla,1224,Camión,6323.58
+Bogotá,La Paz,414,Aéreo,1105.98
+Tijuana,Medellín,2258,Marítimo,13497.3
+Arequipa,Lima,1573,Marítimo,7465.02
+Panamá,Cali,2674,Aéreo,14703.19
+Santiago,Tijuana,2425,Marítimo,21121.69
+Tijuana,San José,2160,Aéreo,17676.85
+Guadalajara,Arequipa,2570,Marítimo,25125.5
+Monterrey,Asunción,58,Marítimo,508.19
+Monterrey,Cali,2230,Marítimo,20386.55
+Guadalajara,Guayaquil,2701,Marítimo,24135.01
+La Paz,Panamá,2635,Aéreo,21452.06
+Puebla,Bogotá,2809,Aéreo,23608.39
+Ciudad de México,Lima,2441,Camión,22430.21
+Quito,Ciudad de México,878,Camión,3030.35
+Ciudad de México,Cali,1067,Marítimo,6819.54
+San José,Guadalajara,2060,Camión,14547.74
+Valparaíso,Santiago,2474,Camión,14492.56
+Buenos Aires,Cali,1096,Camión,4285.96
+Arequipa,Valparaíso,1250,Camión,4968.61
+Guadalajara,Panamá,2392,Marítimo,8844.45
+Córdoba,Cali,1225,Aéreo,10326.87
+Guadalajara,Puebla,2165,Aéreo,20918.1
+Tijuana,Cali,448,Marítimo,2394.49
+Guayaquil,Santiago,608,Marítimo,1645.98
+Santiago,Puebla,1742,Marítimo,12324.94
+Córdoba,Monterrey,1867,Aéreo,10579.05
+Asunción,Puebla,1398,Camión,11022.36
+Puebla,Guayaquil,2775,Aéreo,22029.53
+Buenos Aires,Lima,659,Aéreo,5692.92
+Panamá,Córdoba,1049,Aéreo,8118.1
+Valparaíso,Ciudad de México,1885,Camión,14975.25
+Tijuana,Valparaíso,1194,Marítimo,10695.94
+La Paz,Asunción,1544,Aéreo,8277.8
+Santiago,Medellín,1701,Marítimo,9446.0
+Cali,Córdoba,1650,Aéreo,5251.97
+Guadalajara,Bogotá,1077,Camión,5940.43
+Medellín,Monterrey,1627,Aéreo,15525.73
+Monterrey,Santiago,1954,Marítimo,14783.63
+Asunción,San José,878,Camión,8426.29
+Quito,Buenos Aires,2817,Camión,10084.77
+Guayaquil,Santiago,2720,Camión,17904.27
+Ciudad de México,Bogotá,354,Marítimo,2598.91
+Guadalajara,San José,696,Marítimo,4475.88
+Medellín,Guadalajara,278,Aéreo,2708.76
+Tijuana,Santiago,824,Aéreo,5207.13
+Guayaquil,Guadalajara,362,Aéreo,2665.89
+Córdoba,Panamá,207,Marítimo,1767.69
+Monterrey,Ciudad de México,1711,Aéreo,5344.23
+Ciudad de México,Córdoba,2389,Aéreo,9530.38
+Santiago,Ciudad de México,2359,Camión,14066.99
+Buenos Aires,Arequipa,2734,Camión,8679.55
+Asunción,Quito,1878,Marítimo,9901.83
+Santiago,Guayaquil,683,Aéreo,3998.98
+Asunción,Monterrey,1849,Aéreo,11964.81
+San José,Medellín,674,Marítimo,2892.37
+San José,Quito,787,Aéreo,6220.39
+Ciudad de México,Santiago,277,Camión,1475.6
+Buenos Aires,Bogotá,2777,Camión,21895.92
+Bogotá,Guadalajara,1236,Aéreo,3710.73
+Medellín,Quito,2607,Marítimo,22424.32
+San José,Quito,470,Aéreo,4168.73
+Tijuana,Medellín,741,Camión,3387.62
+Guayaquil,Medellín,879,Marítimo,2324.11
+Valparaíso,Buenos Aires,1592,Marítimo,4408.15
+Asunción,Ciudad de México,1606,Camión,13893.75
+Arequipa,San José,2463,Aéreo,15938.72
+San José,Asunción,1618,Camión,4377.67
+Puebla,Guadalajara,1269,Camión,5155.24
+Tijuana,Santiago,2297,Marítimo,6410.09
+Asunción,Lima,1448,Camión,12316.69
+Monterrey,Ciudad de México,2974,Marítimo,17410.7
+Guayaquil,Arequipa,1591,Marítimo,14110.95
+Córdoba,Medellín,1655,Camión,6408.59
+Guayaquil,Lima,264,Camión,896.57
+Asunción,Córdoba,1187,Camión,5153.93
+Arequipa,Bogotá,2162,Aéreo,8946.13
+Cali,Panamá,1105,Marítimo,5916.1
+Valparaíso,Santiago,533,Marítimo,2731.05
+Lima,Guadalajara,1500,Marítimo,12088.37
+Tijuana,Medellín,698,Aéreo,1896.02
+Panamá,Arequipa,1911,Marítimo,11732.43
+Lima,San José,1395,Camión,13459.43
+Córdoba,Monterrey,2018,Aéreo,15759.98
+Quito,San José,1881,Aéreo,7043.97
+San José,Tijuana,1030,Camión,6408.5
+Córdoba,Medellín,2304,Camión,8785.05
+Medellín,Cali,2608,Aéreo,20177.56
+Asunción,Santiago,897,Marítimo,2855.79
+Guayaquil,Tijuana,653,Marítimo,2159.32
+Guayaquil,Bogotá,239,Marítimo,2019.12
+Guadalajara,Panamá,1345,Marítimo,12321.97
+Santiago,Quito,700,Camión,4672.01
+Guadalajara,Medellín,594,Aéreo,5316.82
+Arequipa,Bogotá,2526,Camión,19340.49
+Monterrey,Arequipa,764,Marítimo,1988.43
+Cali,Santiago,768,Marítimo,3453.28
+Cali,Puebla,1760,Camión,9223.62
+Guadalajara,Tijuana,1469,Camión,10865.46
+La Paz,Quito,2380,Aéreo,13660.47
+Arequipa,Medellín,554,Marítimo,3953.03
+Cali,Monterrey,2198,Marítimo,7593.54
+Puebla,Ciudad de México,1864,Marítimo,5317.43
+La Paz,Asunción,2352,Camión,21236.66
+San José,Ciudad de México,2793,Aéreo,13619.04
+Valparaíso,Cali,2634,Aéreo,26155.41
+Santiago,Puebla,2522,Camión,8707.85
+Quito,Lima,2216,Marítimo,10515.03
+Ciudad de México,Quito,2318,Aéreo,15060.21
+San José,Bogotá,392,Marítimo,1588.9
+San José,Quito,2537,Camión,15290.11
+Puebla,Santiago,2708,Marítimo,9402.57
+Valparaíso,La Paz,315,Aéreo,1089.58
+Córdoba,Puebla,2239,Marítimo,18218.43
+San José,Monterrey,1825,Marítimo,10568.16
+La Paz,Buenos Aires,1045,Marítimo,7370.98
+Cali,Panamá,1388,Aéreo,13559.56
+Cali,Guadalajara,1332,Aéreo,8674.1
+Bogotá,Asunción,540,Aéreo,4723.26
+Guayaquil,Ciudad de México,2835,Marítimo,25526.46
+Arequipa,San José,1627,Aéreo,10817.13
+Asunción,Arequipa,2077,Aéreo,13445.55
+Córdoba,Medellín,917,Camión,7295.07
+Medellín,Valparaíso,1712,Camión,4862.26
+Medellín,Buenos Aires,2864,Camión,12740.93
+Quito,Medellín,1666,Marítimo,15133.01
+Guayaquil,Ciudad de México,980,Aéreo,9763.76
+Monterrey,Lima,139,Aéreo,917.2
+San José,Arequipa,1831,Aéreo,12642.58
+Tijuana,Monterrey,2268,Camión,6435.06
+Monterrey,Tijuana,2937,Marítimo,11886.68
+Santiago,Medellín,431,Aéreo,2292.56
+Guadalajara,Panamá,2797,Aéreo,22405.69
+Monterrey,Guayaquil,2416,Camión,7183.1
+Arequipa,Monterrey,294,Marítimo,2482.94
+Medellín,Arequipa,225,Aéreo,751.53
+Santiago,San José,1579,Camión,15455.3
+Valparaíso,Bogotá,562,Aéreo,4583.09
+Lima,San José,2787,Marítimo,15059.29
+Arequipa,Valparaíso,2727,Camión,17076.26
+Monterrey,Córdoba,722,Marítimo,5585.62
+Córdoba,San José,1655,Camión,15475.8
+Bogotá,Córdoba,2096,Camión,18565.92
+Ciudad de México,Valparaíso,1123,Camión,10043.37
+Cali,Ciudad de México,2922,Aéreo,15393.24
+Lima,Santiago,447,Marítimo,2159.61
+Córdoba,Buenos Aires,372,Marítimo,2370.44
+Puebla,Panamá,1365,Marítimo,6578.83
+Panamá,San José,902,Camión,4660.7
+Guadalajara,San José,425,Camión,4233.73
+Ciudad de México,Tijuana,526,Aéreo,5121.32
+La Paz,Tijuana,1176,Marítimo,8409.06
+Valparaíso,San José,1520,Marítimo,11883.12
+Tijuana,Quito,1276,Camión,5498.98
+Guadalajara,Bogotá,2429,Camión,21163.36
+Valparaíso,Monterrey,1592,Marítimo,11914.35
+Guadalajara,Medellín,1243,Marítimo,4136.44
+Puebla,Cali,1331,Aéreo,4486.96
+Medellín,Valparaíso,1515,Marítimo,10280.94
+Guayaquil,Tijuana,722,Aéreo,2898.15
+Lima,Monterrey,2261,Camión,21537.3
+San José,Asunción,1718,Aéreo,9996.4
+Buenos Aires,Arequipa,2051,Camión,7219.29
+Santiago,Arequipa,2947,Camión,26496.23
+Santiago,Monterrey,2148,Aéreo,17294.35
+San José,Tijuana,1727,Marítimo,8877.45
+Guayaquil,Asunción,2650,Camión,12565.92
+Guayaquil,Valparaíso,2779,Aéreo,14468.36
+Guadalajara,La Paz,1533,Aéreo,13313.53
+Puebla,Quito,1233,Marítimo,10246.58
+Buenos Aires,Medellín,1378,Aéreo,13084.39
+Buenos Aires,Quito,65,Camión,326.85
+Guayaquil,Santiago,485,Camión,2065.75
+Bogotá,Guayaquil,2000,Camión,5142.85
+Tijuana,Valparaíso,2079,Aéreo,6929.93
+Córdoba,Panamá,1650,Camión,9787.87
+Santiago,Valparaíso,479,Marítimo,2655.0
+Ciudad de México,Cali,790,Marítimo,4286.71
+Monterrey,Cali,905,Marítimo,6319.76
+Puebla,Bogotá,2692,Camión,14707.39
+San José,Santiago,1540,Camión,5865.77
+Lima,Panamá,2509,Marítimo,22870.59
+Puebla,Cali,250,Camión,666.62
+Ciudad de México,Bogotá,1634,Camión,4746.65
+Quito,Valparaíso,682,Marítimo,3767.36
+Guayaquil,Arequipa,1151,Camión,6945.35
+Arequipa,Cali,1833,Camión,16236.93
+San José,Buenos Aires,2018,Marítimo,15681.25
+Valparaíso,Asunción,237,Aéreo,979.21
+Arequipa,San José,871,Camión,8135.68
+Cali,Buenos Aires,1301,Camión,9187.3
+Lima,Panamá,1339,Camión,6784.2
+Tijuana,Puebla,1963,Aéreo,5213.37
+Guayaquil,Buenos Aires,713,Camión,6743.27
+Tijuana,Guadalajara,448,Marítimo,3402.41
+Panamá,Quito,2295,Marítimo,17455.26
+Ciudad de México,Valparaíso,2042,Aéreo,19754.03
+Tijuana,Córdoba,2095,Aéreo,18803.28
+San José,Lima,584,Camión,2320.38
