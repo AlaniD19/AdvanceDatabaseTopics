@@ -2,6 +2,8 @@
 h1, h2, h3, h4, h5, p, blockquote, ul, ol { font-family: "Archivo Light"; color: #313C45; }
 h1 { color: #085EE3; }
 h2, h3, h4 { font-family: "Archivo"; }
+h4 { margin-bottom: 0; }
+h4 + p { margin-top: 0; }
 pre { font-family: "JetBrains Mono"; font-size: 10px; }
 blockquote {
     border-left: 5px solid #3D444D;

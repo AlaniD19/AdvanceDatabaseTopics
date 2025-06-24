@@ -102,7 +102,6 @@ sudo apt install fuse
 
 ## CRUD
 ### Create - Crear
-
 #### Crear un nodo simple
 Creamos un nodo con etiqueta Investigador y propiedades básicas.
 > Lo importante: Los nodos se representan con paréntesis ( ), las etiquetas con :, y las propiedades dentro de { } como clave-valor.
@@ -119,51 +118,303 @@ CREATE (:Investigador {nombre: "Luis"}),
 ```
 
 #### Crear un nodo y una relación en una sola instrucción
-Qué hacemos: Creamos un investigador y lo conectamos a un proyecto nuevo.
+Creamos un investigador y lo conectamos a un proyecto nuevo.
+> Lo importante: Las relaciones se representan con -[:RELACION]->, y también pueden llevar propiedades.
 
-Lo importante: Las relaciones se representan con -[:RELACION]->, y también pueden llevar propiedades.
-
-cypher
-Copiar
-Editar
+```sql
 CREATE (:Investigador {nombre: "Clara"})-[:PARTICIPA_EN]->(:Proyecto {titulo: "Visión por Computadora"})
-🔸 Crear una relación entre nodos existentes
-Qué hacemos: Conectamos a un investigador con un laboratorio que ya existen.
+```
 
-Lo importante: Usamos MATCH para buscarlos y luego CREATE para establecer la relación.
+#### Crear una relación entre nodos existentes
+Conectamos a un investigador con un laboratorio que ya existen.
+> Lo importante: Usamos MATCH para buscarlos y luego CREATE para establecer la relación.
 
-cypher
-Copiar
-Editar
+```sql
 MATCH (i:Investigador {nombre: "Luis"}), (l:Laboratorio {nombre: "Lab Computación"})
 CREATE (i)-[:PERTENECE_A]->(l)
-🔸 Crear una relación con propiedades
-Qué hacemos: Indicamos información adicional sobre la relación, como desde cuándo existe.
+```
 
-Lo importante: Las propiedades se agregan en {} después del nombre de la relación.
+#### Crear una relación con propiedades
+Indicamos información adicional sobre la relación, como desde cuándo existe.
+> Lo importante: Las propiedades se agregan en {} después del nombre de la relación.
+```sql
+MATCH (i:Investigador {nombre: "Clara"}), (p:Proyecto {titulo: "Visión por Computadora"})
+CREATE (i)-[:PARTICIPA_EN {desde: 2022, rol: "colaboradora"}]->(p)
+```
 
+
+
+ Crear nodo si no existe
 cypher
 Copiar
 Editar
-MATCH (i:Investigador {nombre: "Clara"}), (p:Proyecto {titulo: "Visión por Computadora"})
-CREATE (i)-[:PARTICIPA_EN {desde: 2022, rol: "colaboradora"}]->(p)
+MERGE (:Investigador {nombre: "Ana", area: "IA"})
+Lo importante:
+
+Si ya existe un nodo con esas propiedades exactas, no hace nada.
+
+Si no existe, lo crea.
+
+Evita duplicados sin necesidad de MATCH + IF.
+
+🔸 Crear relación solo si no existe
+c
+Copiar
+Editar
+MATCH (a:Investigador {nombre: "Ana"}), (p:Proyecto {titulo: "Proyecto A"})
+MERGE (a)-[:PARTICIPA_EN]->(p)
+Lo importante:
+
+Si ya existe la relación entre esos nodos con ese tipo, no la duplica.
+
+Ideal para relaciones que no deben repetirse.
+
+🔸 Controlar nodos + relaciones con propiedades
+cypher
+Copiar
+Editar
+MERGE (i:Investigador {nombre: "Luis"})
+ON CREATE SET i.area = "Redes", i.edad = 40
+ON MATCH SET i.accesos = coalesce(i.accesos, 0) + 1
+ON CREATE: se ejecuta solo si el nodo se acaba de crear.
+
+ON MATCH: se ejecuta solo si ya existía.
+
+
+
 
 ### Read - Leer
+#### Leer toda la base de datos (nodos y relaciones)
+1. Mostramos todo el grafo: todos los nodos, relaciones y sus conexiones.
+> Lo importante: Es útil para explorar la base al inicio o después de cargar datos.
+```sql
+MATCH (n)-[r]->(m)
+RETURN n, r, m
+```
+2. Solo nodos (sin relaciones)
+```sql
+MATCH (n)
+RETURN n
+```
+2. Todos los nodos conectados por cualquier relación (sin importar dirección)
+```sql
+MATCH (n)-[r]-(m)
+RETURN n, r, m
+```
+3. Todo el grafo, incluidos nodos sin relaciones
+```sql
+MATCH (n)
+OPTIONAL MATCH (n)-[r]->(m)
+RETURN n, r, m
+```
 
+#### Leer todos los nodos de un tipo
+Consultamos todos los nodos con la etiqueta Investigador.
+> Lo importante: MATCH busca patrones en el grafo; RETURN muestra los resultados.
+```sql
+MATCH (i:Investigador)
+RETURN i
+```
 
+#### Leer con filtro de propiedad
+Buscamos un investigador por nombre.
+> Lo importante: Se puede usar WHERE para aplicar condiciones sobre propiedades.
+```sql
+MATCH (i:Investigador)
+WHERE i.nombre = "Ana"
+RETURN i
+```
+
+#### Leer relaciones entre nodos
+Recuperamos investigadores y los laboratorios a los que pertenecen.
+> Lo importante: Se pueden leer relaciones con MATCH (a)-[:REL]->(b).
+```sql
+MATCH (i:Investigador)-[:PERTENECE_A]->(l:Laboratorio)
+RETURN i.nombre, l.nombre
+```
+
+#### Leer relaciones con propiedades
+Obtenemos investigadores y desde cuándo participan en su proyecto.
+> Lo importante: Las relaciones también tienen propiedades, y puedes proyectarlas con un alias.
+```sql
+MATCH (i:Investigador)-[r:PARTICIPA_EN]->(p:Proyecto)
+RETURN i.nombre, p.titulo, r.desde
+```
+
+#### Leer relaciones sin importar dirección
+Buscamos cualquier conexión entre investigadores (sin importar hacia dónde va la flecha).
+> Lo importante: Usa -- para ignorar dirección.
+```sql
+MATCH (a:Investigador)--(b:Investigador)
+RETURN a.nombre, b.nombre
+```
+
+#### Leer con profundidad variable
+Buscamos investigadores conectados indirectamente a través de colaboraciones de hasta 3 saltos.
+> Lo importante: El operador *1..3 recorre relaciones múltiples.
+```sql
+MATCH (a:Investigador {nombre: "Ana"})-[:COLABORA_CON*1..3]-(otro)
+RETURN DISTINCT otro.nombre
+```
+
+#### Encontrar el camino más corto (shortest path)
+Buscamos el investigador más cercano a Ana por relaciones COLABORA_CON.
+> Lo importante: shortestPath() devuelve solo el camino más corto, ideal para análisis de proximidad.
+```sql
+MATCH p = shortestPath(
+  (a:Investigador {nombre: "Ana"})-[:COLABORA_CON*]-(otro:Investigador)
+)
+RETURN otro.nombre, length(p) AS saltos
+```
 
 ### Update - Actualizar
+#### Agregar o modificar propiedades de un nodo
+Cambiamos o añadimos propiedades a un nodo Investigador.
+> Lo importante: Si la propiedad no existe, se crea. Si ya existe, se actualiza.
+```sql
+MATCH (i:Investigador {nombre: "Ana"})
+SET i.edad = 36,
+    i.es_jefa = true
+RETURN i
+```
 
+#### Modificar propiedades de una relación
+Actualizamos la propiedad rol en una relación PARTICIPA_EN.
+> Lo importante: Usamos un alias para la relación con [r].
+```sql
+MATCH (:Investigador {nombre: "Luis"})-[r:PARTICIPA_EN]->(:Proyecto {titulo: "Visión por Computadora"})
+SET r.rol = "investigador principal"
+RETURN r
+```
+
+#### Cambiar valor existente
+Sobrescribimos el valor anterior de una propiedad.
+> Ejemplo: Cambiar el área de un investigador.
+```sql
+MATCH (i:Investigador {nombre: "Clara"})
+SET i.area = "Robótica"
+RETURN i
+```
+
+#### Agregar nuevas propiedades con un map
+Usamos un map para añadir varias propiedades a la vez.
+> Lo importante: Similar a un SET múltiple.
+```sql
+MATCH (i:Investigador {nombre: "Luis"})
+SET i += {grado: "Doctorado", publicaciones: 12}
+RETURN i
+```
 
 ### Delete 
+#### Eliminar un nodo sin relaciones
+Eliminamos un nodo que no tiene relaciones activas.
+> Lo importante: DELETE solo funciona si el nodo está aislado; si tiene relaciones, lanza error.
+```sql
+MATCH (i:Investigador {nombre: "Carlos"})
+DELETE i
+```
 
+#### Eliminar un nodo con relaciones activas
+Eliminamos el nodo y todas sus relaciones.
+> Lo importante: Usamos DETACH DELETE para borrar el nodo aunque esté conectado.
+```sql
+MATCH (i:Investigador {nombre: "Luis"})
+DETACH DELETE i
+```
+
+##### Eliminar solo una relación
+Borramos la relación entre un investigador y un proyecto, sin eliminar los nodos.
+> Lo importante: Usamos alias para la relación y aplicamos DELETE.
+```sql
+MATCH (:Investigador {nombre: "Clara"})-[r:PARTICIPA_EN]->(:Proyecto {titulo: "Visión por Computadora"})
+DELETE r
+```
+
+#### Eliminar múltiples nodos o relaciones
+```sql
+MATCH (l:Laboratorio)
+WHERE l.nombre STARTS WITH "Lab"
+DETACH DELETE l
+```
+
+#### REMOVE – Eliminar propiedades (no el nodo)
+1. Quitar una propiedad de un nodo
+```sql
+MATCH (i:Investigador {nombre: "Ana"})
+REMOVE i.edad
+RETURN i
+```
+
+2. Quitar varias propiedades
+```sql
+MATCH (i:Investigador {nombre: "Luis"})
+REMOVE i.grado, i.publicaciones
+RETURN i
+```
+
+### Otras clausulas
+La documentación provee de ejmplos completos para las clausulas de agrergación y complementarias para consultas más complejas.  
+[neo4j - cypher cheat sheet](https://neo4j.com/docs/cypher-cheat-sheet/5/all/)
 
 ## Carga de datos
 
 
 
 ## Lenguajes de programación
+Aunque neo4j fue diseñada como una base de datos para Java, actualmente ya estan disponibles diversos drivers para poder conectarse al gestor a travez de los lenguajes de programación con mas uso.  
+Estan dividos en 2 grupos:
+### Oficiales:
++ [.NET](https://github.com/neo4j/neo4j-dotnet-driver)
++ [Go](https://github.com/neo4j/neo4j-go-driver)
++ [Java]()
++ [Javascript](https://neo4j.com/docs/javascript-manual/current/install/#get-an-instance)
++ [Python](https://github.com/neo4j/neo4j-python-driver)
 
+### Comunidad
++ [C](https://github.com/majensen/libneo4j-omni)
++ [Elixir](https://github.com/sagastume/boltx)
++ [Perl](https://github.com/johannessen/neo4j-driver-perl)
++ [PHP](https://github.com/neo4j-php/)
++ [Ruby](https://github.com/neo4jrb)
++ [Rust](https://github.com/neo4j-labs/neo4rs)
+
+## Ejemplo con Python
+Instalación del driver
 ```bash
+pip install neo4j
+```
 
+Código de ejemplo
+```python
+from neo4j import GraphDatabase, RoutingControl
+
+
+URI = "neo4j://localhost:7687"
+AUTH = ("neo4j", "password")
+
+
+def add_friend(driver, name, friend_name):
+    driver.execute_query(
+        "MERGE (a:Person {name: $name}) "
+        "MERGE (friend:Person {name: $friend_name}) "
+        "MERGE (a)-[:KNOWS]->(friend)",
+        name=name, friend_name=friend_name, database_="neo4j",
+    )
+
+
+def print_friends(driver, name):
+    records, _, _ = driver.execute_query(
+        "MATCH (a:Person)-[:KNOWS]->(friend) WHERE a.name = $name "
+        "RETURN friend.name ORDER BY friend.name",
+        name=name, database_="neo4j", routing_=RoutingControl.READ,
+    )
+    for record in records:
+        print(record["friend.name"])
+
+
+with GraphDatabase.driver(URI, auth=AUTH) as driver:
+    add_friend(driver, "Arthur", "Guinevere")
+    add_friend(driver, "Arthur", "Lancelot")
+    add_friend(driver, "Arthur", "Merlin")
+    print_friends(driver, "Arthur")
 ```
